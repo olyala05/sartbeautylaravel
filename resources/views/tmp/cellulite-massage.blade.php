@@ -5,13 +5,13 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">G5 Selülit Masajı</h1>
+                <h1 class="text-white">@lang('cellulite-massage.cellulite-massage')</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
                         <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                target="_self">Anasayfa</a></li>
-                        <li>G5 Selülit Masajı</li>
+                                target="_self">@lang('cellulite-massage.home')</a></li>
+                        <li>@lang('cellulite-massage.cellulite-massage')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -27,153 +27,99 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
-                                <li class="active"><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
-                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('cellulite-massage.perminant_nail_polish')">@lang('cellulite-massage.perminant_nail_polish')</a></li>
+                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('cellulite-massage.mani_pedi')">@lang('cellulite-massage.mani_pedi')</a></li>
+                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('cellulite-massage.prosthetic_nail')">@lang('cellulite-massage.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('cellulite-massage.nail_art')">@lang('cellulite-massage.nail_art')</a></li>
+                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('cellulite-massage.silk_eyelash')">@lang('cellulite-massage.silk_eyelash')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('cellulite-massage.eyelash_lifting')">@lang('cellulite-massage.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page" title="@lang('cellulite-massage.dipliner')">@lang('cellulite-massage.dipliner')</a> </li>
+                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('cellulite-massage.eyebrow_lamination')">@lang('cellulite-massage.eyebrow_lamination')</a></li>
+                                <li><a href="{{ 'microblading' }}" class="dez-page" title="@lang('cellulite-massage.microblading')">@lang('cellulite-massage.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('cellulite-massage.wax')">@lang('cellulite-massage.wax')</a></li>
+                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('cellulite-massage.lazer-epilasyon')">@lang('cellulite-massage.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('cellulite-massage.skin-care')">@lang('cellulite-massage.skin-care')</a></li>
+                                <li class="active"><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('cellulite-massage.cellulite-massage')">@lang('cellulite-massage.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('cellulite-massage.roll-shape')">@lang('cellulite-massage.roll-shape')</a> </li>
+                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('cellulite-massage.lip_filler')">@lang('cellulite-massage.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('cellulite-massage.keratin_care')">@lang('cellulite-massage.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('cellulite-massage.perm')">@lang('cellulite-massage.perm')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('cellulite-massage.')">@lang('cellulite-massage.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('cellulite-massage.highlighted')">@lang('cellulite-massage.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('cellulite-massage.hair_dye')">@lang('cellulite-massage.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('cellulite-massage.hair_dip_dye')">@lang('cellulite-massage.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('cellulite-massage.hair_cut')">@lang('cellulite-massage.hair_cut')</a> </li>
+                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('cellulite-massage.hair_extension')">@lang('cellulite-massage.hair_extension')</a></li>
+                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('cellulite-massage.bridal_hair')">@lang('cellulite-massage.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
-                                <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                <p>Instagramda Bizi Takip Edin</p>
+                                <h4 class="text-primary">@lang('cellulite-massage.sart_on_social_media')</h4>
+                                <p>@lang('cellulite-massage.follow_us_on_insta')</p>
                                 <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                    title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                    title="@lang('cellulite-massage.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-8">
-                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">G5 Selülit Masajı</b>
-                        <p>Selülitin tüm aşamalarıyla mücadele etmek için ideal bir yöntemdir.</b></p>
+                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('cellulite-massage.cellulite-massage')</b>
+                        <p>@lang('cellulite-massage.index_section1_slide14_cont')</b></p>
 
                         <div
                             class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="G5 Selülit Masaj"><img src="/images/sart/img_g5/g5-stomach1.jpeg"
-                                                alt="G5 Selülit Masaj"></a> </div>
+                                            title="@lang('cellulite-massage.cellulite-massage')"><img src="/images/sart/img_g5/g5-stomach1.jpeg"
+                                                alt="@lang('cellulite-massage.cellulite-massage')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="G5 Selülit Masaj"><i
+                                                class="icon-cell" title="@lang('cellulite-massage.cellulite-massage')"><i
                                                     class="flaticon-woman"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="G5 Selülit Masaj">Selülit Giderme</a></h6>
-                                        <p class="m-b15">Portakal kabuğu görünümünü azaltarak selülitle etkin bir
-                                            şekilde mücadele eder.</p>
+                                                title="@lang('cellulite-massage.cellulite-massage')">@lang('cellulite-massage.selülit_slide1_title')</a></h6>
+                                        <p class="m-b15">@lang('cellulite-massage.selülit_slide1_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="G5 Selülit Masaj"><img src="/images/sart/img_g5/g5-legs1.jpeg"
-                                                alt="G5 Selülit Masaj"></a> </div>
+                                            title="@lang('cellulite-massage.cellulite-massage')"><img src="/images/sart/img_g5/g5-legs1.jpeg"
+                                                alt="@lang('cellulite-massage.cellulite-massage')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="G5 Selülit Masaj"><i
+                                                class="icon-cell" title="@lang('cellulite-massage.cellulite-massage')"><i
                                                     class="flaticon-mortar"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="G5 Selülit Masaj">Bölgesel İncelme</a></h6>
-                                        <p class="m-b15">Özellikle problemli bölgelerdeki yağ birikimlerini azaltır.
-                                        </p>
+                                                title="@lang('cellulite-massage.cellulite-massage')">@lang('cellulite-massage.selülit_slide2_title')</a></h6>
+                                        <p class="m-b15">@lang('cellulite-massage.selülit_slide2_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="G5 Selülit Masaj"><img src="/images/sart/img_g5/g5-stomach2.jpeg"
-                                                alt="G5 Selülit Masaj"></a> </div>
+                                            title="@lang('cellulite-massage.cellulite-massage')"><img src="/images/sart/img_g5/g5-stomach2.jpeg"
+                                                alt="@lang('cellulite-massage.cellulite-massage')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="G5 Selülit Masaj"><i
+                                                class="icon-cell" title="@lang('cellulite-massage.cellulite-massage')"><i
                                                     class="flaticon-candle"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="G5 Selülit Masaj">Ağrısız İşlem</a></h6>
-                                        <p class="m-b15">Ağrı yaratmaz, anestezi gerektirmez ve zamanla yoğunluğu
-                                            artar.</p>
+                                                title="@lang('cellulite-massage.selülit_slide3_title')">@lang('cellulite-massage.selülit_slide3_title')</a></h6>
+                                        <p class="m-b15">@lang('cellulite-massage.selülit_slide3_cont')</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <p>
-                        <h2 style="font-size: 1em;">G5 masajı Nedir?</h2>
+                        <h2 style="font-size: 1em;">@lang('cellulite-massage.selülit_subtitle1')</h2>
                         </p>
-                        <p class="m-b20">G5 masajı, özel bir cihaz kullanılarak uygulanan masajdır. Bu cihaz, hızlı
-                            titreşimler aracılığıyla cilt sıkılaştırma ve selülit giderme etkisi sunar. Özellikle
-                            selülit tedavisinde ve bölgesel incelmede kullanılan G5, kaslarda biriken laktik asidi ve
-                            ödemi gidermede, ayrıca spazmların tedavisinde de oldukça etkilidir.
-
-                        </p>
+                        <p class="m-b20">@lang('cellulite-massage.selülit_subtitle1_cont')</p>
                         <div class="m-tb20">
                             <div class="accordion no-gap" id="accordion1">
                                 <div class="panel">
@@ -181,20 +127,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq1"
                                                 class="" aria-expanded="true">
-                                                1. G5 Masajı Hangi Alanlarda Uygulanır?</a>
+                                               @lang('cellulite-massage.selülit_context_question1')</a>
                                         </h2>
                                     </div>
                                     <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">1. Günümüzde yaygın bir şekilde kullanılan G5 masajı
-                                            hem sağlık alanında hem de estetik açıdan tercih edilen bir yöntemdir.
-                                            Verilen titreşimler sayesinde vücutta bulunan fazla yağlar yakılır kan
-                                            dolaşımı ise daha hızlı bir hale gelir. Bu nedenle G5 masajı sayesinde
-                                            insanlar daha sağlıklı olurlar. Çünkü hızlı bir şekilde çalışan metabolizma
-                                            sayesinde vücut rahatlatıcı bir etkiye sahip olur. Bunun dışında bölgesel
-                                            yağlanmaları ortadan kaldıran ve kötü görüntüye neden olan selilütleri
-                                            tamamen yok eden G5 masajı ile insanlar daha sıkı bir vücuda sahip olarak
-                                            istedikleri estetik görüntü yakalayabilirler.</div>
+                                        <div class="acod-content">@lang('cellulite-massage.selülit_context_answer1')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -202,18 +140,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq2"
                                                 class="collapsed" aria-expanded="false">
-                                                2. G5 Masajı Nasıl Yapılır?</a>
+                                                @lang('cellulite-massage.selülit_context_question2')</a>
                                         </h2>
                                     </div>
                                     <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">2. G5 masajı vücudun tüm noktalarında kullanılabilir.
-                                            Bu yöntem daha çok bel, kalça, uyluk bölgesi ve kol gibi alanlarda tercih
-                                            edilir. Uzman kişiler tarafından gerçekleştirilen bu masaj sırasında
-                                            uygulanacak bölgeye önce yağ sürülür ardından işleme başlanır. İşlemin
-                                            gerçekleştiği bölgeye verilen titreşimler sayesinde kan akışı hızlandığı
-                                            gibi yağ yakımı da daha kolay hale gelir. Yaklaşık olarak 30 dakika süren G5
-                                            masajı seanslar halinde gerçekleştirilir.</div>
+                                        <div class="acod-content">@lang('cellulite-massage.selülit_context_answer2')</div>
                                     </div>
                                 </div>
 
@@ -222,17 +154,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq3"
                                                 class="collapsed" aria-expanded="false">
-                                                3. G5 Masajının Riskleri ve Yan Etkileri Nelerdir?</a>
+                                                @lang('cellulite-massage.selülit_context_question3')</a>
                                         </h2>
                                     </div>
                                     <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">G5 masajı son derece sağlıklı bir uygulamadır. Bu
-                                            nedenle bu yöntemi kullanan kişiler duydukları memnuniyeti fazlasıyla dile
-                                            getirirler. Uygulama sırasında verilen titreşimler sayesinde tüm hücreler
-                                            harekete geçer ve böylece vücut fonksiyonları da görevlerini yerine
-                                            getirmeye başlar. Bu özelliğinden dolayı G5 masajının herhangi bir riski ve
-                                            yan etkisi bulunmaz.</div>
+                                        <div class="acod-content">@lang('cellulite-massage.selülit_context_answer3')</div>
                                     </div>
                                 </div>
                             </div>

@@ -8,6 +8,9 @@ return [
     "language" => "Dil",
 
     /*** header subtitle ***/
+    "contact_us_section2_subtitle5" => "S Art Beuty Center Главная",
+
+    /*** header subtitle ***/
     "mani_pedi" => "Manikür ve Pedikür",
     "perminant_nail_polish" => "Kalıcı Oje",
     "prosthetic_nail" => "Protez Tırnak",

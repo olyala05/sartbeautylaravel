@@ -7,6 +7,7 @@ return [
     "contact_us" => "İletişim",
     "language" => "Dil",
 
+    "contact_us_section2_subtitle5" => "S Art Beuty Center Home",
     /*** header subtitle ***/
     "mani_pedi" => "Manikür ve Pedikür",
     "perminant_nail_polish" => "Kalıcı Oje",

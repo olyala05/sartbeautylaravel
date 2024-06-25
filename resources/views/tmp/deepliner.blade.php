@@ -27,76 +27,30 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li class="active"><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
-                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
-                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('deepliner.perminant_nail_polish')">@lang('deepliner.perminant_nail_polish')</a></li>
+                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('deepliner.mani_pedi')">@lang('deepliner.mani_pedi')</a></li>
+                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('deepliner.prosthetic_nail')">@lang('deepliner.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('deepliner.nail_art')">@lang('deepliner.nail_art')</a></li>
+                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('deepliner.silk_eyelash')">@lang('deepliner.silk_eyelash')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('deepliner.eyelash_lifting')">@lang('deepliner.eyelash_lifting')</a></li>
+                                <li class="active"><a href="{{ route('pages.deepliner') }}" class="dez-page" title="@lang('deepliner.dipliner')">@lang('deepliner.dipliner')</a> </li>
+                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('deepliner.eyebrow_lamination')">@lang('deepliner.eyebrow_lamination')</a></li>
+                                <li><a href="{{ 'microblading' }}" class="dez-page" title="@lang('deepliner.microblading')">@lang('deepliner.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('deepliner.wax')">@lang('deepliner.wax')</a></li>
+                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('deepliner.lazer-epilasyon')">@lang('deepliner.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('deepliner.skin-care')">@lang('deepliner.skin-care')</a></li>
+                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('deepliner.cellulite-massage')">@lang('deepliner.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('deepliner.roll-shape')">@lang('deepliner.roll-shape')</a> </li>
+                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('deepliner.lip_filler')">@lang('deepliner.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('deepliner.keratin_care')">@lang('deepliner.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('deepliner.perm')">@lang('deepliner.perm')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('deepliner.')">@lang('deepliner.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('deepliner.highlighted')">@lang('deepliner.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('deepliner.hair_dye')">@lang('deepliner.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('deepliner.hair_dip_dye')">@lang('deepliner.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('deepliner.hair_cut')">@lang('deepliner.hair_cut')</a> </li>
+                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('deepliner.hair_extension')">@lang('deepliner.hair_extension')</a></li>
+                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('deepliner.bridal_hair')">@lang('deepliner.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
                                 <h4 class="text-primary">Sosyal Medyada Biz</h4>
