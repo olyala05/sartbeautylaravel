@@ -1,6 +1,8 @@
 <?php
 return [
     /**  footer  **/
+    "user_policies_last_update" => "Last updated : 09/08/2023",
+    "user_policies_title" => "S ART Beauty Center",
     "user_policies" => "Our User Policies",
     "user_policies_cont" => "Privacy Policy, Terms of Use, and Cookie Policy",
     "our_policies" => "Our Policies",

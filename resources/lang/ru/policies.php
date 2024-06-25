@@ -1,6 +1,8 @@
 <?php
 return[
 /** footer **/
+"user_policies_last_update" => "Последнее обновление : 09/08/2023",
+"user_policies_title" => "S ART Beauty Center",
 "user_policies" => "Политика использования",
 "user_policies_cont" => "Политика конфиденциальности, Условия использования и Политика использования файлов cookie",
 "our_policies" => "Наши политики",

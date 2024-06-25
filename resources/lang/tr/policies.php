@@ -1,6 +1,8 @@
 <?php
 return[
 /**  footer  **/
+"user_policies_last_update" => "Son güncellenme : 09/08/2023",
+"user_policies_title" => "S ART Beauty Center",
 "user_policies" => "Kullanım Politikalarımız",
 "user_policies_cont" => "Gizlilik Politikası, Kullanım Şartları ve Çerez Politikası",
 "our_policies" => "Politikalarımız",
