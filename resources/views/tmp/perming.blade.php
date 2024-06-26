@@ -6,13 +6,13 @@
             style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white">Perma</h1>
+                    <h1 class="text-white">@lang('perming.perm')</h1>
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                    target="_self">Anasayfa</a></li>
-                            <li>Perma</li>
+                            <li><a href="{{ route('pages.home') }}" title="@lang('perming.sart_official_center_home')"
+                                    target="_self">@lang('perming.home')</a></li>
+                            <li>@lang('perming.perm')</li>
                         </ul>
                     </div>
                     <!-- Breadcrumb row END -->
@@ -28,148 +28,92 @@
                         <div class="col-lg-3 col-md-4">
                             <div class="sticky-top">
                                 <ul class="service-list m-b30">
-                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                            Oje</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                            title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                            title="Protez Tırnak">Protez
-                                            Tırnak</a></li>
-                                    <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                            Art</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                            title="İpek Kirpik">İpek
-                                            Kirpik</a></li>
-                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                            title="Kirpik Lifting">Kirpik
-                                            Lifting</a></li>
-                                    <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                            title="Dipliner">Dipliner</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                            title="Kaş Laminasyon">Kaş
-                                            Laminasyon</a>
-                                    </li>
-                                    <li><a href="{{ 'microblading' }}" class="dez-page"
-                                            title="Microblading">Microblading</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                            Ağda</a></li>
-                                    <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                            title="Buz Lazer Epilasyon">Buz
-                                            Lazer Epilasyon</a></li>
-                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                            Bakımı</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                            title="G5 Selülit Masajı">G5
-                                            Selülit
-                                            Masajı</a></li>
-                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                            Shape</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                            title="Dudak Renklendirme">Dudak
-                                            Renklendirme</a></li>
-                                    <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                            title="Keratin Bakım">Keratin
-                                            Bakım</a>
-                                    </li>
-                                    <li class="active"><a href="{{ route('pages.perma') }}" class="dez-page"
-                                            title="Perma">Perma</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="Brezilya Fönü">Brezilya
-                                            Fönü</a></li>
-                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                            Boyası</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                            Boyası</a></li>
-                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                            Kesim</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                            title="Saç Kaynak">Saç
-                                            Kaynak</a></li>
-                                    <li class="active"><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                            title="Gelin Topuzu">Gelin
-                                            Topuzu</a></li>
+                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('perming.perminant_nail_polish')">@lang('perming.perminant_nail_polish')</a></li>
+                                    <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('perming.mani_pedi')">@lang('perming.mani_pedi')</a></li>
+                                    <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('perming.prosthetic_nail')">@lang('perming.prosthetic_nail')</a></li>
+                                    <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('perming.nail_art')">@lang('perming.nail_art')</a></li>
+                                    <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('perming.silk_eyelash')">@lang('perming.silk_eyelash')</a></li>
+                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('perming.eyelash_lifting')">@lang('perming.eyelash_lifting')</a></li>
+                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('perming.dipliner')">@lang('perming.dipliner')</a> </li>
+                                    <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('perming.eyebrow_lamination')">@lang('perming.eyebrow_lamination')</a></li>
+                                    <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('perming.microblading')">@lang('perming.microblading')</a></li>
+                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('perming.wax')">@lang('perming.wax')</a></li>
+                                    <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('perming.lazer-epilasyon')">@lang('perming.lazer-epilasyon')</a></li>
+                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('perming.skin-care')">@lang('perming.skin-care')</a></li>
+                                    <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('perming.cellulite-massage')">@lang('perming.cellulite-massage')</a></li>
+                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('perming.roll-shape')">@lang('perming.roll-shape')</a> </li>
+                                    <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('perming.lip_filler')">@lang('perming.lip_filler')</a></li>
+                                    <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('perming.keratin_care')">@lang('perming.keratin_care')</a> </li>
+                                    <li class="active"><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('perming.perm')">@lang('perming.perm')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('perming.')">@lang('perming.')</a></li>
+                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('perming.highlighted')">@lang('perming.highlighted')</a></li>
+                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('perming.hair_dye')">@lang('perming.hair_dye')</a></li>
+                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('perming.hair_dip_dye')">@lang('perming.hair_dip_dye')</a></li>
+                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('perming.hair_cut')">@lang('perming.hair_cut')</a> </li>
+                                    <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('perming.hair_extension')">@lang('perming.hair_extension')</a></li>
+                                    <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('perming.bridal_hair')">@lang('perming.bridal_hair')</a></li>
                                 </ul>
                                 <div class="download-brochure m-b30 ">
-                                    <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                    <p>Instagramda Bizi Takip Edin</p>
+                                    <h4 class="text-primary">@lang('perming.sart_on_social_media')</h4>
+                                    <p>@lang('perming.follow_us_on_insta')</p>
                                     <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                        title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                        title="@lang('perming.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-8">
-                            <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Perma</b>
-                            <p>Hacimli, dalgalı ve doğal görünümlü saçlara sahip olmak istemez misiniz? Perma ile
-                                saçlarınıza canlılık katın.</p>
+                            <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('perming.perm')</b>
+                            <p>@lang('perming.perm_context_content')</p>
 
                             <div
                                 class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
-                                        <div class="dlab-media dlab-img-overlay5"> <a href="#" title="Perma"><img
-                                                    src="/images/sart/perma_1.webp" alt="Perma"></a> </div>
+                                        <div class="dlab-media dlab-img-overlay5"> <a href="#" title="@lang('perming.perm')"><img
+                                                    src="/images/sart/perma_1.webp" alt="@lang('perming.perm')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-woman"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Perma">Uzun Süre Kalıcı
-                                                    Bukleler</a></h6>
-                                            <p class="m-b15">Perma aylar boyunca kalıcı kıvırcıklık sağlar.</p>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('perming.perm')">@lang('perming.perm_slide1_title')</a></h6>
+                                            <p class="m-b15">@lang('perming.perm_slide1_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
-                                        <div class="dlab-media dlab-img-overlay5"> <a href="#" title="Perma"><img
-                                                    src="/images/sart/perma_2.webp" alt="Perma"></a> </div>
+                                        <div class="dlab-media dlab-img-overlay5"> <a href="#" title="@lang('perming.perm')"><img
+                                                    src="/images/sart/perma_2.webp" alt="@lang('perming.perm')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-mortar"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Perma">Hacimli ve
-                                                    Dolgun Saçlar</a></h6>
-                                            <p class="m-b15">Saçlara hacim ve dolgunluk kazandırır.</p>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('perming.perm')">@lang('perming.perm_slide2_title')</a></h6>
+                                            <p class="m-b15">@lang('perming.perm_slide2_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
-                                        <div class="dlab-media dlab-img-overlay5"> <a href="#" title="Perma"><img
-                                                    src="/images/sart/perma_3.webp" alt="Perma"></a> </div>
+                                        <div class="dlab-media dlab-img-overlay5"> <a href="#" title="@lang('perming.perm')"><img
+                                                    src="/images/sart/perma_3.webp" alt="@lang('perming.perm')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-candle"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Perma">Farklı
-                                                    Tarzlar</a></h6>
-                                            <p class="m-b15">Farklı perma türleriyle çok çeşitli bukle ve dalga stilleri
-                                                yaratılabilir.</p>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('perming.perm')">@lang('perming.perm_slide3_title')</a></h6>
+                                            <p class="m-b15">@lang('perming.perm_slide3_cont')</p>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <br>
-                            <h2 style="font-size: 1em;">Hacimli ve Dalgalı Görünüm</h2>
-                            <h3 style="font-size: 1em; margin-bottom: 0.1em;">Perma Nedir?</h3>
-                            Perma, düz veya az dalgalı saçları daha kıvırcık forma sokmak için uygulanan işlemdir.<br><br>
+                            <h2 style="font-size: 1em;">@lang('perming.perm_subtitle2')</h2>
+                            <h3 style="font-size: 1em; margin-bottom: 0.1em;">@lang('perming.perm_subtitle2_1')</h3>
+                           @lang('perming.perm_subtitle2_1_cont')<br><br>
 
-                            <h4 style="font-size: 1em; margin-bottom: 0.1em;">Profesyonel Perma Uygulaması:</h3>
-                                Perma İşlemi uzmanlarımız tarafından yapılmaktadır. Perma uygulaması özel perma solüsyonunun
-                                saça yedirilmesi ile uygulanır. Solüsyonun uygulanmasının ardından saçlar sarılır ve şekil
-                                verme işlemi başlar.
-                                </p>
+                            <h4 style="font-size: 1em; margin-bottom: 0.1em;">@lang('perming.perm_subtitle2_2')</h3>
+                               @lang('perming.perm_subtitle2_2_cont')</p>
                                 <div class="m-tb20">
                                     <div class="accordion no-gap" id="accordion1">
                                         <div class="panel">
@@ -177,14 +121,12 @@
                                                 <h2 style="font-size: 1em;" class="acod-title">
                                                     <a href="#" data-toggle="collapse" data-target="#faq1"
                                                         class="" aria-expanded="true">
-                                                        1. Perma İşlemi Saçı Zararlı mı Yapar?</a>
+                                                       @lang('perming.perm_context_question1')</a>
                                                 </h2>
                                             </div>
                                             <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                                 style="">
-                                                <div class="acod-content">Perma işlemi saçı bazı ölçülerde etkileyebilir.
-                                                    Ancak uzmanlarımız saçınızı korumak için özel ürünler kullanır ve işlem
-                                                    sonrası bakım önerileri sunar.</div>
+                                                <div class="acod-content">@lang('perming.perm_context_answer1')</div>
                                             </div>
                                         </div>
                                         <div class="panel">
@@ -192,13 +134,12 @@
                                                 <h2 style="font-size: 1em;" class="acod-title">
                                                     <a href="#" data-toggle="collapse" data-target="#faq2"
                                                         class="collapsed" aria-expanded="false">
-                                                        2. Perma Ne Kadar Süre Kalıcıdır?</a>
+                                                        @lang('perming.perm_context_question2')</a>
                                                 </h2>
                                             </div>
                                             <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                                 style="">
-                                                <div class="acod-content">Perma sonucu saçınızın uzamasına bağlı olarak
-                                                    genellikle 4 ila 6 ay arasında kalıcı bir etki sağlar.</div>
+                                                <div class="acod-content">@lang('perming.perm_context_answer2')</div>
                                             </div>
                                         </div>
 
@@ -207,14 +148,12 @@
                                                 <h2 style="font-size: 1em;" class="acod-title">
                                                     <a href="#" data-toggle="collapse" data-target="#faq3"
                                                         class="collapsed" aria-expanded="false">
-                                                        3. Kimler Perma Yaptırabilir?</a>
+                                                        @lang('perming.perm_context_question3')</a>
                                                 </h2>
                                             </div>
                                             <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                                 style="">
-                                                <div class="acod-content"> Perma, genellikle düz veya dalgalı saçlara sahip
-                                                    olan herkes için uygundur. Ancak saçın durumu ve sağlık durumu göz
-                                                    önünde bulundurulmalıdır.</div>
+                                                <div class="acod-content">@lang('perming.perm_context_answer3')</div>
                                             </div>
                                         </div>
                                         <div class="panel">
@@ -222,14 +161,12 @@
                                                 <h2 style="font-size: 1em;" class="acod-title">
                                                     <a href="#" data-toggle="collapse" data-target="#faq4"
                                                         class="collapsed" aria-expanded="false">
-                                                        4. Perma Sonrası Saç Bakımı Nasıl Olmalıdır? </a>
+                                                        @lang('perming.perm_context_question4')</a>
                                                 </h2>
                                             </div>
                                             <div id="faq4" class="acod-body collapse" data-parent="#accordion1"
                                                 style="">
-                                                <div class="acod-content">Perma sonrası saçınıza özel bakım yapmak
-                                                    önemlidir. Uzmanlarımız size işlem sonrası saç bakımı konusunda öneriler
-                                                    sunacaktır.</div>
+                                                <div class="acod-content">@lang('perming.perm_context_answer4')</div>
                                             </div>
                                         </div>
                                         <div class="panel">
@@ -237,14 +174,12 @@
                                                 <h2 style="font-size: 1em;" class="acod-title">
                                                     <a href="#" data-toggle="collapse" data-target="#faq5"
                                                         class="collapsed" aria-expanded="false">
-                                                        5. Perma İşlemi Nasıl Yapılır? </a>
+                                                      @lang('perming.perm_context_question5')</a>
                                                 </h2>
                                             </div>
                                             <div id="faq5" class="acod-body collapse" data-parent="#accordion1"
                                                 style="">
-                                                <div class="acod-content">Perma işlemi özel kimyasalların saça uygulanması
-                                                    ve ardından şekil verilmesiyle yapılır. Uzmanlarımız size detaylı bilgi
-                                                    verecektir.</div>
+                                                <div class="acod-content">@lang('perming.perm_context_answer5')</div>
                                             </div>
                                         </div>
                                     </div>

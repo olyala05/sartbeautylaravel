@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-            /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -58,6 +58,33 @@ return [
     "russian" => "Russian",
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
+
+    // perm
+    "perm_description" => "Perm Hairstyle| S Art Beauty Center ",
+    "perm_title" => "Achieve Wavy and Voluminous Hair with a Perm! Book Your Appointment Now and Get the Hair of Your Dreams!",
+    "perm_main_header" => "Perming",
+    "perm_context_title" => "Perming",
+    "perm_context_content" => "Don't you want to have voluminous, wavy, and natural-looking hair? Add vitality to your hair with a perm.",
+    "perm_context_question1" => "1. Does the Perming Process Damage Hair?",
+    "perm_context_answer1" => "The perming process can affect the hair to some extent. However, our experts use special products to protect your hair and provide post-treatment care recommendations.",
+    "perm_context_question2" => "2. How Long Does Perming Last?",
+    "perm_context_answer2" => "The results of perming typically last between 4 to 6 months, depending on the growth of your hair.",
+    "perm_context_question3" => "3. Who Can Get Perming Done?",
+    "perm_context_answer3" => "Perming is generally suitable for anyone with straight or wavy hair. However, the condition of your hair and your overall health should be considered.",
+    "perm_context_question4" => "4. How Should I Care for My Hair After Perming?",
+    "perm_context_answer4" => "Taking special care of your hair after perming is important. Our experts will provide you with post-treatment hair care recommendations.",
+    "perm_context_question5" => "5. How Is the Perming Process Done?",
+    "perm_context_answer5" => "The perming process is done by applying special chemicals to the hair and then shaping it. Our experts will provide you with detailed information.",
+    "perm_slide1_title" => "Long-Lasting Curls",
+    "perm_slide1_cont" => "Perm provides long-lasting curls for months",
+    "perm_slide2_title" => "Voluminous Hair",
+    "perm_slide2_cont" => "It adds volume and fullness to the hair.",
+    "perm_slide3_title" => "Different Styles",
+    "perm_slide3_cont" => "Various perm types can create a wide range of curls and wave styles.",
+    "perm_subtitle2" => "Voluminous and Wavy Look",
+    "perm_subtitle2_1" => "What Is Perming?",
+    "perm_subtitle2_1_cont" => "Perm is a process applied to straight or slightly wavy hair to make it more curly in shape.",
+    "perm_subtitle2_2" => "Professional Perm Application",
+    "perm_subtitle2_2_cont" => "The Perm process is carried out by our experts. Perm application involves applying a special perm solution to the hair. After the solution is applied, the hair is wrapped, and the shaping process begins.",
+
 ];
-
-
