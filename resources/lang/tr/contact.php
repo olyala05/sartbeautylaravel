@@ -16,5 +16,6 @@ return [
     "contact_us_section2_subtitle2" => "E-Postanız",
     "contact_us_section2_subtitle3" => "Mesajınız",
     "contact_us_section2_subtitle4" => "Gönder",
+    
     "contact_us_section2_subtitle5" => "S Art Beuty Center Ana Sayfa",
 ];

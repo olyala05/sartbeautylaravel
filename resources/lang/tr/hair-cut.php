@@ -7,6 +7,7 @@ return [
     "contact_us" => "İletişim",
     "language" => "Dil",
 
+    "contact_us_section2_subtitle5" => "S Art Beuty Center Ana Sayfa",
     /*** header subtitle ***/
     "mani_pedi" => "Manikür ve Pedikür",
     "perminant_nail_polish" => "Kalıcı Oje",
@@ -55,6 +56,31 @@ return [
     "russian" => "Rusça",
     "reading_time" => "Tahmini okuma süresi",
     "ten_min" => "Okuma Süresi",
+
+    // hair_cut
+    "hair_cut_description" => "Kadıköy - Saç Kesim Uygulaması | S Art Beauty Center",
+    "hair_cut_title" => "Tarzınızı ön plana çıkarın! S Art Beauty Center'da saç kesimiyle benzersiz bir görünüm elde edin. Randevunuzu şimdi oluşturun!",
+    "hair_cut_slogan" => "Saç Kesiminiz ile Tarzınızı Yansıtın",
+    "hair_cut_main_header" => "Saç Kesimi",
+    "hair_cut_context_title" => "Saç Kesimi",
+    "hair_cut_context_content" => "Saçlarınızın şekil ve uzunluğu, tarzınızı yansıtır. S Art Beauty Center’da istediğiniz saçlara ulaşabilirsiniz.",
+    "hair_cut_question1" => "1. Hangi Saç Kesimi Stili Bana Uygun Olur?",
+    "hair_cut_answer1" => "Uzmanlarımız, saç tipiniz, yüz hatlarınız ve tarzınıza uygun saç kesimi stilini belirlemek için size rehberlik eder.",
+    "hair_cut_question2" => "2. Kaç Ayda Bir Saç Kesimi Yapılmalıdır?",
+    "hair_cut_answer2" => "Saç büyüme hızınıza bağlı olarak ortalama 6 ila 8 haftada bir saç kesimi önerilir.",
+    "hair_cut_question3" => "3. Kısa Saç Kesimi Uygun mu?",
+    "hair_cut_answer3" => "Uzmanlarımız, saç tipinize ve yüz hatlarınıza göre kısa saç kesiminin size uygun olup olmadığını değerlendirir.",
+    "hair_cut_question4" => "4. Saç Kesimi Sonrası Bakım Nasıl Olmalıdır?",
+    "hair_cut_answer4" => "Saç kesimi sonrası doğru saç bakım ürünleri kullanmak ve düzenli bakım yapmak saçlarınızın daha sağlıklı görünmesini sağlar.",
+    "hair_cut_question5" => "5. Evde Saç Kesimi Yapmak Güvenli midir?",
+    "hair_cut_answer5" => "Uzmanlarımız, saç kesiminin profesyonel ellere bırakılmasının daha güvenli olduğunu önerir. Uzman dokunuşuyla istediğiniz sonuca ulaşabilirsiniz.",
+    "hair_cut_slide1_title" => "Farklı Tarzlar",
+    "hair_cut_slide1_cont" => "Özgün saç kesiminiz ile tarzınızı vurgulayın.",
+    "hair_cut_slide2_title" => "Sağlıklı Saçlar",
+    "hair_cut_slide2_cont" => "Kırık uçlardan kurtulun ve saçlarınızın daha sağlıklı uzamasını sağlayın.",
+    "hair_cut_slide3_title" => "Yenilenmiş Hissedin",
+    "hair_cut_slide3_cont" => "S Art Beauty Center'da profesyonel bir saç kesimiyle görünümünüzü yenileyin.",
+    "hair_cut_subtitle1" => "Farklı Kesimler",
+    "hair_cut_subtitle1_cont" => "S Art Beauty Center'da düz kesimden katlı kesime, kısa saçtan uzun saça kadar farklı saç kesim stilleri arasından seçim yapabilirsiniz. Uzmanlarımız, saç tipinizi ve yüz hatlarınızı dikkate alarak size en uygun saç kesimini önerir.",
+
 ];
-
-

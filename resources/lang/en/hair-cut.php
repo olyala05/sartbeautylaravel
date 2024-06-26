@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-            /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -58,6 +58,31 @@ return [
     "russian" => "Russian",
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
+
+    // hair_cut
+    "hair_cut_description" => "Kadıköy - Hair Cut | S Art Beauty Center  ",
+    "hair_cut_title" => "Highlight your style! Achieve a unique look with a haircut at S Art Beauty Center. Book your appointment now!",
+    "hair_cut_slogan" => "Reflect Your Style with Your Haircut",
+    "hair_cut_main_header" => "Hair Cut",
+    "hair_cut_context_title" => "Hair Cut",
+    "hair_cut_context_content" => "The shape and length of your hair reflect your style. At S Art Beauty Center, you can achieve the hair you desire.",
+    "hair_cut_question1" => "1. Which Hair Cut Style Is Suitable for Me?",
+    "hair_cut_answer1" => "Our experts will guide you to determine the hair cut style that suits your hair type, facial features, and style.",
+    "hair_cut_question2" => "2. How Often Should I Get a Hair Cut?",
+    "hair_cut_answer2" => "Depending on the rate of hair growth, it is recommended to get a hair cut approximately every 6 to 8 weeks.",
+    "hair_cut_question3" => "3. Is a Short Hair Cut Suitable?",
+    "hair_cut_answer3" => "Our experts will evaluate if a short hair cut suits you based on your hair type and facial features.",
+    "hair_cut_question4" => "4. How Should I Take Care of My Hair After a Hair Cut?",
+    "hair_cut_answer4" => "Using the right hair care products and maintaining regular care after a hair cut will make your hair look healthier.",
+    "hair_cut_question5" => "5. Is Cutting Hair at Home Safe?",
+    "hair_cut_answer5" => "Our experts recommend that getting a hair cut by professionals is safer. With expert touches, you can achieve the desired results.",
+    "hair_cut_slide1_title" => "Different Styles",
+    "hair_cut_slide1_cont" => "Highlight your style with a unique haircut.",
+    "hair_cut_slide2_title" => "Healthy Hair",
+    "hair_cut_slide2_cont" => "Get rid of split ends and promote healthier hair growth.",
+    "hair_cut_slide3_title" => "Feel Renewed",
+    "hair_cut_slide3_cont" => "Refresh your look with a professional haircut at S Art Beauty Center.",
+    "hair_cut_subtitle1" => "Different Haircuts",
+    "hair_cut_subtitle1_cont" => "At S Art Beauty Center, you can choose from different hair cutting styles, including straight cuts, layered cuts, short hair, and long hair. Our experts will recommend the most suitable haircut for you, taking into consideration your hair type and facial features.",
+
 ];
-
-

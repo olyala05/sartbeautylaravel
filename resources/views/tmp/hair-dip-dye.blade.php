@@ -6,7 +6,7 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Saç Dip Boyası</h1>
+                <h1 class="text-white">@lang('hair-dip-dye.')Saç Dip Boyası</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
@@ -28,77 +28,54 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.perminant_nail_polish')">@lang('hair-dip-dye.perminant_nail_polish')</a></li>
                                 <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.mani_pedi')">@lang('hair-dip-dye.mani_pedi')</a></li>
                                 <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.prosthetic_nail')">@lang('hair-dip-dye.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.nail_art')">@lang('hair-dip-dye.nail_art')</a></li>
                                 <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
+                                        title="@lang('hair-dip-dye.silk_eyelash')">@lang('hair-dip-dye.silk_eyelash')</a></li>
                                 <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.eyelash_lifting')">@lang('hair-dip-dye.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.hair-dip-dye') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.dipliner')">@lang('hair-dip-dye.dipliner')</a> </li>
                                 <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
+                                        title="@lang('hair-dip-dye.eyebrow_lamination')">@lang('hair-dip-dye.eyebrow_lamination')</a></li>
+                                <li><a href="{{ route('pages.microblading') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.microblading')">@lang('hair-dip-dye.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.wax')">@lang('hair-dip-dye.wax')</a></li>
                                 <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.lazer-epilasyon')">@lang('hair-dip-dye.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.skin-care')">@lang('hair-dip-dye.skin-care')</a></li>
                                 <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.cellulite-massage')">@lang('hair-dip-dye.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.roll-shape')">@lang('hair-dip-dye.roll-shape')</a> </li>
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
+                                        title="@lang('hair-dip-dye.lip_filler')">@lang('hair-dip-dye.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
+                                        title="@lang('hair-dip-dye.keratin_care')">@lang('hair-dip-dye.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.perm')">@lang('hair-dip-dye.perm')</a></li>
                                 <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.')">@lang('hair-dip-dye.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.highlighted')">@lang('hair-dip-dye.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.hair_dye')">@lang('hair-dip-dye.hair_dye')</a></li>
                                 <li class="active"><a href="{{ route('pages.hairdipdye') }}" class="dez-page"
-                                        title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
+                                        title="@lang('hair-dip-dye.hair_dip_dye')">@lang('hair-dip-dye.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page"
+                                        title="@lang('hair-dip-dye.hair_cut')">@lang('hair-dip-dye.hair_cut')</a> </li>
                                 <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
+                                        title="@lang('hair-dip-dye.hair_extension')">@lang('hair-dip-dye.hair_extension')</a></li>
                                 <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                        title="@lang('hair-dip-dye.bridal_hair')">@lang('hair-dip-dye.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
                                 <h4 class="text-primary">Sosyal Medyada Biz</h4>

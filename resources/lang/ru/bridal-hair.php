@@ -8,6 +8,9 @@ return [
     "contact_us" => "Contact Us",
     "language" => "Language",
 
+        /*** header subtitle ***/
+        "contact_us_section2_subtitle5" => "S Art Beuty Center Главная",
+
     /*** header subtitle ***/
     "lazer-epilasyon" => "İce Laser",
     "selülit-masajı" => "G5 Cellulite Massage",
