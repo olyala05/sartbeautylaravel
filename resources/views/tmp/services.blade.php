@@ -9,8 +9,8 @@
                         <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo_fav.png"
                                 alt="S Art Beauty Center"></div>
                     </div>
-                    <h2 class="text-primary m-b10">Hizmetlerimiz</h2>
-                    <h6 class="m-b10">Güzelliğinizi Ön Plana Çıkarın!</h6>
+                    <h2 class="text-primary m-b10">@lang('services.services')</h2>
+                    <h6 class="m-b10">@lang('services.')Güzelliğinizi Ön Plana Çıkarın!</h6>
                     <p>Dudak renklendirme, kaş laminasyonu, ipek kirpik, saç kesimi ve daha fazlasıyla, sizlere yeni bir
                         görünüm sunuyoruz. Tarzınızı yansıtmak için profesyonel ekibimize güvenin.</p>
                 </div>

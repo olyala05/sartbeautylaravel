@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-           /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -58,6 +58,30 @@ return [
     "russian" => "Russian",
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
+
+    // silk_eyelash
+    "silk_eyelash_description" => "Silk Eyelash | S Art Beauty Center",
+    "silk_eyelash_title" => "Achieve a lasting and natural look with silk eyelash extensions at S Art Beauty Center. Add value to your beauty!",
+    "silk_eyelash_main_header" => "Silk Lash Applications",
+    "silk_eyelash_context_title" => "Silk Lash Application",
+    "silk_eyelash_context_content" => "Silk eyelash application enhances the length and thickness of eyelashes, giving the eyes a more aesthetic appearance.",
+    "silk_eyelash_context_question1" => "1. Is Silk Eyelash Application Painful?",
+    "silk_eyelash_context_answer1" => "Silk eyelash application is generally a painless and comfortable process. If it is done professionally by an expert esthetician, it can be easily applied.",
+    "silk_eyelash_context_question2" => "2. Will My Eyelashes Be Damaged?",
+    "silk_eyelash_context_answer2" => "With correct application and quality products, the risk of damaging the eyelashes is low. Application can be done safely by getting help from an expert.",
+    "silk_eyelash_context_question3" => "3. How Long Will It Last?",
+    "silk_eyelash_context_answer3" => "Silk eyelashes generally last for 3-4 weeks. Maintenance times may vary depending on the shedding cycle of natural eyelashes.",
+    "silk_eyelash_context_question4" => "4. Which Lash Styles Can Be Preferred?",
+    "silk_eyelash_context_answer4" => "Different styles such as natural, dramatic or cat eye can be preferred for silk eyelashes. You can determine the style that best suits you by talking to your expert.",
+    "silk_eyelash_context_question5" => "5. Who Can Get Silk Eyelashes?",
+    "silk_eyelash_context_answer5" => "Silk eyelashes can be applied to almost everyone. However, expert advice is recommended for those with eye allergies or infections.",
+    "silk_eyelash_slide1_title" => "Longevity",
+    "silk_eyelash_slide1_cont" => "Creates the effect of false eyelashes at any time of the day.",
+    "silk_eyelash_slide2_title" => "Voluminous Eyelashes",
+    "silk_eyelash_slide2_cont" => "Provides full lashes without the need for mascara.",
+    "silk_eyelash_slide3_title" => "A Vibrant Look",
+    "silk_eyelash_slide3_cont" => "Always creates a well-groomed and vibrant appearance.",
+    "silk_eyelash_subtitle2_1" => "What is Silk Eyelashes?",
+    "silk_eyelash_subtitle2_1_cont" => "Silk Eyelashes extensions are a popular cosmetic procedure for lengthening and adding volume to natural eyelashes by attaching synthetic fibers with a special adhesive. The procedure can be performed by a cosmetologist, makeup artist, or a lashmaker.",
+
 ];
-
-
