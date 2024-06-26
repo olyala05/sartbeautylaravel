@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-            /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -58,6 +58,31 @@ return [
     "russian" => "Russian",
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
+
+    // hair_dye
+    "hair_dye_description" => "Kadıköy - Hair Dye | S Art Beauty Center  ",
+    "hair_dye_title" => "Various hair dye options for your hair at S Art Beauty Center! Book your appointment now.",
+    "hair_dye_slogan" => "Reflect Your Style",
+    "hair_dye_main_header" => "Hair Dye",
+    "hair_dye_context_title" => "Hair Dye",
+    "hair_dye_context_content" => "If you want to change your hair color, refresh your style, or achieve a new look, we have a variety of options waiting for you.",
+    "hair_dye_question1" => "1. How Often Should Hair Dye Be Applied?",
+    "hair_dye_answer1" => "The duration of hair dye depends on hair type and color. It is generally recommended to refresh it every 4 to 8 weeks.",
+    "hair_dye_question2" => "2. Is Hair Dye Harmful?",
+    "hair_dye_answer2" => "When applied by experts using the right products and techniques, hair dye is not harmful. Hair health should be taken into account.",
+    "hair_dye_question3" => "3. How to Choose a Color Suitable for My Natural Hair Color?",
+    "hair_dye_answer3" => "S Art Beauty Center experts will assist you in determining color options that match your natural hair color.",
+    "hair_dye_question4" => "4. Which Colors Last Longer?",
+    "hair_dye_answer4" => "Darker colors generally last longer, while lighter colors may require more frequent touch-ups.",
+    "hair_dye_question5" => "5. Is Home Hair Dye Application Safe?",
+    "hair_dye_answer5" => "Our experts recommend that hair dye application is safer and more likely to achieve the desired results when done by professionals.",
+    "hair_dye_slide1_title" => "Natural Shades",
+    "hair_dye_slide1_cont" => "S Art Beauty Center provides a refreshed look with natural shades that will add vibrancy to your hair.",
+    "hair_dye_slide2_title" => "Emphasize Your Beauty",
+    "hair_dye_slide2_cont" => "Achieve an easy-to-maintain and elegant style; highlight your beauty.",
+    "hair_dye_slide3_title" => "Reflect Your Style",
+    "hair_dye_slide3_cont" => "Come to S.Art Beauty Center to achieve the hair color of your dreams.",
+    "hair_dye_subtitle1" => "What Is Hair Dye?",
+    "hair_dye_subtitle1_cont" => "Hair dye is a chemical product used to change or enhance the color of hair. It offers a wide range of colors to create different styles",
+
 ];
-
-
