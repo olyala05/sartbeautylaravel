@@ -5,13 +5,13 @@
             style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white">Microblading</h1>
+                    <h1 class="text-white">@lang('microblading.microblading')</h1>
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                    target="_self">Anasayfa</a></li>
-                            <li>Microblading</li>
+                            <li><a href="{{ route('pages.home') }}" title="@lang('microblading.sart_official_center_home')"
+                                    target="_self">@lang('microblading.home')</a></li>
+                            <li>@lang('microblading.microblading')</li>
                         </ul>
                     </div>
                     <!-- Breadcrumb row END -->
@@ -27,153 +27,120 @@
                         <div class="col-lg-3 col-md-4">
                             <div class="sticky-top">
                                 <ul class="service-list m-b30">
-                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                            Oje</a>
-                                    </li>
+                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page"
+                                            title="@lang('microblading.perminant_nail_polish')">@lang('microblading.perminant_nail_polish')</a></li>
                                     <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                            title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                    </li>
+                                            title="@lang('microblading.mani_pedi')">@lang('microblading.mani_pedi')</a></li>
                                     <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                            title="Protez Tırnak">Protez
-                                            Tırnak</a></li>
-                                    <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                            Art</a>
-                                    </li>
+                                            title="@lang('microblading.prosthetic_nail')">@lang('microblading.prosthetic_nail')</a></li>
+                                    <li><a href="{{ route('pages.nailart') }}" class="dez-page"
+                                            title="@lang('microblading.nail_art')">@lang('microblading.nail_art')</a></li>
                                     <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                            title="İpek Kirpik">İpek
-                                            Kirpik</a></li>
+                                            title="@lang('microblading.silk_eyelash')">@lang('microblading.silk_eyelash')</a></li>
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                            title="Kirpik Lifting">Kirpik
-                                            Lifting</a></li>
-                                    <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                            title="Dipliner">Dipliner</a>
-                                    </li>
+                                            title="@lang('microblading.eyelash_lifting')">@lang('microblading.eyelash_lifting')</a></li>
+                                    <li><a href="{{ route('pages.microblading') }}" class="dez-page"
+                                            title="@lang('microblading.dipliner')">@lang('microblading.dipliner')</a> </li>
                                     <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                            title="Kaş Laminasyon">Kaş
-                                            Laminasyon</a>
-                                    </li>
-                                    <li class="active"><a href="{{ 'microblading' }}" class="dez-page"
-                                            title="Microblading">Microblading</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                            Ağda</a></li>
+                                            title="@lang('microblading.eyebrow_lamination')">@lang('microblading.eyebrow_lamination')</a></li>
+                                    <li  class="active"><a href="{{ route('pages.microblading') }}" class="dez-page"
+                                            title="@lang('microblading.microblading')">@lang('microblading.microblading')</a></li>
+                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page"
+                                            title="@lang('microblading.wax')">@lang('microblading.wax')</a></li>
                                     <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                            title="Buz Lazer Epilasyon">Buz
-                                            Lazer Epilasyon</a></li>
-                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                            Bakımı</a>
-                                    </li>
+                                            title="@lang('microblading.lazer-epilasyon')">@lang('microblading.lazer-epilasyon')</a></li>
+                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page"
+                                            title="@lang('microblading.skin-care')">@lang('microblading.skin-care')</a></li>
                                     <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                            title="G5 Selülit Masajı">G5
-                                            Selülit
-                                            Masajı</a></li>
-                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                            Shape</a>
-                                    </li>
+                                            title="@lang('microblading.cellulite-massage')">@lang('microblading.cellulite-massage')</a></li>
+                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page"
+                                            title="@lang('microblading.roll-shape')">@lang('microblading.roll-shape')</a> </li>
                                     <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                            title="Dudak Renklendirme">Dudak
-                                            Renklendirme</a></li>
+                                            title="@lang('microblading.lip_filler')">@lang('microblading.lip_filler')</a></li>
                                     <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                            title="Keratin Bakım">Keratin
-                                            Bakım</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
+                                            title="@lang('microblading.keratin_care')">@lang('microblading.keratin_care')</a> </li>
+                                    <li><a href="{{ route('pages.perma') }}" class="dez-page"
+                                            title="@lang('microblading.perm')">@lang('microblading.perm')</a></li>
                                     <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="Brezilya Fönü">Brezilya
-                                            Fönü</a></li>
-                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                            Boyası</a>
-                                    </li>
-                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                            Boyası</a></li>
-                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                            Kesim</a>
-                                    </li>
+                                            title="@lang('microblading.')">@lang('microblading.')</a></li>
+                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page"
+                                            title="@lang('microblading.highlighted')">@lang('microblading.highlighted')</a></li>
+                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
+                                            title="@lang('microblading.hair_dye')">@lang('microblading.hair_dye')</a></li>
+                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page"
+                                            title="@lang('microblading.hair_dip_dye')">@lang('microblading.hair_dip_dye')</a></li>
+                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page"
+                                            title="@lang('microblading.hair_cut')">@lang('microblading.hair_cut')</a> </li>
                                     <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                            title="Saç Kaynak">Saç
-                                            Kaynak</a></li>
+                                            title="@lang('microblading.hair_extension')">@lang('microblading.hair_extension')</a></li>
                                     <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                            title="Gelin Topuzu">Gelin
-                                            Topuzu</a></li>
+                                            title="@lang('microblading.bridal_hair')">@lang('microblading.bridal_hair')</a></li>
                                 </ul>
                                 <div class="download-brochure m-b30 ">
-                                    <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                    <p>Instagramda Bizi Takip Edin</p>
+                                    <h4 class="text-primary">@lang('microblading.Sosyal Medyada Biz')</h4>
+                                    <p>@lang('microblading.follow_us_on_insta')</p>
                                     <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                        title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                        title="@lang('microblading.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-8">
-                            <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Microblading</b>
-                            <p>Kaş bakımı rutininden sıkıldıysanız kaşlarınızı güzelleştirmek için microblading
-                                uygulamasından faydalanarak bu zahmetten kurtulabilirsiniz.</p>
-
+                            <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('microblading.microblading')</b>
+                            <p>@lang('microblading.microblading_context_content')</p>
                             <div
                                 class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                                title="Microblading"><img src="/images/sart/kas_laminasyon_5.webp"
-                                                    alt="Microblading"></a> </div>
+                                                title="@lang('microblading.microblading')"><img src="/images/sart/kas_laminasyon_5.webp"
+                                                    alt="@lang('microblading.microblading')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-woman"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Microblading">Doğal
-                                                    Görünümlü Kaşlar</a>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('microblading.microblading')">@lang('microblading.microblading_slide1_title')</a>
                                             </h6>
-                                            <p class="m-b15">İnce iğneler kullanılarak cilde pigment eklenir ve doğal
-                                                görünüm efekti yaratır.</p>
+                                            <p class="m-b15">@lang('microblading.microblading_slide1_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                                title="Microblading"><img src="/images/sart/microblading 1.webp"
-                                                    alt="Microblading"></a> </div>
+                                                title="@lang('microblading.microblading')"><img src="/images/sart/microblading 1.webp"
+                                                    alt="@lang('microblading.microblading')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-mortar"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Microblading">Renk ve
-                                                    Şekil Özelleştirme</a>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('microblading.microblading')">@lang('microblading.microblading_slide2_title')</a>
                                             </h6>
-                                            <p class="m-b15">Kaşlarınızın şekli ve rengi tamamen sizin tercihinize göre
-                                                özelleştirilebilir.</p>
+                                            <p class="m-b15">@lang('microblading.microblading_slide2_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                                title="Microblading"><img src="/images/sart/kas_laminasyon_2.webp"
-                                                    alt="Microblading"></a> </div>
+                                                title="@lang('microblading.microblading')"><img src="/images/sart/kas_laminasyon_2.webp"
+                                                    alt="@lang('microblading.microblading')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-candle"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Microblading">Su
-                                                    Geçirmez</a>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('microblading.microblading')">
+                                                @lang('microblading.microblading_slide3_title')</a>
                                             </h6>
-                                            <p class="m-b15">Suya dayanıklıdır, bu nedenle yüzme veya terleme gibi
-                                                aktivitelerden sonra bile kaşlarınızın şeklini korur.</p>
+                                            <p class="m-b15">@lang('microblading.microblading_slide3_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <h2 style="font-size: 1em; margin-bottom: 0.3em;">Microblading: Doğal Kaş Tasarımı</h2>
+                            <h2 style="font-size: 1em; margin-bottom: 0.3em;">@lang('microblading.microblading_subtitle2')</h2>
                             <br>
-                            <h3 style="font-size: 1em; margin-bottom: 0.1em;">Microblading Nedir?</h3>
-                            Microblading, özel bir el aleti kullanılarak kaş tüylerinin kısmen kalıcı bir boyayla elle
-                            çizildiği işlemdir. Bu yöntemle kaşlar daha dolgun ve doğal bir görünüm kazanır.
-                            <br><br>
-
-                            </p>
+                            <h3 style="font-size: 1em; margin-bottom: 0.1em;">@lang('microblading.microblading_subtitle2_1')</h3>
+                           @lang('microblading.microblading_subtitle2_1_cont') <br><br></p>
                             <div class="m-tb20">
                                 <div class="accordion no-gap" id="accordion1">
                                     <div class="panel">
@@ -181,14 +148,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq1"
                                                     class="" aria-expanded="true">
-                                                    1. Microblading İşlemi Acı Verir mi?</a>
+                                                    @lang('microblading.microblading_context_question1')</a>
                                             </h2>
                                         </div>
                                         <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Microblading işlemi genellikle hafif bir rahatsızlık
-                                                hissi yaratabilir. Ancak genellikle lokal anestezik kremler kullanılarak acı
-                                                en aza indirilir.</div>
+                                            <div class="acod-content">@lang('microblading.microblading_context_answer1')</div>
                                         </div>
                                     </div>
                                     <div class="panel">
@@ -196,14 +161,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq2"
                                                     class="collapsed" aria-expanded="false">
-                                                    2. Sonuç Ne Kadar Süre Kalıcıdır?</a>
+                                                   @lang('microblading.microblading_context_question2')</a>
                                             </h2>
                                         </div>
                                         <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Microblading sonucu genellikle 1 ila 2 yıl arasında
-                                                kalıcı olabilir. Bu süre kaş yapısı, cilt tipi ve bakıma bağlı olarak
-                                                değişebilir.</div>
+                                            <div class="acod-content">@lang('microblading.microblading_context_answer2')</div>
                                         </div>
                                     </div>
 
@@ -212,14 +175,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq3"
                                                     class="collapsed" aria-expanded="false">
-                                                    3. Kimler Microblading Yaptırabilir?</a>
+                                                    @lang('microblading.microblading_context_question3')</a>
                                             </h2>
                                         </div>
                                         <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Genellikle herkes microblading yaptırabilir. Ancak
-                                                hamilelik, cilt rahatsızlıkları veya bazı sağlık durumları varsa öncesinde
-                                                uzmanla danışmanlık yapılmalıdır.</div>
+                                            <div class="acod-content">@lang('microblading.microblading_context_answer3')</div>
                                         </div>
                                     </div>
                                     <div class="panel">
@@ -227,14 +188,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq4"
                                                     class="collapsed" aria-expanded="false">
-                                                    4. Kaşlarımın Doğal Görünmesini Nasıl Sağlayabilirim?</a>
+                                                   @lang('microblading.microblading_context_question4')</a>
                                             </h2>
                                         </div>
                                         <div id="faq4" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Microblading işlemi ile uzmanlar kaş yapınıza uygun
-                                                doğal bir renk ve şekil seçimi yapar. Böylece kaşlarınızın doğallığını
-                                                koruyabilirsiniz.</div>
+                                            <div class="acod-content">@lang('microblading.microblading_context_answer4')</div>
                                         </div>
                                     </div>
                                     <div class="panel">
@@ -242,14 +201,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq5"
                                                     class="collapsed" aria-expanded="false">
-                                                    5. Microblading İşlemi Sonrası Bakım Gerekir mi?</a>
+                                                    @lang('microblading.microblading_context_question5')</a>
                                             </h2>
                                         </div>
                                         <div id="faq5" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Evet, işlem sonrası belirtilen bakım talimatlarını
-                                                takip etmek önemlidir. Kaşlarınızın uzun süre güzel görünmesi için bu
-                                                talimatlara dikkat etmelisiniz.</div>
+                                            <div class="acod-content">@lang('microblading.microblading_context_answer5')</div>
                                         </div>
                                     </div>
                                 </div>

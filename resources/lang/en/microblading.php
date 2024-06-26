@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-           /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -58,6 +58,32 @@ return [
     "russian" => "Russian",
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
+    
+    // microblading
+    "microblading_description" => "Microblading | S Art Beauty Center ",
+    "microblading_title" => "Achieve permanent and natural-looking eyebrows that suit your face with microblading. Book your appointment now!",
+    "microblading_main_header" => "Microblading",
+    "microblading_context_title" => "Microblading",
+    "microblading_context_content" => "If you're tired of your eyebrow care routine, you can save yourself the trouble and enhance your eyebrows with microblading.",
+    "microblading_context_question1" => "1. Does the Microblading Procedure Hurt?",
+    "microblading_context_answer1" => "The Microblading procedure may create a slight discomfort. However, pain is usually minimized by using local anesthetic creams.",
+    "microblading_context_question2" => "2. How Long Does the Result Last?",
+    "microblading_context_answer2" => "The result of Microblading can typically last between 1 to 2 years. This duration can vary depending on your eyebrow structure, skin type, and care.",
+    "microblading_context_question3" => "3. Who Can Get Microblading Done?",
+    "microblading_context_answer3" => "Generally, anyone can get Microblading done. However, if you are pregnant, have skin conditions, or certain health issues, it is advisable to consult with an expert beforehand.",
+    "microblading_context_question4" => "4. How Can I Ensure a Natural Look for My Eyebrows?",
+    "microblading_context_answer4" => "With the Microblading procedure, experts select a natural color and shape that suits your eyebrow structure. This way, you can maintain the natural look of your eyebrows.",
+    "microblading_context_question5" => "5. Is Post-Procedure Care Required for Microblading?",
+    "microblading_context_answer5" => "Yes, it's important to follow the specified post-procedure care instructions. Adhering to these instructions is crucial to keeping your eyebrows looking beautiful for an extended period.",
+    "microblading_slide1_title" => "Natural-Looking Eyebrows",
+    "microblading_slide1_cont" => "Pigment is added to the skin using fine needles to create a natural appearance.",
+    "microblading_slide2_title" => "Color and Shape Customization",
+    "microblading_slide2_cont" => "The shape and color of your eyebrows can be completely customized according to your preference.",
+    "microblading_slide3_title" => "Waterproof",
+    "microblading_slide3_cont" => "It is waterproof, so it maintains the shape of your eyebrows even after activities like swimming or sweating.",
+    "microblading_subtitle2" => "Microblading: Natural Eyebrow Design",
+    "microblading_subtitle2_1" => "What Is Microblading?",
+    "microblading_subtitle2_1_cont" => "Microblading is a process where eyebrow hairs are manually drawn with a semi-permanent pigment using a special hand tool. This method gives the eyebrows a fuller and more natural appearance.",
+
+
 ];
-
-
