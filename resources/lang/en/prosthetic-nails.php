@@ -39,7 +39,7 @@ return [
     /*** services ***/
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
-           /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -57,6 +57,32 @@ return [
     "russian" => "Russian",
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
+
+    // prosthetic_nail
+    "prosthetic_nail_description" => "Prosthetic Nails | S Art Beauty Center ",
+    "prosthetic_nail_title" => "Create a unique style for your nails with prosthetic nail designs at S Art Beauty Center. Achieve custom-designed nails with our experts.",
+    "prosthetic_nail_slogan" => "Custom Aesthetics for Your Nails: Embrace Elegance with Prosthetic Nails!",
+    "prosthetic_nail_context_title" => "Prosthetic Nails",
+    "prosthetic_nail_context_content" => "Discover artificial nails that strengthen your nails and provide an aesthetic appearance.",
+    "prosthetic_nail_question1" => "1. Do Prosthetic Nails Look Realistic?",
+    "prosthetic_nail_answer1" => "Yes, prosthetic nails are prepared to match the natural nail appearance and offer a realistic look.",
+    "prosthetic_nail_question2" => "2. How Long Do Prosthetic Nails Last?",
+    "prosthetic_nail_answer2" => "Prosthetic nails typically last between 2 to 4 weeks. The duration may vary depending on the nail growth rate.",
+    "prosthetic_nail_question3" => "3. Are Prosthetic Nails Harmful?",
+    "prosthetic_nail_answer3" => "Prosthetic nail applications do not harm nail health when performed carefully by experts. They can last a long time with proper care.",
+    "prosthetic_nail_question4" => "4. Who Can Get Prosthetic Nails?",
+    "prosthetic_nail_answer4" => "Prosthetic nails are suitable for almost everyone. Nail health and special conditions should be considered.",
+    "prosthetic_nail_question5" => "5. How Should You Care for Prosthetic Nails?",
+    "prosthetic_nail_answer5" => "Prosthetic nails require special care. Avoid chemical substances, perform regular maintenance, and follow professional recommendations.",
+    "prosthetic_nail_slide1_title" => "Strong Nails",
+    "prosthetic_nail_slide1_cont" => "Provides strength and protection to weak and easily breakable nails.",
+    "prosthetic_nail_slide2_title" => "Aesthetic Appearance",
+    "prosthetic_nail_slide2_cont" => "Gives a smooth and aesthetic look.",
+    "prosthetic_nail_slide3_title" => "Longevity",
+    "prosthetic_nail_slide3_cont" => "Artificial nails last a long time without frequent nail renewal needs.",
+    "prosthetic_nail_subtitle1" => "What Are Prosthetic Nails?",
+    "prosthetic_nail_subtitle1_cont" => "Prosthetic nails are artificial nails used to lengthen, shape, and strengthen the nails.",
+    "prosthetic_nail_subtitle2" => "Professional Prosthetic Nail Application:",
+    "prosthetic_nail_subtitle2_1" => "Artificial nails are created by our experts using gel materials.",
+
 ];
-
-
