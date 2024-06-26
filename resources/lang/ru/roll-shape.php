@@ -40,6 +40,26 @@ return [
     /*** services ***/
     "sart_on_social_media" => "Мы в социальных сетях",
     "follow_us_on_insta" => "Подписывайтесь на нас в Instagram",
+
+
+        /** default keys **/
+        "sart" => "S ART Beauty Center",
+        "sart_official_center" => "Официальный сайт S Art Beauty Center",
+        "sart_official_center_home" => "Главная S Art Beauty Center",
+        "sart_official_center_about" => "О S Art Beauty Center",
+        "sart_official_center_contact" => "Контакты S Art Beauty Center",
+        "sart_official_center_lang_options" => "Опции языка S Art Beauty Center",
+        "sart_official_center_job_explanation" => "Что делает S Art Beauty Center?",
+        "sart_official_center_facebook" => "Страница S Art Beauty Center в Facebook",
+        "sart_official_center_whatsapp" => "Аккаунт S Art Beauty Center в WhatsApp",
+        "sart_official_center_instagram" => "Аккаунт S Art Beauty Center в Instagram",
+        "whatsapp_line" => "WhatsApp линия",
+        "location" => "Адрес в навигации",
+        "turkish" => "Турецкий",
+        "english" => "Английский",
+        "russian" => "Русский",
+        "reading_time" => "Предполагаемое время чтения",
+        "ten_min" => "Время чтения",
 ];
 
 
