@@ -5,13 +5,13 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Roll Shape Uygulaması</h1>
+                <h1 class="text-white">@lang('roll-shape.roll-shape_main_header')</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                target="_self">Anasayfa</a></li>
-                        <li>Roll Shape Uygulaması</li>
+                        <li><a href="{{ route('pages.home') }}" title="@lang('roll-shape.sart_official_center_home')"
+                                target="_self">@lang('roll-shape.home')</a></li>
+                        <li>@lang('roll-shape.roll-shape_main_header')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -27,127 +27,77 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
-                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li class="active"><a href="{{ route('pages.rollshape') }}" class="dez-page"
-                                        title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
-                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('roll-shape.perminant_nail_polish')">@lang('roll-shape.perminant_nail_polish')</a></li>
+                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('roll-shape.mani_pedi')">@lang('roll-shape.mani_pedi')</a></li>
+                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('roll-shape.prosthetic_nail')">@lang('roll-shape.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('roll-shape.nail_art')">@lang('roll-shape.nail_art')</a></li>
+                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('roll-shape.silk_eyelash')">@lang('roll-shape.silk_eyelash')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('roll-shape.eyelash_lifting')">@lang('roll-shape.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('roll-shape.dipliner')">@lang('roll-shape.dipliner')</a> </li>
+                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('roll-shape.eyebrow_lamination')">@lang('roll-shape.eyebrow_lamination')</a></li>
+                                <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('roll-shape.microblading')">@lang('roll-shape.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('roll-shape.wax')">@lang('roll-shape.wax')</a></li>
+                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('roll-shape.lazer-epilasyon')">@lang('roll-shape.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('roll-shape.skin-care')">@lang('roll-shape.skin-care')</a></li>
+                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('roll-shape.cellulite-massage')">@lang('roll-shape.cellulite-massage')</a></li>
+                                <li  class="active"><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('roll-shape.roll-shape')">@lang('roll-shape.roll-shape')</a> </li>
+                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('roll-shape.lip_filler')">@lang('roll-shape.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('roll-shape.keratin_care')">@lang('roll-shape.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('roll-shape.perm')">@lang('roll-shape.perm')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('roll-shape.')">@lang('roll-shape.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('roll-shape.highlighted')">@lang('roll-shape.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('roll-shape.hair_dye')">@lang('roll-shape.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('roll-shape.hair_dip_dye')">@lang('roll-shape.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('roll-shape.hair_cut')">@lang('roll-shape.hair_cut')</a> </li>
+                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('roll-shape.hair_extension')">@lang('roll-shape.hair_extension')</a></li>
+                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('roll-shape.bridal_hair')">@lang('roll-shape.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
-                                <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                <p>Instagramda Bizi Takip Edin</p>
+                                <h4 class="text-primary">@lang('roll-shape.sart_on_social_media')</h4>
+                                <p>@lang('roll-shape.follow_us_on_insta')</p>
                                 <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                    title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                    title="@lang('roll-shape.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-8">
-                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Roll Shape Uygulaması</b>
-                        <p>Roller Shape’in temel amacı yağ dokusunu azaltarak vücudu daha ince bir hale getirmektir.</b>
-                        </p>
-
+                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('roll-shape.roll-shape_main_header')</b>
+                        <p>@lang('roll-shape.roll-shape_context_content')</b></p>
                         <div
                             class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                             <div class="item">
                                 <div class="dlab-box service-iconbox"style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Roll Shape Uygulaması"><img
+                                            title="@lang('roll-shape.roll-shape_main_header')"><img
                                                 src="/images/sart/img_roll_shape/roll-shape5.jpg"
-                                                alt="Roll Shape Uygulaması"></a> </div>
+                                                alt="@lang('roll-shape.roll-shape_main_header')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="Roll Shape Uygulaması"><i
+                                                class="icon-cell" title="@lang('roll-shape.roll-shape_main_header')"><i
                                                     class="flaticon-woman"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Roll Shape Uygulaması">Cildin Sarkmasını Önler.</a>
+                                                title="@lang('roll-shape.roll-shape_main_header')">@lang('roll-shape.roll-shape_slide1_title')</a>
                                         </h6>
-                                        <p class="m-b15">Cildin kendini yenilemesini destekler ve yağ tabakasını
-                                            azaltır.</p>
+                                        <p class="m-b15">@lang('roll-shape.roll-shape_slide1_title')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox"style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Roll Shape Uygulaması"><img
+                                            title="@lang('roll-shape.roll-shape_main_header')"><img
                                                 src="/images/sart/img_roll_shape/roll-shape4.jpg"
-                                                alt="Roll Shape Uygulaması"></a> </div>
+                                                alt="@lang('roll-shape.roll-shape_main_header')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="Roll Shape Uygulaması"><i
+                                                class="icon-cell" title="@lang('roll-shape.roll-shape_main_header')"><i
                                                     class="flaticon-mortar"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Roll Shape Uygulaması">Selülit Önleyici</a>
+                                                title="@lang('roll-shape.roll-shape_main_header')">@lang('roll-shape.roll-shape_slide2_title')</a>
                                         </h6>
-                                        <p class="m-b15">Selüliti azaltır ve kas gerginliğini gidermeye yardımcı olur.
+                                        <p class="m-b15">@lang('roll-shape.roll-shape_slide2_cont')
                                         </p>
                                     </div>
                                 </div>
@@ -155,32 +105,26 @@
                             <div class="item">
                                 <div class="dlab-box service-iconbox"style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Roll Shape Uygulaması"><img
+                                            title="@lang('roll-shape.roll-shape_main_header')"><img
                                                 src="/images/sart/img_roll_shape/roll-shape3.jpg"
-                                                alt="Roll Shape Uygulaması"></a> </div>
+                                                alt="@lang('roll-shape.roll-shape_main_header')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="Roll Shape Uygulaması"><i
+                                                class="icon-cell" title="@lang('roll-shape.roll-shape_main_header')"><i
                                                     class="flaticon-candle"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Roll Shape Uygulaması">Bağ Dokusunu Güçlendirir</a>
+                                                title="@lang('roll-shape.roll-shape_main_header')">@lang('roll-shape.roll-shape_slide3_title')</a>
                                         </h6>
-                                        <p class="m-b15">Masajın etkisiyle, kas tonusu ve esnekliği artar, cilt
-                                            elastikiyeti gelişir.</p>
+                                        <p class="m-b15">@lang('roll-shape.roll-shape_slide3_cont')</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <p>
-                        <h2 style="font-size: 1em;">Roll Shape Nedir?</h2>
+                        <h2 style="font-size: 1em;">@lang('roll-shape.roll-shape_subtitle1')</h2>
                         </p>
-                        <p class="m-b20">Roll Shape, kızılötesi teknolojisini kullanarak vücut masajı yapmak için
-                            tasarlanmıştır. Bu tedavi, selülitlerin ortadan kaldırılmasını ve ince vücut şeklinin elde
-                            edilmesini desteklemeyi amaçlar. Düzenli kullanımda, Roll Shape gözle görülür şekilde
-                            selülitlerin giderilmesine, sıkılaşmaya ve vücut kusurlarının azalmasına yardımcı olur.
-
+                        <p class="m-b20">@lang('roll-shape.roll-shape_subtitle1_cont')
                         </p>
                         <div class="m-tb20">
                             <div class="accordion no-gap" id="accordion1">
@@ -189,12 +133,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq1"
                                                 class="" aria-expanded="true">
-                                                1. Roll Shape Kullanırken Ağrı Hissedilir mi?</a>
+                                                @lang('roll-shape.shape_context_question1')</a>
                                         </h2>
                                     </div>
                                     <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">1. Roll Shape ağrısız bir uygulama yöntemidir.</div>
+                                        <div class="acod-content">@lang('roll-shape.shape_context_answer1')1. Roll Shape ağrısız bir uygulama yöntemidir.</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -202,24 +146,18 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq2"
                                                 class="collapsed" aria-expanded="false">
-                                                2. Roll Shape Kullanımı Ne Kadar Sıklıkta Önerilir?</a>
+                                                @lang('roll-shape.shape_context_question2')</a>
                                         </h2>
                                     </div>
                                     <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">2. Kullanım süresi kişisel tercihlere ve hedeflenen
-                                            sonuçlara göre değişebilir. Ancak, genellikle haftada birkaç kez belirli bir
-                                            süre kullanılması tavsiye edilir.</div>
+                                        <div class="acod-content">@lang('roll-shape.shape_context_answer2')</div>
                                     </div>
                                 </div>
-
                                 <div class="panel">
-
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
