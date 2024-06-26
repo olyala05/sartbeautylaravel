@@ -57,6 +57,34 @@ return [
      "russian" => "Rusça",
      "reading_time" => "Tahmini okuma süresi",
      "ten_min" => "Okuma Süresi",
+
+     // wax
+  "wax_description" => "Şeker Ağda Uygulaması | S Art Beauty Center ",
+  "wax_title" => "Şeker ağda uygulaması ile hassas ve doğal bir tüy alma deneyimi yaşayın. Randevunuzu hemen alın!",
+  "wax_main_slogan" => "Pürüzsüz Bir Cilt İçin Şeker Ağda",
+  "wax_main_header" => "Şeker Ağda Uygulaması",
+  "wax_context_title" => " Şeker Ağda",
+  "wax_context_content" => "Şeker Ağda hem kısa hem de uzun vadede cildinizi pürüzsüzleştiren ve tüylerin daha ince çıkmasını sağlayan etkili bir yöntemdir. S Art Beauty Center’a gelerek şeker ağda hizmetimizden faydalanabilirsiniz.",
+  "wax_context_question1" => "1. Şeker Ağda nedir?",
+  "wax_context_answer1" => "Şeker Ağda, tamamen doğal ve hypoalerjenik bir şeker ağda türüdür. Tüyleri kökünden çeker, cildi besler ve pürüzsüz hale getirir.",
+  "wax_context_question2" => "2. Diğer şeker ağda yöntemlerinden nasıl farklıdır?",
+  "wax_context_answer2" => "Şeker Ağda, diğer yöntemlere göre daha az acı verir, daha az tahrişe yol açar ve cildi daha az gerer.",
+  "wax_context_question3" => "3.Şeker Ağdanın etkileri ne kadar sürer?",
+  "wax_context_answer3" => "Genellikle sonuçlar 3 ila 6 hafta boyunca kalıcıdır. Bu süre cilt tipinize bağlı olarak değişebilir.",
+  "wax_context_question4" => "4.Şeker Ağda yaparken ağrı hissi olur mu?",
+  "wax_context_answer4" => "Profesyonel bir şekilde uygulandığında  şeker ağdanın ağrı hissi minimumdadır. Cilt hassasiyetinize göre uyarlanabilir.",
+  "wax_context_question5" => "5.Şeker Ağda hizmetleri neleri içerir?",
+  "wax_context_answer5" => "Hizmetlerimiz arasında bacak, kollar, yüz ve vücut için şeker ağda seçenekleri bulunur. Ayrıca cilt bakımı hizmetleri de sunuyoruz.",
+  "wax_slide1_title" => "Uzun Süreli Etki",
+  "wax_slide1_cont" => "Kıl köklerini alarak uzun süreli sonuçlar sağlar.",
+  "wax_slide2_title" => "Pürüzsüzlük",
+  "wax_slide2_cont" => "Ölü hücrelerin giderilmesiyle cilt canlanır.",
+  "wax_slide3_title" => "Sağlıklı Bir Cilt",
+  "wax_slide3_cont" => "Cilt tahrişi ve batıkları engeller.",
+  "wax_subtitle1" => "Profesyonel Şeker Ağda Hizmeti",
+  "wax_subtitle1_cont" => "Şeker Ağda hizmetleri, kişiye özel ihtiyaçlarınızı göz önünde bulundurarak sunulmaktadır. Uzman personelimiz, her cilt tipine uygun tekniklerle kaliteli, hijyenik ve konforlu bir deneyim sağlamaktadır. ",
+
+
 ];
 
 
