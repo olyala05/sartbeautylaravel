@@ -6,14 +6,13 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Kalıcı Oje</h1>
+                <h1 class="text-white">@lang('permanent-nail-polish.perminant_nail_polish')</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa" target="_self">Ana
-                                Sayfa</a>
+                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa" target="_self">@lang('permanent-nail-polish.home')</a>
                         </li>
-                        <li>Kalıcı Oje</li>
+                        <li>@lang('permanent-nail-polish.perminant_nail_polish')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -29,153 +28,94 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li class="active"><a href="{{ route('pages.gelpolish') }}" class="dez-page"
-                                        title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
-                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
-                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                <li class="active"><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('permanent-nail-polish.perminant_nail_polish')">@lang('permanent-nail-polish.perminant_nail_polish')</a></li>
+                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('permanent-nail-polish.mani_pedi')">@lang('permanent-nail-polish.mani_pedi')</a></li>
+                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('permanent-nail-polish.prosthetic_nail')">@lang('permanent-nail-polish.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('permanent-nail-polish.nail_art')">@lang('permanent-nail-polish.nail_art')</a></li>
+                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('permanent-nail-polish.silk_eyelash')">@lang('permanent-nail-polish.silk_eyelash')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('permanent-nail-polish.eyelash_lifting')">@lang('permanent-nail-polish.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('permanent-nail-polish.dipliner')">@lang('permanent-nail-polish.dipliner')</a> </li>
+                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('permanent-nail-polish.eyebrow_lamination')">@lang('permanent-nail-polish.eyebrow_lamination')</a></li>
+                                <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('permanent-nail-polish.microblading')">@lang('permanent-nail-polish.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('permanent-nail-polish.wax')">@lang('permanent-nail-polish.wax')</a></li>
+                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('permanent-nail-polish.lazer-epilasyon')">@lang('permanent-nail-polish.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('permanent-nail-polish.skin-care')">@lang('permanent-nail-polish.skin-care')</a></li>
+                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('permanent-nail-polish.cellulite-massage')">@lang('permanent-nail-polish.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('permanent-nail-polish.roll-shape')">@lang('permanent-nail-polish.roll-shape')</a> </li>
+                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('permanent-nail-polish.lip_filler')">@lang('permanent-nail-polish.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('permanent-nail-polish.keratin_care')">@lang('permanent-nail-polish.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('permanent-nail-polish.perm')">@lang('permanent-nail-polish.perm')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('permanent-nail-polish.')">@lang('permanent-nail-polish.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('permanent-nail-polish.highlighted')">@lang('permanent-nail-polish.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('permanent-nail-polish.hair_dye')">@lang('permanent-nail-polish.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('permanent-nail-polish.hair_dip_dye')">@lang('permanent-nail-polish.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('permanent-nail-polish.hair_cut')">@lang('permanent-nail-polish.hair_cut')</a> </li>
+                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('permanent-nail-polish.hair_extension')">@lang('permanent-nail-polish.hair_extension')</a></li>
+                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('permanent-nail-polish.bridal_hair')">@lang('permanent-nail-polish.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
-                                <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                <p>Instagramda Bizi Takip Edin</p>
+                                <h4 class="text-primary">@lang('permanent-nail-polish.sart_on_social_media')</h4>
+                                <p>@lang('permanent-nail-polish.follow_us_on_insta')</p>
                                 <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                    title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                    title="@lang('permanent-nail-polish.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-8">
-
-                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Kalıcı Oje</b>
-
-                        <p>Kalıcı oje uygulaması; yoğun iş temposuna sahip, oje sürmeye ve manikür yaptırmaya zamanı
-                            olmayanlar için idealdir.</p>
-
+                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('permanent-nail-polish.perminant_nail_polish')</b>
+                        <p>@lang('permanent-nail-polish.perminant_nail_polish_context_content')</p>
                         <div
                             class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Kalıcı Oje"><img src="/images/sart/kalıcı_oje_1.webp"
-                                                alt="Kalıcı Oje"></a> </div>
+                                            title="@lang('permanent-nail-polish.perminant_nail_polish')"><img src="/images/sart/kalıcı_oje_1.webp"
+                                                alt="@lang('permanent-nail-polish.perminant_nail_polish')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 200px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                 class="icon-cell"><i class="flaticon-woman"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Kalıcı Oje">Tırnaklarınızı Ön Plana Çıkarın</a>
+                                                title="@lang('permanent-nail-polish.perminant_nail_polish')">@lang('permanent-nail-polish.perminant_nail_polish_slide1_title')</a>
                                         </h6>
-                                        <p class="m-b15">S Art Beauty Center’da tırnaklarınız için istediğiniz renk ve
-                                            desenleri seçin.</p>
+                                        <p class="m-b15">@lang('permanent-nail-polish.perminant_nail_polish_slide1_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Kalıcı Oje"><img src="/images/sart/kalıcı_oje_4.webp"
-                                                alt="Kalıcı Oje"></a> </div>
+                                            title="@lang('permanent-nail-polish.perminant_nail_polish')"><img src="/images/sart/kalıcı_oje_4.webp"
+                                                alt="@lang('permanent-nail-polish.perminant_nail_polish')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 200px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                 class="icon-cell"><i class="flaticon-mortar"></i></a> </div>
-                                        <h6 class="dlab-title m-t0"><a href="#" title="Kalıcı Oje">Trend
-                                                Renkler</a>
+                                        <h6 class="dlab-title m-t0"><a href="#" title="@lang('permanent-nail-polish.perminant_nail_polish')">@lang('permanent-nail-polish.perminant_nail_polish_slide2_title')</a>
                                         </h6>
-                                        <p class="m-b15">Düzgün, pürüzsüz, parlak bir görünüm elde edin.</p>
+                                        <p class="m-b15">@lang('permanent-nail-polish.perminant_nail_polish_slide2_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Kalıcı Oje"><img src="/images/sart/kalıcı_oje_3.webp"
-                                                alt="Kalıcı Oje"></a> </div>
+                                            title="@lang('permanent-nail-polish.perminant_nail_polish')"><img src="/images/sart/kalıcı_oje_3.webp"
+                                                alt="@lang('permanent-nail-polish.perminant_nail_polish')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 200px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                 class="icon-cell"><i class="flaticon-candle"></i></a> </div>
-                                        <h6 class="dlab-title m-t0"><a href="#" title="Kalıcı Oje">Tırnaklarda
-                                                Uzun Süreli Etki</a>
+                                        <h6 class="dlab-title m-t0"><a href="#" title="@lang('permanent-nail-polish.perminant_nail_polish')">@lang('permanent-nail-polish.perminant_nail_polish_slide3_title')</a>
                                         </h6>
-                                        <p class="m-b15">Her an bakımlı tırnaklara sahip olmanın keyfini çıkarın.</p>
+                                        <p class="m-b15">@lang('permanent-nail-polish.perminant_nail_polish_slide3_cont')</p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-                        <h2 style="font-size: 1.25em;">Kalıcı Oje: Tırnaklarınızda Uzun Süreli Güzellik</h2>
-                        <h3 style="font-size: 1em;">Kalıcı Oje Nedir?</h3>
-                        Kalıcı oje, özel olarak formüle edilmiş oje türüdür ve UV ışığı altında sertleşir. Bu sayede
-                        tırnaklarınızda uzun süre dayanıklı bir renk ve parlaklık elde edebilirsiniz. Kalıcı oje,
-                        çatlamadan, soyulmadan ve solmadan uzun süre tırnaklarınızda kalır.
-                        </p>
+                        <h2 style="font-size: 1.25em;">@lang('permanent-nail-polish.perminant_nail_polish_subtitle2')</h2>
+                        <h3 style="font-size: 1em;">@lang('permanent-nail-polish.perminant_nail_polish_subtitle2_1')</h3>
+                        @lang('permanent-nail-polish.perminant_nail_polish_subtitle2_1_cont')</p>
 
                         {{-- Soru Cevaplar --}}
                         <div class="m-tb20">
@@ -185,13 +125,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq1"
                                                 class="" aria-expanded="true">
-                                                1. Kalıcı Oje Uygulaması Zaman Alır mı?</a>
+                                               @lang('permanent-nail-polish.perminant_nail_polish_context_question1')</a>
                                         </h2>
                                     </div>
                                     <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Kalıcı oje uygulaması yaklaşık 1 saat kadar sürer.
-                                            Kısa sürede parlak ve uzun süre dayanan tırnaklara sahip olursunuz.</div>
+                                        <div class="acod-content">@lang('permanent-nail-polish.perminant_nail_polish_context_answer1')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -199,13 +138,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq2"
                                                 class="collapsed" aria-expanded="false">
-                                                2. Kalıcı Ojenin Dayanıklılığı Ne Kadar?</a>
+                                               @lang('permanent-nail-polish.perminant_nail_polish_context_question2')</a>
                                         </h2>
                                     </div>
                                     <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Kalıcı oje, 2 ila 3 hafta boyunca dayanabilir. Tırnak
-                                            büyümesiyle birlikte yenileme işlemi gerekebilir.</div>
+                                        <div class="acod-content">@lang('permanent-nail-polish.perminant_nail_polish_context_answer2')</div>
                                     </div>
                                 </div>
 
@@ -214,13 +152,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq3"
                                                 class="collapsed" aria-expanded="false">
-                                                3. Tırnaklara Zarar Verir mi?</a>
+                                               @lang('permanent-nail-polish.perminant_nail_polish_context_question3')</a>
                                         </h2>
                                     </div>
                                     <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Kalıcı oje, doğru teknik ve ürünlerle uygulandığında
-                                            tırnaklara zarar vermez. Uzman tırnak teknisyenleri ile çalışmak önemlidir.
+                                        <div class="acod-content">@lang('permanent-nail-polish.perminant_nail_polish_context_answer3')
                                         </div>
                                     </div>
                                 </div>
@@ -230,13 +167,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq3"
                                                 class="collapsed" aria-expanded="false">
-                                                4. Hangi Renk ve Desen Seçenekleri Mevcut?</a>
+                                               @lang('permanent-nail-polish.perminant_nail_polish_context_question4')</a>
                                         </h2>
                                     </div>
                                     <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Kalıcı oje geniş bir renk ve desen yelpazesi sunar.
-                                            Hem klasik hem de trend renkler arasından seçim yapabilirsiniz.</div>
+                                        <div class="acod-content">@lang('permanent-nail-polish.perminant_nail_polish_context_answer4')</div>
                                     </div>
                                 </div>
 
@@ -245,14 +181,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq3"
                                                 class="collapsed" aria-expanded="false">
-                                                5. Kimler Kalıcı Oje Yaptırabilir?</a>
+                                               @lang('permanent-nail-polish.perminant_nail_polish_context_question5')</a>
                                         </h2>
                                     </div>
                                     <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Genellikle herkes kalıcı oje yaptırabilir. Ancak
-                                            tırnak hastalığı veya alerjisi olanlar için öncesinde uzman bir danışmanlık
-                                            önerilir.</div>
+                                        <div class="acod-content">@lang('permanent-nail-polish.perminant_nail_polish_context_answer5')</div>
                                     </div>
                                 </div>
                             </div>

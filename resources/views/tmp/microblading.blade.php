@@ -27,54 +27,30 @@
                         <div class="col-lg-3 col-md-4">
                             <div class="sticky-top">
                                 <ul class="service-list m-b30">
-                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page"
-                                            title="@lang('microblading.perminant_nail_polish')">@lang('microblading.perminant_nail_polish')</a></li>
-                                    <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                            title="@lang('microblading.mani_pedi')">@lang('microblading.mani_pedi')</a></li>
-                                    <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                            title="@lang('microblading.prosthetic_nail')">@lang('microblading.prosthetic_nail')</a></li>
-                                    <li><a href="{{ route('pages.nailart') }}" class="dez-page"
-                                            title="@lang('microblading.nail_art')">@lang('microblading.nail_art')</a></li>
-                                    <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                            title="@lang('microblading.silk_eyelash')">@lang('microblading.silk_eyelash')</a></li>
-                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                            title="@lang('microblading.eyelash_lifting')">@lang('microblading.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.microblading') }}" class="dez-page"
-                                            title="@lang('microblading.dipliner')">@lang('microblading.dipliner')</a> </li>
-                                    <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                            title="@lang('microblading.eyebrow_lamination')">@lang('microblading.eyebrow_lamination')</a></li>
-                                    <li  class="active"><a href="{{ route('pages.microblading') }}" class="dez-page"
-                                            title="@lang('microblading.microblading')">@lang('microblading.microblading')</a></li>
-                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page"
-                                            title="@lang('microblading.wax')">@lang('microblading.wax')</a></li>
-                                    <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                            title="@lang('microblading.lazer-epilasyon')">@lang('microblading.lazer-epilasyon')</a></li>
-                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page"
-                                            title="@lang('microblading.skin-care')">@lang('microblading.skin-care')</a></li>
-                                    <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                            title="@lang('microblading.cellulite-massage')">@lang('microblading.cellulite-massage')</a></li>
-                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page"
-                                            title="@lang('microblading.roll-shape')">@lang('microblading.roll-shape')</a> </li>
-                                    <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                            title="@lang('microblading.lip_filler')">@lang('microblading.lip_filler')</a></li>
-                                    <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                            title="@lang('microblading.keratin_care')">@lang('microblading.keratin_care')</a> </li>
-                                    <li><a href="{{ route('pages.perma') }}" class="dez-page"
-                                            title="@lang('microblading.perm')">@lang('microblading.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="@lang('microblading.')">@lang('microblading.')</a></li>
-                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page"
-                                            title="@lang('microblading.highlighted')">@lang('microblading.highlighted')</a></li>
-                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
-                                            title="@lang('microblading.hair_dye')">@lang('microblading.hair_dye')</a></li>
-                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page"
-                                            title="@lang('microblading.hair_dip_dye')">@lang('microblading.hair_dip_dye')</a></li>
-                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page"
-                                            title="@lang('microblading.hair_cut')">@lang('microblading.hair_cut')</a> </li>
-                                    <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                            title="@lang('microblading.hair_extension')">@lang('microblading.hair_extension')</a></li>
-                                    <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                            title="@lang('microblading.bridal_hair')">@lang('microblading.bridal_hair')</a></li>
+                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('microblading.perminant_nail_polish')">@lang('microblading.perminant_nail_polish')</a></li>
+                                    <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('microblading.mani_pedi')">@lang('microblading.mani_pedi')</a></li>
+                                    <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('microblading.prosthetic_nail')">@lang('microblading.prosthetic_nail')</a></li>
+                                    <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('microblading.nail_art')">@lang('microblading.nail_art')</a></li>
+                                    <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('microblading.silk_eyelash')">@lang('microblading.silk_eyelash')</a></li>
+                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('microblading.eyelash_lifting')">@lang('microblading.eyelash_lifting')</a></li>
+                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('microblading.dipliner')">@lang('microblading.dipliner')</a> </li>
+                                    <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('microblading.eyebrow_lamination')">@lang('microblading.eyebrow_lamination')</a></li>
+                                    <li class="active"><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('microblading.microblading')">@lang('microblading.microblading')</a></li>
+                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('microblading.wax')">@lang('microblading.wax')</a></li>
+                                    <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('microblading.lazer-epilasyon')">@lang('microblading.lazer-epilasyon')</a></li>
+                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('microblading.skin-care')">@lang('microblading.skin-care')</a></li>
+                                    <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('microblading.cellulite-massage')">@lang('microblading.cellulite-massage')</a></li>
+                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('microblading.roll-shape')">@lang('microblading.roll-shape')</a> </li>
+                                    <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('microblading.lip_filler')">@lang('microblading.lip_filler')</a></li>
+                                    <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('microblading.keratin_care')">@lang('microblading.keratin_care')</a> </li>
+                                    <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('microblading.perm')">@lang('microblading.perm')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('microblading.')">@lang('microblading.')</a></li>
+                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('microblading.highlighted')">@lang('microblading.highlighted')</a></li>
+                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('microblading.hair_dye')">@lang('microblading.hair_dye')</a></li>
+                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('microblading.hair_dip_dye')">@lang('microblading.hair_dip_dye')</a></li>
+                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('microblading.hair_cut')">@lang('microblading.hair_cut')</a> </li>
+                                    <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('microblading.hair_extension')">@lang('microblading.hair_extension')</a></li>
+                                    <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('microblading.bridal_hair')">@lang('microblading.bridal_hair')</a></li>
                                 </ul>
                                 <div class="download-brochure m-b30 ">
                                     <h4 class="text-primary">@lang('microblading.Sosyal Medyada Biz')</h4>
