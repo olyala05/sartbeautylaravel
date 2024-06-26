@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-           /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -59,6 +59,30 @@ return [
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
 
+    // mani_pedi
+    "mani_pedi_description" => "Manicure and Pedicure | S Art Beauty Center ",
+    "mani_pedi_title" => "Strengthen your nails and complete your elegance with a manicure and pedicure. Call now to book your appointment.",
+    "mani_pedi_main_header" => "Manicure and Pedicure",
+    "mani_pedi_context_title" => "Manicure and Pedicure",
+    "mani_pedi_context_content" => "Manicure and pedicure are important for maintaining nail health and achieving well-groomed and beautiful nails.",
+    "mani_pedi_context_question1" => "1. How Often Should Manicure and Pedicure Be Done?",
+    "mani_pedi_context_answer1" => "Generally, it is recommended to have a manicure and pedicure every 2 to 4 weeks. Regular care of nails and skin ensures healthy results.",
+    "mani_pedi_context_question2" => "2. How Long Does the Manicure and Pedicure Procedure Take?",
+    "mani_pedi_context_answer2" => "The duration of the procedure can vary based on whether it's for the hands or feet. On average, it can take about 1 hour.",
+    "mani_pedi_context_question3" => "3. What Products Are Used?",
+    "mani_pedi_context_answer3" => "For manicures, nail files, skin exfoliants, and moisturizing products are used, while for pedicures, foot files, skin softeners, and nail polish can be used.",
+    "mani_pedi_context_question4" => "4. Does It Hurt?",
+    "mani_pedi_context_answer4" => "The manicure and pedicure procedure is generally painless. However, you may feel slight discomfort when cutting cuticles or cleaning hardened skin areas.",
+    "mani_pedi_context_question5" => "5. When Is It Recommended?",
+    "mani_pedi_context_answer5" => "Manicure and pedicure are ideal for regular maintenance and special occasions. They are also suitable for addressing issues such as nail breakage, cracking, or dry skin.",
+    "mani_pedi_slide1_title" => "Radiance of Your Hands and Feet: Pamper Yourself with Manicure and Pedicure!",
+    "mani_pedi_slide1_cont" => "Achieve freshness and elegance for your hands and feet with professional manicure and pedicure at S Art Beauty Center.",
+    "mani_pedi_slide2_title" => "Well-Groomed Hands and Feet: Highlight Your Natural Beauty with Manicure and Pedicure!",
+    "mani_pedi_slide2_cont" => "You're in the right place for the beauty and care of your hands and feet. Emphasize your natural beauty with manicure and pedicure.",
+    "mani_pedi_slide3_title" => "Elegance from Fingertips to Toes: Professional Manicure and Pedicure Services!",
+    "mani_pedi_slide3_cont" => "Achieve elegance by providing special care for your nails and skin at S Art Beauty Center.",
+    "mani_pedi_subtitle2" => "Manicure and Pedicure: Hand and Foot Care",
+    "mani_pedi_subtitle2_1" => "What Is Manicure and Pedicure?",
+    "mani_pedi_subtitle2_1_cont" => "Manicure involves a series of procedures such as softening the skin, shaping, polishing, applying nail polish, pushing back cuticles, removing dead skin from the nail bed, filing nails, and hand massage. In pedicure, the same procedures are applied to the feet and toenails as in manicure treatment.",
+
 ];
-
-

@@ -40,7 +40,7 @@ return [
     "sart_on_social_media" => "Find Us on Social Media",
     "follow_us_on_insta" => "Follow Us on Instagram",
 
-          /** default keys **/
+    /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Official Website",
     "sart_official_center_home" => "S Art Beauty Center Home",
@@ -59,6 +59,36 @@ return [
     "reading_time" => "Estimated Reading Time",
     "ten_min" => "Reading Time",
 
+    // lip_filler
+    "lip_filler_description" => "Lip Coloring | S Art Beauty Center",
+    "lip_filler_title" => "Enhance your lips with a natural and attractive color through our lip tinting application. Book your appointment now for lasting beauty!",
+    "lip_filler_main_header" => "Lip Coloring",
+    "lip_filler_context_title" => "Permanent Makeup - Lip Tinting",
+    "lip_filler_context_content" => "Lip Tinting will make your lips appear more vibrant, healthy, and full. If you're tired of constantly reapplying lipstick, you can achieve consistently lively and bright lips with lip tinting.",
+    "lip_filler_context_question1" => "1. Is Lip Coloring Painful?",
+    "lip_filler_context_answer1" => "You may feel slight discomfort during the application, but it typically does not cause pain. Local anesthetic creams can be used in the area before the procedure to ensure a comfortable experience.",
+    "lip_filler_context_question2" => "2. How Is the Color Choice Made?",
+    "lip_filler_context_answer2" => "Your expert esthetician will help you make the most suitable color choice based on your skin tone and personal preferences.",
+    "lip_filler_context_question3" => "3. Is Lip Coloring Permanent?",
+    "lip_filler_context_answer3" => "Lip coloring is a permanent procedure, but it may fade over time. Generally, a touch-up may be required within 1-3 years.",
+    "lip_filler_context_question4" => "4. Who Can Get Lip Coloring?",
+    "lip_filler_context_answer4" => "Anyone who wants to enhance their lip color and appearance can get lip coloring. However, caution should be exercised in cases like pregnancy, certain skin conditions, or allergies.",
+    "lip_filler_context_question5" => "5. What Is the Recovery Process Like?",
+    "lip_filler_context_answer5" => "After the procedure, there may be mild swelling and redness in the lips. The initial few days may require careful care, but generally, you can return to your daily life quickly.
+                 <br><br>
+                 Discover a personalized solution for natural and stunning lips with lip coloring at S Art Beauty Center.",
+    "lip_filler_slide1_title" => "Natural Colors",
+    "lip_filler_slide1_cont" => "Achieve a natural look on your lips.",
+    "lip_filler_slide2_title" => "Accentuate Your Lips",
+    "lip_filler_slide2_cont" => "Define your lip contours",
+    "lip_filler_slide3_title" => "Say Goodbye to Lip Makeup",
+    "lip_filler_slide3_cont" => "With lip tinting, free yourself from searching for the right lipstick. Simplify your beauty routine.",
+    "lip_filler_slide4_title" => "Make Beauty Last",
+    "lip_filler_slide4_cont" => "Simplify your beauty routine by making your lips more distinct and attractive on a permanent basis.",
+    "lip_filler_slide5_title" => "Enhance Your Expression with Lip Coloring",
+    "lip_filler_slide5_cont" => "Enhance your expression by emphasizing your natural lip color. Feel more confident with lip coloring.",
+    "lip_filler_subtitle1" => "What is Lip Tinting?",
+    "lip_filler_subtitle1_cont" => "Lip coloring is a beauty procedure that enhances the natural lip color and defines your lip lines. It helps rejuvenate faded or pale lip colors while giving you fuller and more youthful-looking lips.",
+
+
 ];
-
-

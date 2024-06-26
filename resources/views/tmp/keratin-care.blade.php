@@ -5,13 +5,13 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Keratin Bakımı</h1>
+                <h1 class="text-white">@lang('keratin-care.keratin_care_main_header')</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                target="_self">Anasayfa</a></li>
-                        <li>Keratin Bakımıi</li>
+                        <li><a href="{{ route('pages.home') }}" title="@lang('keratin-care.sart_official_center_home')"
+                                target="_self">@lang('keratin-care.home')</a></li>
+                        <li>@lang('keratin-care.keratin_care_main_header')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -27,140 +27,111 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page"
+                                        title="@lang('keratin-care.perminant_nail_polish')">@lang('keratin-care.perminant_nail_polish')</a></li>
                                 <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
+                                        title="@lang('keratin-care.mani_pedi')">@lang('keratin-care.mani_pedi')</a></li>
                                 <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
+                                        title="@lang('keratin-care.prosthetic_nail')">@lang('keratin-care.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page"
+                                        title="@lang('keratin-care.nail_art')">@lang('keratin-care.nail_art')</a></li>
                                 <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
+                                        title="@lang('keratin-care.silk_eyelash')">@lang('keratin-care.silk_eyelash')</a></li>
                                 <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
+                                        title="@lang('keratin-care.eyelash_lifting')">@lang('keratin-care.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.keratin-care') }}" class="dez-page"
+                                        title="@lang('keratin-care.dipliner')">@lang('keratin-care.dipliner')</a> </li>
                                 <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
+                                        title="@lang('keratin-care.eyebrow_lamination')">@lang('keratin-care.eyebrow_lamination')</a></li>
+                                <li><a href="{{ route('pages.microblading') }}" class="dez-page"
+                                        title="@lang('keratin-care.microblading')">@lang('keratin-care.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page"
+                                        title="@lang('keratin-care.wax')">@lang('keratin-care.wax')</a></li>
+                                <li  class="active"><a href="{{ route('pages.iselaser') }}" class="dez-page"
+                                        title="@lang('keratin-care.lazer-epilasyon')">@lang('keratin-care.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page"
+                                        title="@lang('keratin-care.skin-care')">@lang('keratin-care.skin-care')</a></li>
                                 <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
+                                        title="@lang('keratin-care.cellulite-massage')">@lang('keratin-care.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page"
+                                        title="@lang('keratin-care.roll-shape')">@lang('keratin-care.roll-shape')</a> </li>
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
-                                <li class="active"><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
+                                        title="@lang('keratin-care.lip_filler')">@lang('keratin-care.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
+                                        title="@lang('keratin-care.keratin_care')">@lang('keratin-care.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page"
+                                        title="@lang('keratin-care.perm')">@lang('keratin-care.perm')</a></li>
                                 <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
+                                        title="@lang('keratin-care.')">@lang('keratin-care.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page"
+                                        title="@lang('keratin-care.highlighted')">@lang('keratin-care.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
+                                        title="@lang('keratin-care.hair_dye')">@lang('keratin-care.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page"
+                                        title="@lang('keratin-care.hair_dip_dye')">@lang('keratin-care.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page"
+                                        title="@lang('keratin-care.hair_cut')">@lang('keratin-care.hair_cut')</a> </li>
                                 <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
+                                        title="@lang('keratin-care.hair_extension')">@lang('keratin-care.hair_extension')</a></li>
                                 <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                        title="@lang('keratin-care.bridal_hair')">@lang('keratin-care.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
-                                <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                <p>Instagramda Bizi Takip Edin</p>
+                                <h4 class="text-primary">@lang('keratin-care.sart_on_social_media')</h4>
+                                <p>@lang('keratin-care.follow_us_on_insta')</p>
                                 <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                    title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                    title="@lang('keratin-care.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-8">
-                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Soğuk Spa Keratin Bakımı</b>
-                        <p>Keratin bakımı, saçların sağlıkla parlaması ve gücünü koruması için en etkili yöntemlerinden
-                            biridir. Saçlarınıza ihtiyaç duyduğu esnekliği ve parlaklığı kazandırmak için keratin
-                            işlemini deneyin.</p>
+                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('keratin-care.keratin_care_context_title')</b>
+                        <p>@lang('keratin-care.keratin_care_context_content')</p>
 
                         <div
                             class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Keratin Bakımı"><img src="/images/sart/keratin_bakım_1.webp"
-                                                alt="Keratin Bakımı"></a> </div>
+                                            title="@lang('keratin-care.keratin_care_main_header')"><img src="/images/sart/keratin_bakım_1.webp"
+                                                alt="@lang('keratin-care.keratin_care_main_header')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                 class="icon-cell"><i class="flaticon-woman"></i></a> </div>
-                                        <h6 class="dlab-title m-t0"><a href="#" title="Keratin Bakımı">Saç
-                                                Onarımı ve Yenilenmesi</a>
+                                        <h6 class="dlab-title m-t0"><a href="#" title="@lang('keratin-care.keratin_care_main_header')">@lang('keratin-care.keratin_care_slide1_title')</a>
                                         </h6>
-                                        <p class="m-b15">Yıpranmış saçları onararak sağlıklı bir bakım sunar.</p>
+                                        <p class="m-b15">@lang('keratin-care.keratin_care_slide1_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Keratin Bakımı"><img src="/images/sart/keratin_bakım_2.webp"
-                                                alt="Keratin Bakımı"></a> </div>
+                                            title="@lang('keratin-care.keratin_care_main_header')"><img src="/images/sart/keratin_bakım_2.webp"
+                                                alt="@lang('keratin-care.keratin_care_main_header')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                 class="icon-cell"><i class="flaticon-mortar"></i></a> </div>
-                                        <h6 class="dlab-title m-t0"><a href="#" title="Keratin Bakımı">Güçlü ve
-                                                Parlak Saçlar!</a>
+                                        <h6 class="dlab-title m-t0"><a href="#" title="@lang('keratin-care.keratin_care_main_header')">@lang('keratin-care.keratin_care_slide2_title')</a>
                                         </h6>
-                                        <p class="m-b15">Keratin bakımı ile saçlarınıza gücünü ve parlaklığını geri
-                                            kazandırın.</p>
+                                        <p class="m-b15">@lang('keratin-care.keratin_care_slide2_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Keratin Bakımı"><img src="/images/sart/keratin_bakım_3.webp"
-                                                alt="Keratin Bakımı"></a> </div>
+                                            title="@lang('keratin-care.keratin_care_main_header')"><img src="/images/sart/keratin_bakım_3.webp"
+                                                alt="@lang('keratin-care.keratin_care_main_header')"></a></div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                 class="icon-cell"><i class="flaticon-candle"></i></a> </div>
-                                        <h6 class="dlab-title m-t0"><a href="#" title="Keratin Bakımı">Keratin
-                                                Desteği</a>
+                                        <h6 class="dlab-title m-t0"><a href="#" title="@lang('keratin-care.keratin_care_main_header')">@lang('keratin-care.keratin_care_slide3_title')</a>
                                         </h6>
-                                        <p class="m-b15">Elektriklenmeyi ve kabarmayı engeller, saçların uzamasına
-                                            yardımcı olur.</p>
+                                        <p class="m-b15">@lang('keratin-care.keratin_care_slide3_cont')</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,14 +140,11 @@
 
 
                         <br>
-                        <h2 style="font-size: 1em; margin-bottom: 0.1em;">Saçlarınıza Canlılık Katın: Keratin Bakımı
-                            ile Saçlarınızı Yenileyin</h2>
-                        <h3 style="font-size: 1em; margin-bottom: 0.1em;">Soğuk Spa Keratin Bakımı Nedir?</h3>
-                        <b>Keratin bakımı, saç sağlığını iyileştirmek için keratin proteininin gücünden yararlanan bir
-                            saç bakım şeklidir.</b><br><br>
-                        <h4 style="font-size: 1em; margin-bottom: 0.1em;">Profesyonel Keratin Bakımı Uygulaması:</h4>
-                        Keratin bakımı, uzmanlarımızla gerçekleştirilir. Saç tipinize uygun ürünler belirlenir ve saç
-                        tellerine işlemesi için saçlarda bekletilir.
+                        <h2 style="font-size: 1em; margin-bottom: 0.1em;">@lang('keratin-care.keratin_care_subtitle2')</h2>
+                        <h3 style="font-size: 1em; margin-bottom: 0.1em;">@lang('keratin-care.keratin_care_subtitle2_1')</h3>
+                        <b>@lang('keratin-care.keratin_care_subtitle2_1_cont')</b><br><br>
+                        <h4 style="font-size: 1em; margin-bottom: 0.1em;">@lang('keratin-care.keratin_care_subtitle2_3')</h4>
+                        @lang('keratin-care.keratin_care_subtitle2_3_cont')
                         </p>
                         <div class="m-tb20">
                             <div class="accordion no-gap" id="accordion1">
@@ -185,13 +153,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq1"
                                                 class="" aria-expanded="true">
-                                                1. Keratin Bakımı Kimler İçin Uygundur?</a>
+                                                @lang('keratin-care.keratin_care_context_question1')</a>
                                         </h2>
                                     </div>
                                     <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Keratin bakımı genellikle kuru, yıpranmış, cansız
-                                            saçları olan herkes için uygundur. Uzman danışmanlık önerilir.</div>
+                                        <div class="acod-content">@lang('keratin-care.keratin_care_context_answer1')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -199,14 +166,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq2"
                                                 class="collapsed" aria-expanded="false">
-                                                2. Keratin Bakımı Ne Kadar Sürer?</a>
+                                                @lang('keratin-care.keratin_care_context_question2')</a>
                                         </h2>
                                     </div>
                                     <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Keratin bakım işlemi genellikle 1.5 ila 3 saat
-                                            arasında değişir. Saçın uzunluğu ve durumuna bağlı olarak değişkenlik
-                                            gösterebilir.</div>
+                                        <div class="acod-content">@lang('keratin-care.keratin_care_context_answer2')</div>
                                     </div>
                                 </div>
 
@@ -215,14 +180,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq3"
                                                 class="collapsed" aria-expanded="false">
-                                                3. Keratin Bakımı Sonrası Özel Bakım Gerekir mi?</a>
+                                               @lang('keratin-care.keratin_care_context_question3')</a>
                                         </h2>
                                     </div>
                                     <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Evet, keratin bakımı sonrası özel şampuan ve saç
-                                            bakım ürünleri kullanmak önerilir. Bu, etkinliği daha uzun süre korumanıza
-                                            yardımcı olur.</div>
+                                        <div class="acod-content">@lang('keratin-care.keratin_care_context_answer3')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -230,13 +193,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq4"
                                                 class="collapsed" aria-expanded="false">
-                                                4. Keratin Bakımı Zararlı mıdır? </a>
+                                               @lang('keratin-care.keratin_care_context_question4')</a>
                                         </h2>
                                     </div>
                                     <div id="faq4" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Doğru şekilde uygulandığında keratin bakımı saça
-                                            zarar vermez, aksine saçları yeniler ve besler.</div>
+                                        <div class="acod-content">@lang('keratin-care.keratin_care_context_answer4')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -244,14 +206,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq5"
                                                 class="collapsed" aria-expanded="false">
-                                                5. Sonuç Ne Kadar Süre Kalıcıdır? </a>
+                                              @lang('keratin-care.keratin_care_context_question5')</a>
                                         </h2>
                                     </div>
                                     <div id="faq5" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">Keratin bakımının etkisi saç tipine ve saçın yapısına
-                                            bağlı olarak değişebilir. Genellikle 2 ila 5 ay arasında kalıcılığını korur.
-                                        </div>
+                                        <div class="acod-content">@lang('keratin-care.keratin_care_context_answer5')</div>
                                     </div>
                                 </div>
                             </div>
