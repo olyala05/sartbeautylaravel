@@ -5,13 +5,13 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Profesyonel Cilt Bakımı</h1>
+                <h1 class="text-white">@lang('scin-care.skin-care_main_header')</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                target="_self">Anasayfa</a></li>
-                        <li>Profesyonel Cilt Bakımı</li>
+                        <li><a href="{{ route('pages.home') }}" title="@lang('scin-care.sart_official_center_home')"
+                                target="_self">@lang('scin-care.home')</a></li>
+                        <li>@lang('scin-care.skin-care_main_header')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -27,162 +27,104 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="Kalıcı Oje">Kalıcı
-                                        Oje</a>
-                                </li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="Manikür ve Pedikür">Manikür ve Pedikür</a>
-                                </li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="Protez Tırnak">Protez
-                                        Tırnak</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="Nail Art">Nail
-                                        Art</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="İpek Kirpik">İpek
-                                        Kirpik</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="Kirpik Lifting">Kirpik
-                                        Lifting</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="Dipliner">Dipliner</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="Kaş Laminasyon">Kaş
-                                        Laminasyon</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="Microblading">Microblading</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="Şeker Ağda">Şeker
-                                        Ağda</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="Buz Lazer Epilasyon">Buz
-                                        Lazer Epilasyon</a></li>
-                                <li class="active"><a href="{{ route('pages.skincare') }}" class="dez-page"
-                                        title="Cilt Bakımı">Cilt
-                                        Bakımı</a>
-                                </li>
-                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="G5 Selülit Masajı">G5
-                                        Selülit
-                                        Masajı</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="Roll Shape">Roll
-                                        Shape</a>
-                                </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="Dudak Renklendirme">Dudak
-                                        Renklendirme</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="Keratin Bakım">Keratin
-                                        Bakım</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="Perma">Perma</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="Brezilya Fönü">Brezilya
-                                        Fönü</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="Röfle">Röfle</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="Saç Boyası">Saç
-                                        Boyası</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="Dip Boyası">Dip
-                                        Boyası</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="Saç Kesim">Saç
-                                        Kesim</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="Saç Kaynak">Saç
-                                        Kaynak</a></li>
-                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="Gelin Topuzu">Gelin
-                                        Topuzu</a></li>
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('scin-care.perminant_nail_polish')">@lang('scin-care.perminant_nail_polish')</a></li>
+                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('scin-care.mani_pedi')">@lang('scin-care.mani_pedi')</a></li>
+                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('scin-care.prosthetic_nail')">@lang('scin-care.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('scin-care.nail_art')">@lang('scin-care.nail_art')</a></li>
+                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('scin-care.silk_eyelash')">@lang('scin-care.silk_eyelash')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('scin-care.eyelash_lifting')">@lang('scin-care.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('scin-care.dipliner')">@lang('scin-care.dipliner')</a> </li>
+                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('scin-care.eyebrow_lamination')">@lang('scin-care.eyebrow_lamination')</a></li>
+                                <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('scin-care.microblading')">@lang('scin-care.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('scin-care.wax')">@lang('scin-care.wax')</a></li>
+                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('scin-care.lazer-epilasyon')">@lang('scin-care.lazer-epilasyon')</a></li>
+                                <li class="active"><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('scin-care.skin-care')">@lang('scin-care.skin-care')</a></li>
+                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('scin-care.cellulite-massage')">@lang('scin-care.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('scin-care.roll-shape')">@lang('scin-care.roll-shape')</a> </li>
+                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('scin-care.lip_filler')">@lang('scin-care.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('scin-care.keratin_care')">@lang('scin-care.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('scin-care.perm')">@lang('scin-care.perm')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('scin-care.')">@lang('scin-care.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('scin-care.highlighted')">@lang('scin-care.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('scin-care.hair_dye')">@lang('scin-care.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('scin-care.hair_dip_dye')">@lang('scin-care.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('scin-care.hair_cut')">@lang('scin-care.hair_cut')</a> </li>
+                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('scin-care.hair_extension')">@lang('scin-care.hair_extension')</a></li>
+                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('scin-care.bridal_hair')">@lang('scin-care.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
-                                <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                <p>Instagramda Bizi Takip Edin</p>
+                                <h4 class="text-primary">@lang('scin-care.sart_on_social_media')</h4>
+                                <p>@lang('scin-care.follow_us_on_insta')</p>
                                 <a href="https://www.instagram.com/s.art.beauty" class="site-button"
-                                    title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
+                                    title="@lang('scin-care.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-8">
-                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Profesyonel Cilt Bakımı</b>
-                        <p>S Art Beauty Center uzmanları tarafından gerçekleştirilen profesyonel cilt bakımları,
-                            cildinizi hızlı ve etkili bir şekilde düzene sokmanıza, sağlıklı bir görünüme ve parlaklığa
-                            kavuşmanıza olanak tanır.
-                            Cilt bakımı, cildinizi düzene sokmanıza, sağlıklı bir görünüme ve parlaklığa kavuşmanıza
-                            olanak tanır.</b></p>
+                        <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('scin-care.skin-care_context_title')</b>
+                        <p>@lang('scin-care.skin-care_context_content')</b></p>
 
                         <div
                             class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Profesyonel Cilt Bakımı"><img
+                                            title="@lang('scin-care.skin-care_context_title')"><img
                                                 src="/images/sart/img_cilt_bakimi/skincare2.jpeg"
-                                                alt="Profesyonel Cilt Bakımı"></a> </div>
+                                                alt="@lang('scin-care.skin-care_context_title')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="Profesyonel Cilt Bakımı"><i
+                                                class="icon-cell" title="@lang('scin-care.skin-care_context_title')"><i
                                                     class="flaticon-woman"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Profesyonel Cilt Bakımı">Cilt Temizliği</a>
+                                                title="@lang('scin-care.skin-care_context_title')">@lang('scin-care.skin-care_slide1_title')</a>
                                         </h6>
-                                        <p class="m-b15">Cildinizi yabancı maddelerden ve ölü hücrelerden arındırır.
-                                        </p>
+                                        <p class="m-b15">@lang('scin-care.skin-care_slide1_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Profesyonel Cilt Bakımı"><img
+                                            title="@lang('scin-care.skin-care_context_title')"><img
                                                 src="/images/sart/img_cilt_bakimi/skincare6.jpeg"
-                                                alt="Profesyonel Cilt Bakımı"></a> </div>
+                                                alt="@lang('scin-care.skin-care_context_title')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="Profesyonel Cilt Bakımı"><i
+                                                class="icon-cell" title="@lang('scin-care.skin-care_context_title')"><i
                                                     class="flaticon-mortar"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Profesyonel Cilt Bakımı">Pürüzsüzlük</a>
+                                                title="@lang('scin-care.skin-care_context_title')">@lang('scin-care.skin-care_slide2_title')</a>
                                         </h6>
-                                        <p class="m-b15">Parlaklığı ortadan kaldırarak cildi mat ve kadifemsi hale
-                                            getirir.</p>
+                                        <p class="m-b15">@lang('scin-care.skin-care_slide2_cont')</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                     <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                            title="Profesyonel Cilt Bakımı"><img
+                                            title="@lang('scin-care.skin-care_context_title')"><img
                                                 src="/images/sart/img_cilt_bakimi/skincare1.jpeg"
-                                                alt="Profesyonel Cilt Bakımı"></a> </div>
+                                                alt="@lang('scin-care.skin-care_context_title')"></a> </div>
                                     <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                         style="height: 250px;">
                                         <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
-                                                class="icon-cell" title="Profesyonel Cilt Bakımı"><i
+                                                class="icon-cell" title="@lang('scin-care.skin-care_context_title')"><i
                                                     class="flaticon-candle"></i></a> </div>
                                         <h6 class="dlab-title m-t0"><a href="#"
-                                                title="Profesyonel Cilt Bakımı">Sağlıklı Görünüm</a>
+                                                title="@lang('scin-care.skin-care_context_title')">@lang('scin-care.skin-care_slide3_title')</a>
                                         </h6>
-                                        <p class="m-b15">Kan dolaşımının hızlanması ile birlikte ciltteki eşitsiz renk
-                                            tonları düzelmeye başlar.</p>
+                                        <p class="m-b15">@lang('scin-care.skin-care_slide3_cont')</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <p>
-                        <h2 style="font-size: 1em;">Profesyonel cilt bakımı nedir?</h2>
+                        <h2 style="font-size: 1em;">@lang('scin-care.skin-care_subtitle1')</h2>
                         </p>
-                        <p class="m-b20">Eğitimli uzmanlar tarafından, soruna yönelik profesyonel ürünlerle ve cildin
-                            ihtiyaçlarına uygun olarak yapılan kapsamlı bakım işlemidir.
-
-                        </p>
+                        <p class="m-b20">@lang('scin-care.skin-care_subtitle1_cont')</p>
                         <div class="m-tb20">
                             <div class="accordion no-gap" id="accordion1">
                                 <div class="panel">
@@ -190,15 +132,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq1"
                                                 class="" aria-expanded="true">
-                                                1. Cilt Bakımının Faydaları Nelerdir?</a>
+                                                @lang('scin-care.skin-care_context_question1')</a>
                                         </h2>
                                     </div>
                                     <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">1. Uzman ellerde, doğru ürünlerle yapılan bir cilt
-                                            bakımı; akne sorunlarının giderilmesini ya da hafifletilmesini, lekelerin
-                                            hafifletilmesini, anti-againg ve lifting etkisi, gözeneklerin sıkılaşmasını,
-                                            cildin nemlenmesini, parlamasını ve pürüzsüzleşmesini sağlar.</div>
+                                        <div class="acod-content">@lang('scin-care.skin-care_context_answer1')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -206,16 +145,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq2"
                                                 class="collapsed" aria-expanded="false">
-                                                2. Evde cilt bakımı ile profesyonel cilt bakımı arasındaki fark
-                                                nedir?</a>
+                                               @lang('scin-care.skin-care_context_question2')</a>
                                         </h2>
                                     </div>
                                     <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">2. Kullandığımız ürünler, istenmeyen etkileri önlemek
-                                            ve belirgin sonuçlar elde etmek için bir uzman gözetimi altında
-                                            kullanılmalıdır. Ayrıca prosedür sırasında rahatlama ve dinlenme fırsatı da
-                                            bulacaksınız.</div>
+                                        <div class="acod-content">@lang('scin-care.skin-care_context_answer2')</div>
                                     </div>
                                 </div>
 
@@ -224,15 +159,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq3"
                                                 class="collapsed" aria-expanded="false">
-                                                3. Profesyonel Cilt Bakımı Ne Sıklıkla Yapılmalı?</a>
+                                              @lang('scin-care.skin-care_context_question3')</a>
                                         </h2>
                                     </div>
                                     <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">3. Cilt yenilenme döngüsü yaklaşık 30 gündür. Bu
-                                            sürede yeni hücreler oluşur, bazı hücreler ise ölür. Bu ölü derilerden
-                                            kurtulmak için kişi ayda bir kez olmak üzere profesyonel cilt bakımını
-                                            yaptırabilir.</div>
+                                        <div class="acod-content">@lang('scin-care.skin-care_context_answer3')</div>
                                     </div>
                                 </div>
 
