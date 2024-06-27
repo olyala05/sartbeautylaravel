@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
-                            <ul class="service-list m-b30">
+                            {{-- <ul class="service-list m-b30">
                                 <li><a href="{{ route('pages.gelpolish') }}" class="dez-page"
                                         title="@lang('ice-laser-hair-removal.perminant_nail_polish')">@lang('ice-laser-hair-removal.perminant_nail_polish')</a></li>
                                 <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
@@ -38,7 +38,7 @@
                                         title="@lang('ice-laser-hair-removal.silk_eyelash')">@lang('ice-laser-hair-removal.silk_eyelash')</a></li>
                                 <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                         title="@lang('ice-laser-hair-removal.eyelash_lifting')">@lang('ice-laser-hair-removal.eyelash_lifting')</a></li>
-                                <li><a href="{{ route('pages.ice-laser-hair-removal') }}" class="dez-page"
+                                <li><a href="{{ route('pages.icelaser') }}" class="dez-page"
                                         title="@lang('ice-laser-hair-removal.dipliner')">@lang('ice-laser-hair-removal.dipliner')</a> </li>
                                 <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                         title="@lang('ice-laser-hair-removal.eyebrow_lamination')">@lang('ice-laser-hair-removal.eyebrow_lamination')</a></li>
@@ -62,6 +62,57 @@
                                         title="@lang('ice-laser-hair-removal.perm')">@lang('ice-laser-hair-removal.perm')</a></li>
                                 <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
                                         title="@lang('ice-laser-hair-removal.')">@lang('ice-laser-hair-removal.')</a></li>
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.highlighted')">@lang('ice-laser-hair-removal.highlighted')</a></li>
+                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.hair_dye')">@lang('ice-laser-hair-removal.hair_dye')</a></li>
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.hair_dip_dye')">@lang('ice-laser-hair-removal.hair_dip_dye')</a></li>
+                                <li><a href="{{ route('pages.haircut') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.hair_cut')">@lang('ice-laser-hair-removal.hair_cut')</a> </li>
+                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.hair_extension')">@lang('ice-laser-hair-removal.hair_extension')</a></li>
+                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.bridal_hair')">@lang('ice-laser-hair-removal.bridal_hair')</a></li>
+                            </ul> --}}
+
+                            <ul class="service-list m-b30">
+                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.perminant_nail_polish')">@lang('ice-laser-hair-removal.perminant_nail_polish')</a></li>
+                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.mani_pedi')">@lang('ice-laser-hair-removal.mani_pedi')</a></li>
+                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.prosthetic_nail')">@lang('ice-laser-hair-removal.prosthetic_nail')</a></li>
+                                <li><a href="{{ route('pages.nailart') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.nail_art')">@lang('ice-laser-hair-removal.nail_art')</a></li>
+                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.silk_eyelash')">@lang('ice-laser-hair-removal.silk_eyelash')</a></li>
+                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.eyelash_lifting')">@lang('ice-laser-hair-removal.eyelash_lifting')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.dipliner')">@lang('ice-laser-hair-removal.dipliner')</a> </li>
+                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.eyebrow_lamination')">@lang('ice-laser-hair-removal.eyebrow_lamination')</a></li>
+                                <li><a href="{{ route('pages.microblading') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.microblading')">@lang('ice-laser-hair-removal.microblading')</a></li>
+                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.wax')">@lang('ice-laser-hair-removal.wax')</a></li>
+                                <li  class="active"><a href="{{ route('pages.iselaser') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.lazer-epilasyon')">@lang('ice-laser-hair-removal.lazer-epilasyon')</a></li>
+                                <li><a href="{{ route('pages.skincare') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.skin-care')">@lang('ice-laser-hair-removal.skin-care')</a></li>
+                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.cellulite-massage')">@lang('ice-laser-hair-removal.cellulite-massage')</a></li>
+                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.roll-shape')">@lang('ice-laser-hair-removal.roll-shape')</a> </li>
+                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.lip_filler')">@lang('ice-laser-hair-removal.lip_filler')</a></li>
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.keratin_care')">@lang('ice-laser-hair-removal.keratin_care')</a> </li>
+                                <li><a href="{{ route('pages.perma') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.perm')">@lang('ice-laser-hair-removal.perm')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
+                                        title="@lang('ice-laser-hair-removal.brazillian-blow-dry')">@lang('ice-laser-hair-removal.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                         title="@lang('ice-laser-hair-removal.highlighted')">@lang('ice-laser-hair-removal.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

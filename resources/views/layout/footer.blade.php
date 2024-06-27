@@ -3,14 +3,14 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-left"> <span>Copyright © - sart</span></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-left"> <span>Copyright © - @lang('footer.sart')</span></div>
                 <div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-right ">
                     <div class="widget-link ">
                         <ul>
-                            <li><a href="{{ route('pages.policies') }}" title="Kullanım Politikalarımız">Kullanım Politikalarımız</a>
+                            <li><a href="{{ route('pages.policies') }}" title="@lang('footer.user_policies')">@lang('footer.user_policies')</a>
                             </li>
-                            <li><a href="{{ route('pages.contact') }}" title="S Art Beauty Center İletişim Sayfası"
-                                    target="_self">İletişim</a>
+                            <li><a href="{{ route('pages.contact') }}" title="@lang('footer.sart_official_center_contact')"
+                                    target="_self">@lang('footer.user_policies_subtitle6')</a>
                             </li>
                         </ul>
                     </div>
@@ -22,9 +22,9 @@
 <!-- Footer END-->
 <button class="scroltop fa fa-chevron-up"></button>
 <a target="_blank" href="https://api.whatsapp.com/send?phone=905335085191" rel="nofollow"
-    title="S Art Beauty Center Whatsapp Hesabı"><button class="footer_contact fa fa-whatsapp"></button></a>
+    title="@lang('footer.sart_official_center_whatsapp')"><button class="footer_contact fa fa-whatsapp"></button></a>
 <a target="_blank" href="https://www.instagram.com/s.art.beauty" rel="nofollow"
-    title="S Art Beauty Center Instagram Hesabı"><button class="footer_contact fa fa-instagram position-b"></button></a>
+    title="@lang('footer.sart_official_center_instagram')"><button class="footer_contact fa fa-instagram position-b"></button></a>
 <!-- JAVASCRIPT FILES ========================================= -->
 <script src="/js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
 <script src="/plugins/wow/wow.js"></script><!-- WOW JS -->
@@ -59,20 +59,14 @@
 <script src="/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script src="/js/rev.slider.js"></script>
-
 <script>
     jQuery(document).ready(function() {
         'use strict';
         dz_rev_slider_1();
-
-
-    }); /*ready*/
-
+    });
     $(document).ready(function() {
         $('.DZ-bt-buy-now').style('display', 'none');
     });
 </script>
-
 </body>
-
 </html>

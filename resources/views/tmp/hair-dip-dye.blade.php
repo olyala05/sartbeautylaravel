@@ -40,7 +40,7 @@
                                         title="@lang('hair-dip-dye.silk_eyelash')">@lang('hair-dip-dye.silk_eyelash')</a></li>
                                 <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                         title="@lang('hair-dip-dye.eyelash_lifting')">@lang('hair-dip-dye.eyelash_lifting')</a></li>
-                                <li><a href="{{ route('pages.hair-dip-dye') }}" class="dez-page"
+                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page"
                                         title="@lang('hair-dip-dye.dipliner')">@lang('hair-dip-dye.dipliner')</a> </li>
                                 <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                         title="@lang('hair-dip-dye.eyebrow_lamination')">@lang('hair-dip-dye.eyebrow_lamination')</a></li>
@@ -63,7 +63,7 @@
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                         title="@lang('hair-dip-dye.perm')">@lang('hair-dip-dye.perm')</a></li>
                                 <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="@lang('hair-dip-dye.')">@lang('hair-dip-dye.')</a></li>
+                                        title="@lang('hair-dip-dye.brazillian-blow-dry')">@lang('hair-dip-dye.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                         title="@lang('hair-dip-dye.highlighted')">@lang('hair-dip-dye.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

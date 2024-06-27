@@ -10,6 +10,7 @@ return [
     /*** about_us ***/
     "about_us_description" => "At S Art Beauty Center, we take pride in providing the highest quality beauty and hairdressing services to our valued customers in Istanbul, Kadikoy.",
     "about_us_title" => "S Art Beauty Center - About Us",
+    'sart'=>'S ART Beauty Center',
 
     // section 1
     "about_us_section1_subtitle" => "Refresh with Our Beauty Services ",

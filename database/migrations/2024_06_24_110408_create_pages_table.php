@@ -13,7 +13,8 @@ return new class extends Migration
             $table->foreignId('route_id')->constrained('routes')->onDelete('cascade');
             $table->string('title', 255);
             $table->string('description', 500);
-            $table->longText('content');
+            $table->longText('content')->nullable();
+            $table->string('view_path',255);
             $table->text('meta_information')->nullable();
             $table->timestamps();
         });

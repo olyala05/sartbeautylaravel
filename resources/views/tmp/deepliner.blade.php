@@ -44,7 +44,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('deepliner.lip_filler')">@lang('deepliner.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('deepliner.keratin_care')">@lang('deepliner.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('deepliner.perm')">@lang('deepliner.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('deepliner.')">@lang('deepliner.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('deepliner.brazillian-blow-dry')">@lang('deepliner.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('deepliner.highlighted')">@lang('deepliner.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('deepliner.hair_dye')">@lang('deepliner.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('deepliner.hair_dip_dye')">@lang('deepliner.hair_dip_dye')</a></li>

@@ -40,7 +40,7 @@
                                             title="@lang('manicure-pedicure.silk_eyelash')">@lang('manicure-pedicure.silk_eyelash')</a></li>
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                             title="@lang('manicure-pedicure.eyelash_lifting')">@lang('manicure-pedicure.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.manicure-pedicure') }}" class="dez-page"
+                                    <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
                                             title="@lang('manicure-pedicure.dipliner')">@lang('manicure-pedicure.dipliner')</a> </li>
                                     <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                             title="@lang('manicure-pedicure.eyebrow_lamination')">@lang('manicure-pedicure.eyebrow_lamination')</a></li>
@@ -63,7 +63,7 @@
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                             title="@lang('manicure-pedicure.perm')">@lang('manicure-pedicure.perm')</a></li>
                                     <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="@lang('manicure-pedicure.')">@lang('manicure-pedicure.')</a></li>
+                                            title="@lang('manicure-pedicure.brazillian-blow-dry')">@lang('manicure-pedicure.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                             title="@lang('manicure-pedicure.highlighted')">@lang('manicure-pedicure.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

@@ -10,6 +10,7 @@ return [
      /*** about_us ***/
      "about_us_description" => "Как S Art Beauty Center, мы гордимся предоставлением высококачественных услуг в области красоты и парикмахерского искусства нашим уважаемым клиентам в Кадыкёй, Стамбул.",
      "about_us_title" => "S Art Beauty Center - О нас",
+     'sart'=>'S ART Beauty Center',
 
      //section 1
      "about_us_section1_subtitle" => "Обновитесь с Нашими Услугами Красоты ",

@@ -307,7 +307,7 @@
                             <div class="service-content">
                                 <h6 class="text-uppercase">
                                     <a href="{{ route('pages.eyelashlifting') }}" class="text-primary"
-                                        title="@lang('home.index_section1_slide1_title')" target="_self">@lang('home.index_section1_slide1_cont')</a>
+                                        title="@lang('home.index_section1_slide1_title')" target="_self">@lang('home.index_section1_slide1_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide1_cont')</p>
                             </div>

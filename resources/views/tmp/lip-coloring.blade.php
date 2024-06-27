@@ -39,7 +39,7 @@
                                             title="@lang('lip-coloring.silk_eyelash')">@lang('lip-coloring.silk_eyelash')</a></li>
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                             title="@lang('lip-coloring.eyelash_lifting')">@lang('lip-coloring.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.lip-coloring') }}" class="dez-page"
+                                    <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
                                             title="@lang('lip-coloring.dipliner')">@lang('lip-coloring.dipliner')</a> </li>
                                     <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                             title="@lang('lip-coloring.eyebrow_lamination')">@lang('lip-coloring.eyebrow_lamination')</a></li>
@@ -62,7 +62,7 @@
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                             title="@lang('lip-coloring.perm')">@lang('lip-coloring.perm')</a></li>
                                     <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="@lang('lip-coloring.')">@lang('lip-coloring.')</a></li>
+                                            title="@lang('lip-coloring.brazillian-blow-dry')">@lang('lip-coloring.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                             title="@lang('lip-coloring.highlighted')">@lang('lip-coloring.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

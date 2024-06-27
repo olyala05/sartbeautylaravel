@@ -5,13 +5,13 @@
         style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">@lang('cellulite-massage.cellulite-massage')</h1>
+                <h1 class="text-white">@lang('cellulite-massage.selülit_main_header')</h1>
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
+                        <li><a href="{{ route('pages.home') }}" title="@lang('cellulite-massage.contact_us_section2_subtitle5')"
                                 target="_self">@lang('cellulite-massage.home')</a></li>
-                        <li>@lang('cellulite-massage.cellulite-massage')</li>
+                        <li>@lang('cellulite-massage.selülit_main_header')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -44,7 +44,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('cellulite-massage.lip_filler')">@lang('cellulite-massage.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('cellulite-massage.keratin_care')">@lang('cellulite-massage.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('cellulite-massage.perm')">@lang('cellulite-massage.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('cellulite-massage.')">@lang('cellulite-massage.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('cellulite-massage.brazillian-blow-dry')">@lang('cellulite-massage.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('cellulite-massage.highlighted')">@lang('cellulite-massage.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('cellulite-massage.hair_dye')">@lang('cellulite-massage.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('cellulite-massage.hair_dip_dye')">@lang('cellulite-massage.hair_dip_dye')</a></li>

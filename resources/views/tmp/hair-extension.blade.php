@@ -39,7 +39,7 @@
                                             title="@lang('hair-extension.silk_eyelash')">@lang('hair-extension.silk_eyelash')</a></li>
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                             title="@lang('hair-extension.eyelash_lifting')">@lang('hair-extension.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.hair-extension') }}" class="dez-page"
+                                    <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
                                             title="@lang('hair-extension.dipliner')">@lang('hair-extension.dipliner')</a> </li>
                                     <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                             title="@lang('hair-extension.eyebrow_lamination')">@lang('hair-extension.eyebrow_lamination')</a></li>
@@ -62,7 +62,7 @@
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                             title="@lang('hair-extension.perm')">@lang('hair-extension.perm')</a></li>
                                     <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="@lang('hair-extension.')">@lang('hair-extension.')</a></li>
+                                            title="@lang('hair-extension.brazillian-blow-dry')">@lang('hair-extension.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                             title="@lang('hair-extension.highlighted')">@lang('hair-extension.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
@@ -109,7 +109,8 @@
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
                                                 title="@lang('hair-extension.hair_extension_context_title')"><img src="/images/sart/saç_kaynak_2.webp"
-                                                    alt="@lang('hair-extension.hair_extension_context_title')"></a> </div>
+                                                    alt="@lang('hair-extension.hair_extension_context_title')"></a>
+                                        </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 250px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
