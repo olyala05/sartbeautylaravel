@@ -16,7 +16,10 @@ return [
 "contact_us_section2_subtitle2" => "Ваш адрес электронной почты",
 "contact_us_section2_subtitle3" => "Ваше сообщение",
 "contact_us_section2_subtitle4" => "Отправить",
-"contact_us_section2_subtitle5" => "S Art Beuty Center Главная",
+
+
+    /*** header subtitle ***/
+    "contact_us_section2_subtitle5" => "S Art Beuty Center Главная",
 ];
 
 

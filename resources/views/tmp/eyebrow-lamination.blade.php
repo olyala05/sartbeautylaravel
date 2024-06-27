@@ -6,13 +6,13 @@
             style="background-image:url(/images/sart/sartbeauty_bg_5.webp);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white">Kaş Laminasyonu</h1>
+                    <h1 class="text-white">@lang('eyebrow-lamination.eyebrow_lamination_main_header')</h1>
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
                             <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
-                                    target="_self">Anasayfa</a></li>
-                            <li>Kaş Laminasyonu</li>
+                                    target="_self">@lang('eyebrow-lamination.home')</a></li>
+                            <li>@lang('eyebrow-lamination.eyebrow_lamination_main_header')</li>
                         </ul>
                     </div>
                     <!-- Breadcrumb row END -->
@@ -36,7 +36,7 @@
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('eyebrow-lamination.eyelash_lifting')">@lang('eyebrow-lamination.eyelash_lifting')</a></li>
                                     <li><a href="{{ route('pages.eyebrow-lamination') }}" class="dez-page" title="@lang('eyebrow-lamination.dipliner')">@lang('eyebrow-lamination.dipliner')</a> </li>
                                     <li class="active"><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('eyebrow-lamination.eyebrow_lamination')">@lang('eyebrow-lamination.eyebrow_lamination')</a></li>
-                                    <li><a href="{{ 'microblading' }}" class="dez-page" title="@lang('eyebrow-lamination.microblading')">@lang('eyebrow-lamination.microblading')</a></li>
+                                    <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('eyebrow-lamination.microblading')">@lang('eyebrow-lamination.microblading')</a></li>
                                     <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('eyebrow-lamination.wax')">@lang('eyebrow-lamination.wax')</a></li>
                                     <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('eyebrow-lamination.lazer-epilasyon')">@lang('eyebrow-lamination.lazer-epilasyon')</a></li>
                                     <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('eyebrow-lamination.skin-care')">@lang('eyebrow-lamination.skin-care')</a></li>
@@ -54,86 +54,73 @@
                                     <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('eyebrow-lamination.bridal_hair')">@lang('eyebrow-lamination.bridal_hair')</a></li>
                                 </ul>
                                 <div class="download-brochure m-b30 ">
-                                    <h4 class="text-primary">Sosyal Medyada Biz</h4>
-                                    <p>Instagramda Bizi Takip Edin</p>
+                                    <h4 class="text-primary">@lang('eyebrow-lamination.sart_on_social_media')</h4>
+                                    <p>@lang('eyebrow-lamination.')Instagramda Bizi Takip Edin</p>
                                     <a href="https://www.instagram.com/s.art.beauty" class="site-button"
                                         title="S Art Beauty Center Instagram Hesabı" target="_blank">S.ART.BEAUTY</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-8">
-                            <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">Kaş Laminasyon Uygulaması</b>
+                            <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('eyebrow-lamination.eyebrow_lamination_context_title')</b>
 
-                            <p>Kaş laminasyonu, kaşlara yeni bir şekil ve hacim vererek etkileyici bir görünüm sağlar.</p>
+                            <p>@lang('eyebrow-lamination.follow_us_on_insta')</p>
 
                             <div
                                 class="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary m-b30">
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                                title="Kaş Laminasyonu"><img src="/images/sart/kas_laminasyon_1.webp"
-                                                    alt="Kaş Laminasyonu"></a> </div>
+                                                title="@lang('eyebrow-lamination.eyebrow_lamination_main_header')"><img src="/images/sart/kas_laminasyon_1.webp"
+                                                    alt="@lang('eyebrow-lamination.eyebrow_lamination_main_header')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 200px;">
-                                            <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
+                                            <div class="icon-bx-sm radius bg-white m-b20"><a href="#"
                                                     class="icon-cell"><i class="flaticon-woman"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Kaş Laminasyonu">İdeal
-                                                    Kaşlar</a>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('eyebrow-lamination.eyebrow_lamination_main_header')">@lang('eyebrow-lamination.eyebrow_lamination_slide1_title')</a>
                                             </h6>
-                                            <p class="m-b15">Kaşları daha kalın, esnek ve yumuşak hale getirir.</p>
+                                            <p class="m-b15">@lang('eyebrow-lamination.eyebrow_lamination_slide1_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                                title="Kaş Laminasyonu"><img src="/images/sart/kas_laminasyon_2.webp"
-                                                    alt="Kaş Laminasyonu"></a> </div>
+                                                title="@lang('eyebrow-lamination.eyebrow_lamination_main_header')"><img src="/images/sart/kas_laminasyon_2.webp"
+                                                    alt="@lang('eyebrow-lamination.eyebrow_lamination_main_header')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 200px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-mortar"></i></a> </div>
-                                            <h6 class="dlab-title m-t0"><a href="#" title="Kaş Laminasyonu">Doğal
-                                                    Görünüm</a>
+                                            <h6 class="dlab-title m-t0"><a href="#" title="@lang('eyebrow-lamination.eyebrow_lamination_main_header')">@lang('eyebrow-lamination.')Doğal Görünüm</a>
                                             </h6>
-                                            <p class="m-b15">Kalıcı bir değişiklik yapmadan yeni bir görünüm deneyin.</p>
+                                            <p class="m-b15">@lang('eyebrow-lamination.eyebrow_lamination_slide2_cont')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="dlab-box service-iconbox" style="margin-right: 20px;">
                                         <div class="dlab-media dlab-img-overlay5"> <a href="#"
-                                                title="Kaş Laminasyonu"><img src="/images/sart/kas_laminasyon_4.webp"
-                                                    alt="Kaş Laminasyonu"></a> </div>
+                                                title="@lang('eyebrow-lamination.eyebrow_lamination_main_header')"><img src="/images/sart/kas_laminasyon_4.webp"
+                                                    alt="@lang('eyebrow-lamination.eyebrow_lamination_main_header')"></a> </div>
                                         <div class="dlab-info p-a30 p-t60 border-1 bg-white text-center"
                                             style="height: 200px;">
                                             <div class="icon-bx-sm radius bg-white m-b20"> <a href="#"
                                                     class="icon-cell"><i class="flaticon-candle"></i></a> </div>
                                             <h6 class="dlab-title m-t0"><a href="#"
-                                                    title="Kaş Laminasyonu">Makyajsız Güzellik</a>
+                                                    title="@lang('eyebrow-lamination.eyebrow_lamination_main_header')">@lang('eyebrow-lamination.eyebrow_lamination_slide3_title')</a>
                                             </h6>
-                                            <p class="m-b15">Makyaja gerek duymadan belirgin kaşlar elde edin.</p>
+                                            <p class="m-b15">@lang('eyebrow-lamination.eyebrow_lamination_slide3_cont')</p>
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
-
-                            <h2 style="font-size: 1em; margin-bottom: 0.3em;">Doğal ve Belirgin Kaşlar İçin Kaş Laminasyonu
-                            </h2><br>
-                            <h3 style="font-size: 1em; margin-bottom: 0.1em;">
-                                Kaş Laminasyonu Nedir?</h3><br>
-                            Kaş laminasyonu, kaşların uzun süreli şekillendirilmesini sağlayan kaş bakım işlemidir. Kaşların
-                            yukarı doğru sabit kalmasını sağlarken bir yandan da kaşların taranmış ve şekilli görünmesine
-                            yardımcı olur.
-                            <br><br>
+                            <h2 style="font-size: 1em; margin-bottom: 0.3em;">@lang('eyebrow-lamination.eyebrow_lamination_subtitle2')</h2><br>
+                            <h3 style="font-size: 1em; margin-bottom: 0.1em;">@lang('eyebrow-lamination.eyebrow_lamination_subtitle2_1')</h3><br>
+                            @lang('eyebrow-lamination.eyebrow_lamination_subtitle2_1_cont')<br><br>
                             <h4 style="font-size: 1em; margin-bottom: 0.1em;">
-                                Kaş Laminasyonu Uygulama Süreci:</h4><br>
-                            Kaş laminasyonu, uzmanlarımız tarafından gerçekleştirilir. Öncelikle kaşlarınızın doğal yapısına
-                            uygun olarak şekillendirme yapılır, ardından özel ürünler kullanılarak düzgün bir şekilde
-                            sabitlenir.
-                            </p>
+                            @lang('eyebrow-lamination.eyebrow_lamination_subtitle2_3')</h4><br>
+                            @lang('eyebrow-lamination.eyebrow_lamination_subtitle2_3_cont')</p>
                             <div class="m-tb20">
                                 <div class="accordion no-gap" id="accordion1">
                                     <div class="panel">
@@ -141,14 +128,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq1"
                                                     class="" aria-expanded="true">
-                                                    1. Kaş Laminasyonu Ağrılı mıdır?</a>
+                                                    @lang('eyebrow-lamination.eyebrow_lamination_context_question1')</a>
                                             </h2>
                                         </div>
                                         <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Hayır, kaş laminasyonu ağrısız bir işlemdir. Kaş
-                                                tüyleri özel ürünlerle şekillendirilirken herhangi bir ağrı hissetmezsiniz.
-                                            </div>
+                                            <div class="acod-content">@lang('eyebrow-lamination.eyebrow_lamination_context_answer1')</div>
                                         </div>
                                     </div>
                                     <div class="panel">
@@ -156,13 +141,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq2"
                                                     class="collapsed" aria-expanded="false">
-                                                    2. Kaş Laminasyonu Ne Kadar Sürer?</a>
+                                                    @lang('eyebrow-lamination.eyebrow_lamination_context_question2')</a>
                                             </h2>
                                         </div>
                                         <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Kaş laminasyonu işlemi genellikle 45 dakika ile 1
-                                                saat arasında tamamlanır. Hızlı ve etkili bir yöntemdir.</div>
+                                            <div class="acod-content">@lang('eyebrow-lamination.eyebrow_lamination_context_answer2')</div>
                                         </div>
                                     </div>
 
@@ -171,14 +155,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq3"
                                                     class="collapsed" aria-expanded="false">
-                                                    3. Sonuç Ne Kadar Süre Kalıcıdır?</a>
+                                                    @lang('eyebrow-lamination.eyebrow_lamination_context_question3')</a>
                                             </h2>
                                         </div>
                                         <div id="faq3" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Kaş laminasyonu sonucu genellikle 4-6 hafta boyunca
-                                                kalıcılığını korur. Doğal tüy dökülme döngüsüne bağlı olarak bakım süresi
-                                                değişebilir.</div>
+                                            <div class="acod-content">@lang('eyebrow-lamination.eyebrow_lamination_context_answer3')</div>
                                         </div>
                                     </div>
                                     <div class="panel">
@@ -186,14 +168,12 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq4"
                                                     class="collapsed" aria-expanded="false">
-                                                    4. Kimler Kaş Laminasyonu Yaptırabilir? </a>
+                                                    @lang('eyebrow-lamination.eyebrow_lamination_context_question4')</a>
                                             </h2>
                                         </div>
                                         <div id="faq4" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">Kaş laminasyonu hemen hemen herkes için uygundur.
-                                                Ancak hamilelik veya cilt rahatsızlıkları gibi durumlarda öncesinde uzman
-                                                bir danışmanlık önerilir.</div>
+                                            <div class="acod-content">@lang('eyebrow-lamination.eyebrow_lamination_context_answer4')</div>
                                         </div>
                                     </div>
                                     <div class="panel">
@@ -201,19 +181,16 @@
                                             <h2 style="font-size: 1em;" class="acod-title">
                                                 <a href="#" data-toggle="collapse" data-target="#faq5"
                                                     class="collapsed" aria-expanded="false">
-                                                    5. Kaş Laminasyonu Sonrası Bakım Nasıl Olmalıdır? </a>
+                                                    @lang('eyebrow-lamination.eyebrow_lamination_context_question5')</a>
                                             </h2>
                                         </div>
                                         <div id="faq5" class="acod-body collapse" data-parent="#accordion1"
                                             style="">
-                                            <div class="acod-content">İlk 24 saat boyunca kaşları su temasından korumak ve
-                                                özel ürünler kullanmamak önemlidir. Daha sonra normal günlük bakımınıza
-                                                devam edebilirsiniz.</div>
+                                            <div class="acod-content">@lang('eyebrow-lamination.eyebrow_lamination_context_answer5')</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
