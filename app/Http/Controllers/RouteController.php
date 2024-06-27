@@ -13,16 +13,18 @@ class RouteController extends Controller
     {
         $route = Routes::where('slug', $route)->first();
 
-        App::setlocale($route->lang);
-
+        App::setLocale($route->lang ?? App::getLocale());
+        
         if ($route) {
+
             $page = Pages::where("route_id", $route->id)->first();
 
-            return view('pages.default',['route' => $route,'page' => $page]);
+            return view('pages.default', ['route' => $route, 'page' => $page]);
         } else {
             return view('pages.404');
         }
     }
+
     public function show404()
     {
         return view('pages.404');

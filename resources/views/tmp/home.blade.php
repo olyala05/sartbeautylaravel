@@ -1,4 +1,4 @@
-    <!-- Content -->
+     <!-- Content -->
     <div class="page-content bg-white">
         <!-- Main Slider -->
         <div class="rev-slider">
