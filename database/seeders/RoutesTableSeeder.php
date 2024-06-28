@@ -32,8 +32,8 @@ class RoutesTableSeeder extends Seeder
             'slug' => 'about-us',
             'uniq_slug' => 'about-us',
             "meta_information" => [
-                "title" => "",
-                "description" => "",
+                "title" => "Kadıköy Beauty Center | S Art Beauty Center",
+                "description" => "At S Art Beauty Center, we offer a wide range of services, from ice laser epilation to nail care, and from skin care to hair care services.",
             ]
         ],
         [

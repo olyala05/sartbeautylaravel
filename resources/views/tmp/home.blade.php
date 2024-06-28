@@ -466,7 +466,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.shugaring') }}" class="text-primary"
+                                    <a href="{{ uniqRt('wax-application') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide12_alt')" target="_self">@lang('home.index_section1_slide12_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide12_cont')</p>
@@ -476,9 +476,10 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="{{ route('pages.services') }}" class="site-button outline focus-white"
+                    <a href="{{ uniqRt('services') }}" class="site-button outline focus-white"
                         title="@lang('home.sart_official_center_job_explanation')" target="_self">@lang('home.index_section1_services_redirect_button')</a>
                 </div>
+
             </div>
         </div>
         <!-- Why Chose Us -->
