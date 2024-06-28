@@ -5,6 +5,7 @@ use App\Http\Controllers\LangController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PoliciesController;
 use App\Http\Controllers\RouteController;
+use App\Http\Middleware\SetLocale;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
@@ -15,7 +16,9 @@ Route::get('/404', [RouteController::class, 'show404'])->name('pages.404');
 Route::get('set-language/{lang}', function (Request $request, $lang) {
     $request->session()->put('locale', $lang);
     return redirect()->back();
-})->name('set.language');
+})
+->middleware(SetLocale::class)
+->name('set.language');
 
 Route::get('set-language/{lang}', [LangController::class, 'setLanguage'])->name('set.language');
 Route::get('lang/home', [LangController::class, 'index']);

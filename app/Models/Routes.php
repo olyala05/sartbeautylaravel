@@ -16,4 +16,8 @@ class Routes extends Model
         'created_at',
         'updated_at'
     ];
+
+    protected $casts = [
+        'meta_information' => 'object',
+    ];
 }

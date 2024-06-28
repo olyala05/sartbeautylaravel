@@ -232,8 +232,8 @@ class PagesTableSeeder extends Seeder
         [
             'lang' => 'tr', 'slug' => 'cilt-bakimi',
             'title' => 'Kadıköy - Profesyonel Cilt Bakımı | S Art Beauty Center',
-            'description' => "S Art Beauty Center'da profesyonel cilt bakımı ile cildinizi yeniden canlandırın! Deneyimli estetisyenlerimizle birlikte cildinizini yenileyin.',
-            'content' => 'BLADE:tmp.skin-care"
+            'description' => "S Art Beauty Center'da profesyonel cilt bakımı ile cildinizi yeniden canlandırın! Deneyimli estetisyenlerimizle birlikte cildinizini yenileyin.",
+            'content' => "BLADE:tmp.skin-care"
         ],
         [
             'lang' => 'tr', 'slug' => 'dipliner',
@@ -515,7 +515,8 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.hair-extension'
         ],
         [
-            'lang' => 'ru', 'slug' => 'shugaring',
+            'lang' => 'ru',
+            'slug' => 'shugaring',
             'title' => "кадыкёй - Ваксинг | S Art Beauty Center",
             'description' => "Испытайте гладкость кожи без волос с профессиональными услугами ваксинга в S Art Beauty Center. Запишитесь на прием прямо сейчас!",
             'content' => 'BLADE:tmp.wax-application'
@@ -537,6 +538,11 @@ class PagesTableSeeder extends Seeder
 
                 $model->title = $page['title'];
                 $model->description = $page['description'];
+
+                $model->meta_information = [
+                    'title' => $page['title'],
+                    'description' => $page['description'],
+                ];
 
                 if (str_contains($page['content'], 'BLADE:'))
                     $model->view_path = (trim(str_replace('BLADE:', "", $page['content'])));

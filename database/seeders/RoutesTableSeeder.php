@@ -10,10 +10,14 @@ class RoutesTableSeeder extends Seeder
 {
     public $routes = [
         // -------------------------------- EN -------------------------- //
-        ['lang' => 'en', 'slug' => 'services', "meta_information" => [
-            "title" => "Our Services | S Art Beauty Center",
-            "description" => "Discover our services at S Art Beauty Center in Kadıköy. Visit us for skin care, epilation, hair design, and more.",
-        ]],
+        [
+            'lang' => 'en',
+            'slug' => 'services',
+            "meta_information" => [
+                "title" => "Our Services | S Art Beauty Center",
+                "description" => "Discover our services at S Art Beauty Center in Kadıköy. Visit us for skin care, epilation, hair design, and more.",
+            ]
+        ],
         ['lang' => 'en', 'slug' => 'home', "meta_information" => [
             "title" => "Kadıköy - Beauty Center | S Art Beauty Center",
             "description" => "At S Art Beauty Center, we offer a wide range of services, from ice laser epilation to nail care, and from skin care to hair care services.",
@@ -357,7 +361,11 @@ class RoutesTableSeeder extends Seeder
             $model->slug = $route['slug'];
             $model->amp = 0;
             $model->is_active = 1;
-            $model->meta_information = null;
+            $model->meta_information = [
+                'title' => $route['meta_information']['title'],
+                'description' => $route['meta_information']['description'],
+            ];
+
             $model->lang = $route['lang'];
             $model->save();
         });

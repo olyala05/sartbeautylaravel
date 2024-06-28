@@ -15,6 +15,11 @@ class LanguageManager
             App::setLocale(session()->get('locale'));
         }
 
+        $settings = \App\Models\Settings::get();
+
+        config(['settings' => $settings]);
+        // dd(config('settings'));
+
         return $next($request);
     }
 }
