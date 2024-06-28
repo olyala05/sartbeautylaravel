@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('hair-color-highlights.')S Art Beauty Center Ana Sayfa"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('hair-color-highlights.')S Art Beauty Center Ana Sayfa"
                                 target="_self">@lang('hair-color-highlights.home')</a></li>
                         <li>@lang('hair-color-highlights.highlighted_main_header')</li>
                     </ul>

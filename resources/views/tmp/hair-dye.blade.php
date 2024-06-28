@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('hair-dye.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('hair-dye.sart_official_center_home')"
                                     target="_self">@lang('hair-dye.home')</a></li>
                             <li>@lang('hair-dye.hair_dye_main_header')</li>
                         </ul>

@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('perming.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('perming.sart_official_center_home')"
                                     target="_self">@lang('perming.home')</a></li>
                             <li>@lang('perming.perm')</li>
                         </ul>

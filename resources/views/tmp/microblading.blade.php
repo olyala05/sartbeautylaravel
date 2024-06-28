@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('microblading.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('microblading.sart_official_center_home')"
                                     target="_self">@lang('microblading.home')</a></li>
                             <li>@lang('microblading.microblading')</li>
                         </ul>

@@ -8,7 +8,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('about.sart')">@lang('about.home')</a></li>
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('about.sart')">@lang('about.home')</a></li>
                             <li>@lang('about.services')</li>
                         </ul>
                     </div>

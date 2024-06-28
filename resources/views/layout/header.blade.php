@@ -2,12 +2,15 @@
 <html lang="{{ app()->getLocale() }}">
 
 <head>
-    <title>@yield('title',config('setting.title'))</title>
-    <meta charset="utf-8">
+    <title>@yield('title', settings('seo')->title)</title>
 
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="@yield('description',config('setting.description'))" content="Dlabs">
+
+    <meta name="@yield('description', settings('seo')->description)" content="Dlabs">
+
+    <!-- END SettingsTableSeeder Language -->
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="text/css" href="/css/plugins.css">
@@ -46,17 +49,17 @@
                         </div>
                         <div class="dlab-topbar-right topbar-social">
                             <ul>
-                                <li><a target="_blank" href="https://www.facebook.com/sartbeautymerkezi"
+                                <li><a target="_blank" href="{{  settings('social-media')->facebook->href ?? '#' }}"
                                         class="site-button-link facebook hover" rel="nofollow"
-                                        title="@lang('header.sart_official_center_facebook')"><i class="fa fa-facebook"></i></a>
+                                        title="{{  settings('social-media')->facebook->alt ?? '#' }}"><i class="fa fa-facebook"></i></a>
                                 </li>
-                                <li><a target="_blank" href="https://api.whatsapp.com/send?phone=905335085191"
+                                <li><a target="_blank" href="{{ settings('social-media')->whatsapp->href ?? '#' }}"
                                         class="site-button-link whatsapp hover" rel="nofollow"
-                                        title="@lang('header.sart_official_center_whatsapp')"><i class="fa fa-whatsapp"></i></a>
+                                        title="{{ settings('social-media')->whatsapp->alt ?? '#' }}"><i class="fa fa-whatsapp"></i></a>
                                 </li>
-                                <li><a target="_blank" href="https://www.instagram.com/s.art.beauty"
+                                <li><a target="_blank" href="{{ settings('social-media')->instagram->href ?? '#' }}"
                                         class="site-button-link instagram hover" rel="nofollow"
-                                        title="@lang('header.sart_official_center_instagram')"><i class="fa fa-instagram"></i></a>
+                                        title="{{ settings('social-media')->instagram->alt ?? '#' }}"><i class="fa fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -70,8 +73,8 @@
                     <div class="container clearfix">
                         <!-- website logo -->
                         <div class="logo-header mostion">
-                            <a href="{{ route('pages.home') }}" class="dez-page" title="@lang('header.sart')"><img
-                                    class="logo-img" src="/images/sart/logo.png" alt="@lang('header.sart')"></a>
+                            <a href="{{ route('route',['/']) }}" class="dez-page" title="{{ settings('footer')->sart }}"><img
+                                    class="logo-img" src="{{ settings('logo')->href }}" alt="{{ settings('logo')->alt }}"></a>
                         </div>
                         <!-- nav toggle button -->
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
@@ -85,7 +88,7 @@
                         <!-- MENÜ START -->
                         <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="nav navbar-nav">
-                                <li class=""><a href="{{ route('pages.home') }}">@lang('header.home')</a></li>
+                                <li class=""><a href="{{ route('route',['/']) }}">@lang('header.home')</a></li>
                                 <li class=""><a href="{{ route('pages.about') }}" class="dez-page"
                                         title="@lang('header.about_us')">@lang('header.about_us')</li>
                                 <!-- Hizmetlerimiz -->
@@ -162,21 +165,21 @@
                                     </a>
                                     <ul class="sub-menu">
                                         <li class="@if (app()->getLocale() == 'tr') selected @endif">
-                                            <a href="{{ route('set.language', 'tr') }}" class="dez-page"
+                                            <a href="#" class="dez-page"
                                                 title="{{ __('header.turkish') }}">
                                                 <img src="/images/tr.webp" class="lang-img"
                                                     alt="{{ __('header.turkish') }}"> TR
                                             </a>
                                         </li>
                                         <li class="@if (app()->getLocale() == 'ru') selected @endif">
-                                            <a href="{{ route('set.language', 'ru') }}" class="dez-page"
+                                            <a href="#" class="dez-page"
                                                 title="{{ __('header.russian') }}">
                                                 <img src="/images/ru.webp" class="lang-img"
                                                     alt="{{ __('header.russian') }}"> RU
                                             </a>
                                         </li>
                                         <li class="@if (app()->getLocale() == 'en') selected @endif">
-                                            <a href="{{ route('set.language', 'en') }}" class="dez-page"
+                                            <a href="#" class="dez-page"
                                                 title="{{ __('header.english') }}">
                                                 <img src="/images/us.webp" class="lang-img"
                                                     alt="{{ __('header.english') }}"> ENG

@@ -2,9 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Routes;
 use App\Models\Settings;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class SettingsTableSeeder extends Seeder
@@ -20,10 +18,14 @@ class SettingsTableSeeder extends Seeder
             ],
             "name" => "seo",
         ],
+        // [
+        //    'lang' => "en",
+        //    "name" => "header_title",
+        // ],
         [
             'lang' => "en",
             'content' => [
-                'href' => '#',
+                'href' => "/images/sart/logo.png",
                 'alt' => 'S Art Beauty Center',
             ],
             "name" => "logo",
@@ -60,12 +62,8 @@ class SettingsTableSeeder extends Seeder
                     'href' => 'https://www.facebook.com/sartbeautymerkezi',
                     'alt' =>  'S Art Beauty Center Facebook Account',
                 ],
-                'instagram_tr' => [
+                'instagram' => [
                     'href' => 'https://www.instagram.com/s_art_beauty',
-                    'alt' => 'S Art Beauty Center Instagram Account',
-                ],
-                'instagram_ru' => [
-                    'href' => 'https://www.instagram.com/sartbeauty',
                     'alt' => 'S Art Beauty Center Instagram Account',
                 ],
                 'whatsapp' => [
@@ -74,6 +72,15 @@ class SettingsTableSeeder extends Seeder
                 ],
             ],
             "name" => "social-media",
+        ],
+        [
+            'lang' => [ "en"],
+            'content' => [
+                'map_link' => 'https://goo.gl/maps/MLkCjkQovNnJvqrw6',
+                'map_iframe' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48177.377705725456!2d28.962574348632792!3d41.001488500000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9651709e8f9%3A0x9552484cb55df7fc!2sSart%20Beauty%20Sa%C3%A7%20Tasar%C4%B1m!5e0!3m2!1str!2str!4v1688567066533!5m2!1str!2str',
+                'map_title' => 'S ART Beuty Center Google Map',
+            ],
+            "name" => "map",
         ],
 
         // TODO: -------------------------------- TR -------------------------- //
@@ -88,7 +95,7 @@ class SettingsTableSeeder extends Seeder
         [
             'lang' => "tr",
             'content' => [
-                'href' => '#',
+                'href' => "/images/sart/logo.png",
                 'alt' => 'S Art Beauty Center',
             ],
             "name" => "logo",
@@ -125,12 +132,8 @@ class SettingsTableSeeder extends Seeder
                     'href' => 'https://www.facebook.com/sartbeautymerkezi',
                     'alt' =>  'S Art Beauty Center Facebook Hesabı',
                 ],
-                'instagram_tr' => [
+                'instagram' => [
                     'href' => 'https://www.instagram.com/s_art_beauty',
-                    'alt' => 'S Art Beauty Center Instagram Hesabı',
-                ],
-                'instagram_ru' => [
-                    'href' => 'https://www.instagram.com/sartbeauty',
                     'alt' => 'S Art Beauty Center Instagram Hesabı',
                 ],
                 'whatsapp' => [
@@ -139,6 +142,15 @@ class SettingsTableSeeder extends Seeder
                 ],
             ],
             "name" => "social-media",
+        ],
+        [
+            'lang' => ["tr"],
+            'content' => [
+                'map_link' => 'https://goo.gl/maps/MLkCjkQovNnJvqrw6',
+                'map_iframe' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48177.377705725456!2d28.962574348632792!3d41.001488500000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9651709e8f9%3A0x9552484cb55df7fc!2sSart%20Beauty%20Sa%C3%A7%20Tasar%C4%B1m!5e0!3m2!1str!2str!4v1688567066533!5m2!1str!2str',
+                'map_title' => 'S ART Beuty Center Google Harita',
+            ],
+            "name" => "map",
         ],
 
         // TODO: -------------------------------- RU -------------------------- //
@@ -190,12 +202,8 @@ class SettingsTableSeeder extends Seeder
                     'href' => 'https://www.facebook.com/sartbeauty',
                     'alt' =>  'Аккаунт Facebook S Art Beauty Center',
                 ],
-                'instagram_tr' => [
-                    'href' => 'https://www.instagram.com/s_art_beauty',
-                    'alt' => 'Аккаунт Instagram S Art Beauty Center',
-                ],
-                'instagram_ru' => [
-                    'href' => 'https://www.instagram.com/sartbeauty',
+                'instagram' => [
+                    'href' => 'https://www.instagram.com/sartbeauty', // rusça instagram linki
                     'alt' => 'Аккаунт Instagram S Art Beauty Center',
                 ],
                 'whatsapp' => [
@@ -204,6 +212,15 @@ class SettingsTableSeeder extends Seeder
                 ],
             ],
             "name" => "social-media",
+        ],
+        [
+            'lang' => ["ru"],
+            'content' => [
+                'map_link' => 'https://goo.gl/maps/MLkCjkQovNnJvqrw6',
+                'map_iframe' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48177.377705725456!2d28.962574348632792!3d41.001488500000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9651709e8f9%3A0x9552484cb55df7fc!2sSart%20Beauty%20Sa%C3%A7%20Tasar%C4%B1m!5e0!3m2!1str!2str!4v1688567066533!5m2!1str!2str',
+                'map_title' => 'S ART Beuty Center Google Карта',
+            ],
+            "name" => "map",
         ],
 
         // TODO: -------------------------- FOR ALL LANGS -------------------------- //
@@ -226,13 +243,6 @@ class SettingsTableSeeder extends Seeder
                 'email' => 'acibademasbeauty@gmail.com',
             ],
             "name" => "contact",
-        ],
-        [
-            'lang' => ["tr", "en", "ru"],
-            'content' => [
-                'map_link' => 'https://goo.gl/maps/MLkCjkQovNnJvqrw6',
-            ],
-            "name" => "map_link",
         ],
         [
             'lang' => ["tr", "en", "ru"],

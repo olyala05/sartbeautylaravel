@@ -12,7 +12,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('policies.user_policies_title')">@lang('policies.user_policies_title')</a></li>
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('policies.user_policies_title')">@lang('policies.user_policies_title')</a></li>
                             <li>@lang('policies.our_policies')</li>
                         </ul>
                     </div>

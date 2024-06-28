@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
+                            <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa"
                                     target="_self">@lang('eyelash-lifting.home')</a></li>
                             <li>@lang('eyelash-lifting.eyelash_lifting')</li>
                         </ul>

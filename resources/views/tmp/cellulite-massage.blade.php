@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('cellulite-massage.contact_us_section2_subtitle5')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('cellulite-massage.contact_us_section2_subtitle5')"
                                 target="_self">@lang('cellulite-massage.home')</a></li>
                         <li>@lang('cellulite-massage.selülit_main_header')</li>
                     </ul>

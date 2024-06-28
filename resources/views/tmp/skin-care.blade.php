@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('skin-care.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('skin-care.sart_official_center_home')"
                                 target="_self">@lang('skin-care.home')</a></li>
                         <li>@lang('skin-care.skin-care_main_header')</li>
                     </ul>

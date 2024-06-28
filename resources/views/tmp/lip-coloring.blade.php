@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('lip-coloring.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('lip-coloring.sart_official_center_home')"
                                     target="_self">@lang('lip-coloring.home')</a></li>
                             <li>@lang('lip-coloring.lip_filler_main_header')</li>
                         </ul>

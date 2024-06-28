@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('prosthetic-nails.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('prosthetic-nails.sart_official_center_home')"
                                 target="_self">@lang('prosthetic-nails.home')</a></li>
                         <li>@lang('prosthetic-nails.prosthetic_nail')</li>
                     </ul>

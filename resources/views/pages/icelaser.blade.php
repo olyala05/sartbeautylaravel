@@ -12,7 +12,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" target="_self">Ana Sayfa</a></li>
+                            <li><a href="{{ route('route',['/']) }}" target="_self">Ana Sayfa</a></li>
                             <li>Buz Lazer Epilasyon</li>
                         </ul>
                     </div>

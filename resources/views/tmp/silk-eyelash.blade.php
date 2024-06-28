@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('silk-eyelash.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('silk-eyelash.sart_official_center_home')"
                                 target="_self">@lang('silk-eyelash.home')</a></li>
                         <li>@lang('silk-eyelash.silk_eyelash_main_header')</li>
                     </ul>

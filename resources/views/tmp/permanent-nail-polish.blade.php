@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa" target="_self">@lang('permanent-nail-polish.home')</a>
+                        <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa" target="_self">@lang('permanent-nail-polish.home')</a>
                         </li>
                         <li>@lang('permanent-nail-polish.perminant_nail_polish')</li>
                     </ul>

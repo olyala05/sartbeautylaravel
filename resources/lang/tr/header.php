@@ -1,6 +1,5 @@
 <?php
 return [
-
     /** default keys **/
     "sart" => "S ART Beauty Center",
     "sart_official_center" => "S Art Beauty Center Resmi Web Sitesi",

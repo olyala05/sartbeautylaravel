@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('roll-shape.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('roll-shape.sart_official_center_home')"
                                 target="_self">@lang('roll-shape.home')</a></li>
                         <li>@lang('roll-shape.roll-shape_main_header')</li>
                     </ul>

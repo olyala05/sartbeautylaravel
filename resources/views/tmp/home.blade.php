@@ -94,7 +94,7 @@
                                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0]"
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ route('pages.home') }}" class="site-button-secondry button-md"
+                                <a href="{{ route('route',['/']) }}" class="site-button-secondry button-md"
                                     title="@lang('home.index_slide_1_about_button')" target="_self">@lang('home.about_us')</a>
                             </div>
                         </li>

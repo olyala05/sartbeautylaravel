@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
+                            <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa"
                                     target="_self">@lang('eyebrow-lamination.home')</a></li>
                             <li>@lang('eyebrow-lamination.eyebrow_lamination_main_header')</li>
                         </ul>

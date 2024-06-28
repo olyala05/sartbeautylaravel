@@ -30,6 +30,8 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    'langs' => ['tr','en','ru'],
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
@@ -70,7 +72,7 @@ return [
     */
 
     // 'timezone' => 'UTC',
-    'timezone' => 'Europe/Istanbul', 
+    'timezone' => 'Europe/Istanbul',
 
 
     /*
@@ -97,7 +99,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'tr',
 
     /*
     |--------------------------------------------------------------------------

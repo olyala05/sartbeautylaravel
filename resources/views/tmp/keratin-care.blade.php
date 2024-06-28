@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('keratin-care.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('keratin-care.sart_official_center_home')"
                                 target="_self">@lang('keratin-care.home')</a></li>
                         <li>@lang('keratin-care.keratin_care_main_header')</li>
                     </ul>

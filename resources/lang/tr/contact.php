@@ -1,5 +1,13 @@
 <?php
 return [
+
+    /*** header title ***/
+    "home" => "Ana Sayfa",
+    "about_us" => "Hakkımızda",
+    "services" => "Hizmetlerimiz",
+    "contact_us" => "İletişim",
+    "language" => "Dil",
+    
     /****  contact_us  ****/
     "contact_us_description" => "İletişim | S Art Beauty Center",
     "contact_us_title" => "İletişim sayfamız üzerinden bize mesaj göndererek, randevu talebinde bulunabilir veya hizmetlerimiz hakkında daha fazla bilgi alabilirsiniz.",
@@ -16,6 +24,6 @@ return [
     "contact_us_section2_subtitle2" => "E-Postanız",
     "contact_us_section2_subtitle3" => "Mesajınız",
     "contact_us_section2_subtitle4" => "Gönder",
-    
+
     "contact_us_section2_subtitle5" => "S Art Beuty Center Ana Sayfa",
 ];

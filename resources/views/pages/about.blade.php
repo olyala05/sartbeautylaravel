@@ -11,7 +11,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S ART Beauty Center">Ana Sayfa</a></li>
+                            <li><a href="{{ route('route',['/']) }}" title="S ART Beauty Center">Ana Sayfa</a></li>
                             <li>Hizmetlerimiz</li>
                         </ul>
                     </div>

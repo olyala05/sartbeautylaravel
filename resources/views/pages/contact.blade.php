@@ -12,7 +12,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{route('pages.home')}}" title="@lang('contact.contact_us_section2_subtitle5')">@lang('contact.contact_us_section2_subtitle5')</a></li>
+                            <li><a href="{{route('route',['/'])}}" title="@lang('contact.contact_us_section2_subtitle5')">@lang('contact.contact_us_section2_subtitle5')</a></li>
                             <li>@lang('contact.contact_us_description')</li>
                         </ul>
                     </div>
@@ -63,13 +63,13 @@
                                 <ul class="dlab-social-icon dlab-social-icon-lg">
                                     <li><a target="_blank" href="https://www.facebook.com/sartbeautymerkezi"
                                             class="fa fa-facebook bg-primary" rel="nofollow"
-                                            title="S Art Beauty Center Facebook Hesabı"></a></li>
+                                            title="{{  settings('social-media')->facebook->href ?? '#' }}S Art Beauty Center Facebook Hesabı"></a></li>
                                     <li><a target="_blank" href="https://api.whatsapp.com/send?phone=905335085191"
                                             class="fa fa-whatsapp bg-primary" rel="nofollow"
-                                            title="S Art Beauty Center Whatsapp Hesabı"></a></li>
+                                            title="{{  settings('social-media')->facebook->href ?? '#' }}S Art Beauty Center Whatsapp Hesabı"></a></li>
                                     <li><a target="_blank" href="https://www.instagram.com/s.art.beauty"
                                             class="fa fa-instagram bg-primary" rel="nofollow"
-                                            title="S Art Beauty Center Instagram Hesabı"></a></li>
+                                            title="{{  settings('social-media')->facebook->href ?? '#' }}S Art Beauty Center Instagram Hesabı"></a></li>
                                 </ul>
                             </div>
                         </div>

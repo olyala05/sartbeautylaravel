@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('manicure-pedicure.')S Art Beauty Center Ana Sayfa"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('manicure-pedicure.')S Art Beauty Center Ana Sayfa"
                                     target="_self">@lang('manicure-pedicure.home')</a>
                             </li>
                             <li>@lang('manicure-pedicure.mani_pedi')</li>

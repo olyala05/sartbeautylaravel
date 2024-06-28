@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" target="_self">@lang('ice-laser-hair-removal.home')</a></li>
+                        <li><a href="{{ route('route',['/']) }}" target="_self">@lang('ice-laser-hair-removal.home')</a></li>
                         <li>@lang('ice-laser-hair-removal.lazer-epilasyon')</li>
                     </ul>
                 </div>
