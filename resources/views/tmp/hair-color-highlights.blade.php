@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('hair-color-highlights.')S Art Beauty Center Ana Sayfa"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('hair-color-highlights.')S Art Beauty Center Ana Sayfa"
                                 target="_self">@lang('hair-color-highlights.home')</a></li>
                         <li>@lang('hair-color-highlights.highlighted_main_header')</li>
                     </ul>
@@ -40,7 +40,7 @@
                                         title="@lang('hair-color-highlights.silk_eyelash')">@lang('hair-color-highlights.silk_eyelash')</a></li>
                                 <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                         title="@lang('hair-color-highlights.eyelash_lifting')">@lang('hair-color-highlights.eyelash_lifting')</a></li>
-                                <li><a href="{{ route('pages.hair-color-highlights') }}" class="dez-page"
+                                <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                         title="@lang('hair-color-highlights.dipliner')">@lang('hair-color-highlights.dipliner')</a> </li>
                                 <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                         title="@lang('hair-color-highlights.eyebrow_lamination')">@lang('hair-color-highlights.eyebrow_lamination')</a></li>
@@ -63,7 +63,7 @@
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                         title="@lang('hair-color-highlights.perm')">@lang('hair-color-highlights.perm')</a></li>
                                 <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="@lang('hair-color-highlights.')">@lang('hair-color-highlights.')</a></li>
+                                        title="@lang('hair-color-highlights.brazillian-blow-dry')">@lang('hair-color-highlights.brazillian-blow-dry')</a></li>
                                 <li class="active"><a href="{{ route('pages.highlight') }}" class="dez-page"
                                         title="@lang('hair-color-highlights.highlighted')">@lang('hair-color-highlights.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('nail-art.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('nail-art.sart_official_center_home')"
                                     target="_self">@lang('nail-art.home')</a></li>
                             <li>@lang('nail-art.nail_art')</li>
                         </ul>
@@ -45,7 +45,7 @@
                                     <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('nail-art.lip_filler')">@lang('nail-art.lip_filler')</a></li>
                                     <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('nail-art.keratin_care')">@lang('nail-art.keratin_care')</a> </li>
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('nail-art.perm')">@lang('nail-art.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('nail-art.')">@lang('nail-art.')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('nail-art.brazillian-blow-dry')">@lang('nail-art.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('nail-art.highlighted')">@lang('nail-art.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('nail-art.hair_dye')">@lang('nail-art.hair_dye')</a></li>
                                     <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('nail-art.hair_dip_dye')">@lang('nail-art.hair_dip_dye')</a></li>

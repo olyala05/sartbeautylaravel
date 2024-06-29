@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('silk-eyelash.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('silk-eyelash.sart_official_center_home')"
                                 target="_self">@lang('silk-eyelash.home')</a></li>
                         <li>@lang('silk-eyelash.silk_eyelash_main_header')</li>
                     </ul>
@@ -45,7 +45,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('silk-eyelash.lip_filler')">@lang('silk-eyelash.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('silk-eyelash.keratin_care')">@lang('silk-eyelash.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('silk-eyelash.perm')">@lang('silk-eyelash.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('silk-eyelash.')">@lang('silk-eyelash.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('silk-eyelash.brazillian-blow-dry')">@lang('silk-eyelash.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('silk-eyelash.highlighted')">@lang('silk-eyelash.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('silk-eyelash.hair_dye')">@lang('silk-eyelash.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('silk-eyelash.hair_dip_dye')">@lang('silk-eyelash.hair_dip_dye')</a></li>

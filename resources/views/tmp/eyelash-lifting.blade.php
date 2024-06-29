@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
+                            <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa"
                                     target="_self">@lang('eyelash-lifting.home')</a></li>
                             <li>@lang('eyelash-lifting.eyelash_lifting')</li>
                         </ul>
@@ -34,7 +34,7 @@
                                     <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('eyelash-lifting.nail_art')">@lang('eyelash-lifting.nail_art')</a></li>
                                     <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('eyelash-lifting.silk_eyelash')">@lang('eyelash-lifting.silk_eyelash')</a></li>
                                     <li class="active"><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('eyelash-lifting.eyelash_lifting')">@lang('eyelash-lifting.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.eyelash-lifting') }}" class="dez-page" title="@lang('eyelash-lifting.dipliner')">@lang('eyelash-lifting.dipliner')</a> </li>
+                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('eyelash-lifting.dipliner')">@lang('eyelash-lifting.dipliner')</a> </li>
                                     <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('eyelash-lifting.eyebrow_lamination')">@lang('eyelash-lifting.eyebrow_lamination')</a></li>
                                     <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('eyelash-lifting.microblading')">@lang('eyelash-lifting.microblading')</a></li>
                                     <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('eyelash-lifting.wax')">@lang('eyelash-lifting.wax')</a></li>
@@ -45,7 +45,7 @@
                                     <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('eyelash-lifting.lip_filler')">@lang('eyelash-lifting.lip_filler')</a></li>
                                     <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('eyelash-lifting.keratin_care')">@lang('eyelash-lifting.keratin_care')</a> </li>
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('eyelash-lifting.perm')">@lang('eyelash-lifting.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('eyelash-lifting.')">@lang('eyelash-lifting.')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('eyelash-lifting.brazillian-blow-dry')">@lang('eyelash-lifting.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('eyelash-lifting.highlighted')">@lang('eyelash-lifting.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('eyelash-lifting.hair_dye')">@lang('eyelash-lifting.hair_dye')</a></li>
                                     <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('eyelash-lifting.hair_dip_dye')">@lang('eyelash-lifting.hair_dip_dye')</a></li>

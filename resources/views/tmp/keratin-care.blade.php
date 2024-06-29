@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('keratin-care.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('keratin-care.sart_official_center_home')"
                                 target="_self">@lang('keratin-care.home')</a></li>
                         <li>@lang('keratin-care.keratin_care_main_header')</li>
                     </ul>
@@ -39,7 +39,7 @@
                                         title="@lang('keratin-care.silk_eyelash')">@lang('keratin-care.silk_eyelash')</a></li>
                                 <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                         title="@lang('keratin-care.eyelash_lifting')">@lang('keratin-care.eyelash_lifting')</a></li>
-                                <li><a href="{{ route('pages.keratin-care') }}" class="dez-page"
+                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
                                         title="@lang('keratin-care.dipliner')">@lang('keratin-care.dipliner')</a> </li>
                                 <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                         title="@lang('keratin-care.eyebrow_lamination')">@lang('keratin-care.eyebrow_lamination')</a></li>
@@ -62,7 +62,7 @@
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                         title="@lang('keratin-care.perm')">@lang('keratin-care.perm')</a></li>
                                 <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="@lang('keratin-care.')">@lang('keratin-care.')</a></li>
+                                        title="@lang('keratin-care.brazillian-blow-dry')">@lang('keratin-care.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                         title="@lang('keratin-care.highlighted')">@lang('keratin-care.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

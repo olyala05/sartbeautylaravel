@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('prosthetic-nails.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('prosthetic-nails.sart_official_center_home')"
                                 target="_self">@lang('prosthetic-nails.home')</a></li>
                         <li>@lang('prosthetic-nails.prosthetic_nail')</li>
                     </ul>
@@ -44,7 +44,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('prosthetic-nails.lip_filler')">@lang('prosthetic-nails.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('prosthetic-nails.keratin_care')">@lang('prosthetic-nails.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('prosthetic-nails.perm')">@lang('prosthetic-nails.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('prosthetic-nails.')">@lang('prosthetic-nails.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('prosthetic-nails.brazillian-blow-dry')">@lang('prosthetic-nails.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('prosthetic-nails.highlighted')">@lang('prosthetic-nails.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('prosthetic-nails.hair_dye')">@lang('prosthetic-nails.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('prosthetic-nails.hair_dip_dye')">@lang('prosthetic-nails.hair_dip_dye')</a></li>

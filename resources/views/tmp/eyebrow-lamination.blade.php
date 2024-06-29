@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa"
+                            <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa"
                                     target="_self">@lang('eyebrow-lamination.home')</a></li>
                             <li>@lang('eyebrow-lamination.eyebrow_lamination_main_header')</li>
                         </ul>
@@ -34,7 +34,7 @@
                                     <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('eyebrow-lamination.nail_art')">@lang('eyebrow-lamination.nail_art')</a></li>
                                     <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('eyebrow-lamination.silk_eyelash')">@lang('eyebrow-lamination.silk_eyelash')</a></li>
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('eyebrow-lamination.eyelash_lifting')">@lang('eyebrow-lamination.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.eyebrow-lamination') }}" class="dez-page" title="@lang('eyebrow-lamination.dipliner')">@lang('eyebrow-lamination.dipliner')</a> </li>
+                                    <li><a href="{{ route('pages.deepliner') }}" class="dez-page" title="@lang('eyebrow-lamination.dipliner')">@lang('eyebrow-lamination.dipliner')</a> </li>
                                     <li class="active"><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('eyebrow-lamination.eyebrow_lamination')">@lang('eyebrow-lamination.eyebrow_lamination')</a></li>
                                     <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('eyebrow-lamination.microblading')">@lang('eyebrow-lamination.microblading')</a></li>
                                     <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('eyebrow-lamination.wax')">@lang('eyebrow-lamination.wax')</a></li>
@@ -45,7 +45,7 @@
                                     <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('eyebrow-lamination.lip_filler')">@lang('eyebrow-lamination.lip_filler')</a></li>
                                     <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('eyebrow-lamination.keratin_care')">@lang('eyebrow-lamination.keratin_care')</a> </li>
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('eyebrow-lamination.perm')">@lang('eyebrow-lamination.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('eyebrow-lamination.')">@lang('eyebrow-lamination.')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('eyebrow-lamination.brazillian-blow-dry')">@lang('eyebrow-lamination.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('eyebrow-lamination.highlighted')">@lang('eyebrow-lamination.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('eyebrow-lamination.hair_dye')">@lang('eyebrow-lamination.hair_dye')</a></li>
                                     <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('eyebrow-lamination.hair_dip_dye')">@lang('eyebrow-lamination.hair_dip_dye')</a></li>

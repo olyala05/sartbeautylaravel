@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="S Art Beauty Center Ana Sayfa" target="_self">@lang('permanent-nail-polish.home')</a>
+                        <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa" target="_self">@lang('permanent-nail-polish.home')</a>
                         </li>
                         <li>@lang('permanent-nail-polish.perminant_nail_polish')</li>
                     </ul>
@@ -45,7 +45,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('permanent-nail-polish.lip_filler')">@lang('permanent-nail-polish.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('permanent-nail-polish.keratin_care')">@lang('permanent-nail-polish.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('permanent-nail-polish.perm')">@lang('permanent-nail-polish.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('permanent-nail-polish.')">@lang('permanent-nail-polish.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('permanent-nail-polish.brazillian-blow-dry')">@lang('permanent-nail-polish.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('permanent-nail-polish.highlighted')">@lang('permanent-nail-polish.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('permanent-nail-polish.hair_dye')">@lang('permanent-nail-polish.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('permanent-nail-polish.hair_dip_dye')">@lang('permanent-nail-polish.hair_dip_dye')</a></li>

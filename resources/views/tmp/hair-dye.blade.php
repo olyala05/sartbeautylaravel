@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('hair-dye.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('hair-dye.sart_official_center_home')"
                                     target="_self">@lang('hair-dye.home')</a></li>
                             <li>@lang('hair-dye.hair_dye_main_header')</li>
                         </ul>
@@ -38,7 +38,7 @@
                                 title="@lang('hair-dye.silk_eyelash')">@lang('hair-dye.silk_eyelash')</a></li>
                         <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                 title="@lang('hair-dye.eyelash_lifting')">@lang('hair-dye.eyelash_lifting')</a></li>
-                        <li><a href="{{ route('pages.hair-dye') }}" class="dez-page"
+                        <li><a href="{{ route('pages.hairdye') }}" class="dez-page"
                                 title="@lang('hair-dye.dipliner')">@lang('hair-dye.dipliner')</a> </li>
                         <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                 title="@lang('hair-dye.eyebrow_lamination')">@lang('hair-dye.eyebrow_lamination')</a></li>
@@ -61,7 +61,7 @@
                         <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                 title="@lang('hair-dye.perm')">@lang('hair-dye.perm')</a></li>
                         <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                title="@lang('hair-dye.')">@lang('hair-dye.')</a></li>
+                                title="@lang('hair-dye.brazillian-blow-dry')">@lang('hair-dye.brazillian-blow-dry')</a></li>
                         <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                 title="@lang('hair-dye.highlighted')">@lang('hair-dye.highlighted')</a></li>
                         <li class="active"><a href="{{ route('pages.hairdye') }}" class="dez-page"

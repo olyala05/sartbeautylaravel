@@ -5,17 +5,23 @@ use App\Http\Controllers\LangController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PoliciesController;
 use App\Http\Controllers\RouteController;
+use App\Http\Middleware\LanguageManager;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
-Route::get('/', [HomeController::class, 'index'])->name('pages.home');
+Route::get('/{route?}', [RouteController::class, 'index'])->name('route');
+Route::get('/404', [RouteController::class, 'show404'])->name('pages.404');
 
-Route::get('/{route}',[
-    RouteController::class, 'index'
-]);
+Route::get('set-language/{lang}', function (Request $request, $lang) {
+    $request->session()->put('locale', $lang);
+    return redirect()->back();
+})
+->middleware(LanguageManager::class)
+->name('set.language');
 
-Route::get('/404',[
-    RouteController::class, '404'
-]);
+Route::get('set-language/{lang}', [LangController::class, 'setLanguage'])->name('set.language');
+
+Route::get('lang/home', [LangController::class, 'index']);
 
 Route::get('/about-us', [PageController::class, 'about'])->name('pages.about');
 Route::get('/services', [PageController::class, 'services'])->name('pages.services');
@@ -47,13 +53,4 @@ Route::get('/bridal-hair', [PageController::class, 'bridalHair'])->name('pages.b
 Route::get('/policies', [PoliciesController::class, 'policies'])->name('pages.policies');
 
 
-// Route::get('lang/{locale}', function ($locale) {
-//     if (in_array($locale, ['tr', 'en', 'ru'])) {
-//         session(['locale' => $locale]);
-//     }
-//     return redirect()->back();
-// });
 
-
-Route::get('lang/home', [LangController::class, 'index']);
-Route::get('lang/change', [LangController::class, 'change'])->name('changeLang');

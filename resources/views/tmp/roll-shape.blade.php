@@ -9,7 +9,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('roll-shape.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('roll-shape.sart_official_center_home')"
                                 target="_self">@lang('roll-shape.home')</a></li>
                         <li>@lang('roll-shape.roll-shape_main_header')</li>
                     </ul>
@@ -44,7 +44,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('roll-shape.lip_filler')">@lang('roll-shape.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('roll-shape.keratin_care')">@lang('roll-shape.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('roll-shape.perm')">@lang('roll-shape.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('roll-shape.')">@lang('roll-shape.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('roll-shape.brazillian-blow-dry')">@lang('roll-shape.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('roll-shape.highlighted')">@lang('roll-shape.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('roll-shape.hair_dye')">@lang('roll-shape.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('roll-shape.hair_dip_dye')">@lang('roll-shape.hair_dip_dye')</a></li>
@@ -133,12 +133,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq1"
                                                 class="" aria-expanded="true">
-                                                @lang('roll-shape.shape_context_question1')</a>
+                                                @lang('roll-shape.roll-shape_context_question1')</a>
                                         </h2>
                                     </div>
                                     <div id="faq1" class="acod-body collapse show" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">@lang('roll-shape.shape_context_answer1')1. Roll Shape ağrısız bir uygulama yöntemidir.</div>
+                                        <div class="acod-content">@lang('roll-shape.roll-shape_context_answer1')</div>
                                     </div>
                                 </div>
                                 <div class="panel">
@@ -146,12 +146,12 @@
                                         <h2 style="font-size: 1em;" class="acod-title">
                                             <a href="#" data-toggle="collapse" data-target="#faq2"
                                                 class="collapsed" aria-expanded="false">
-                                                @lang('roll-shape.shape_context_question2')</a>
+                                                @lang('roll-shape.roll-shape_context_question2')</a>
                                         </h2>
                                     </div>
                                     <div id="faq2" class="acod-body collapse" data-parent="#accordion1"
                                         style="">
-                                        <div class="acod-content">@lang('roll-shape.shape_context_answer2')</div>
+                                        <div class="acod-content">@lang('roll-shape.roll-shape_context_answer2')</div>
                                     </div>
                                 </div>
                                 <div class="panel">

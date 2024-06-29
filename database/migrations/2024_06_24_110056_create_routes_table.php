@@ -11,6 +11,7 @@ return new class extends Migration
         Schema::create('routes', function (Blueprint $table) {
             $table->id();
             $table->string('slug', 255);
+            $table->string('uniq_slug',255);
             $table->boolean('amp')->default(0);
             $table->boolean('is_active')->default(0);
             $table->text('meta_information')->nullable();

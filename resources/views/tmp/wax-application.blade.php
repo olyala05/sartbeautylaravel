@@ -10,7 +10,7 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('pages.home') }}" title="@lang('wax-application.sart_official_center_home')"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('wax-application.sart_official_center_home')"
                                 target="_self">@lang('wax-application.home')</a></li>
                         <li>@lang('wax-application.wax_main_header')</li>
                     </ul>
@@ -45,7 +45,7 @@
                                 <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('wax-application.lip_filler')">@lang('wax-application.lip_filler')</a></li>
                                 <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('wax-application.keratin_care')">@lang('wax-application.keratin_care')</a> </li>
                                 <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('wax-application.perm')">@lang('wax-application.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('wax-application.')">@lang('wax-application.')</a></li>
+                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('wax-application.brazillian-blow-dry')">@lang('wax-application.brazillian-blow-dry')</a></li>
                                 <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('wax-application.highlighted')">@lang('wax-application.highlighted')</a></li>
                                 <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('wax-application.hair_dye')">@lang('wax-application.hair_dye')</a></li>
                                 <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('wax-application.hair_dip_dye')">@lang('wax-application.hair_dip_dye')</a></li>

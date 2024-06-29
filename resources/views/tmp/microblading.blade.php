@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('microblading.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('microblading.sart_official_center_home')"
                                     target="_self">@lang('microblading.home')</a></li>
                             <li>@lang('microblading.microblading')</li>
                         </ul>
@@ -44,7 +44,7 @@
                                     <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('microblading.lip_filler')">@lang('microblading.lip_filler')</a></li>
                                     <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('microblading.keratin_care')">@lang('microblading.keratin_care')</a> </li>
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('microblading.perm')">@lang('microblading.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('microblading.')">@lang('microblading.')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('microblading.brazillian-blow-dry')">@lang('microblading.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('microblading.highlighted')">@lang('microblading.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('microblading.hair_dye')">@lang('microblading.hair_dye')</a></li>
                                     <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('microblading.hair_dip_dye')">@lang('microblading.hair_dip_dye')</a></li>

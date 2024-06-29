@@ -1,4 +1,4 @@
-    <!-- Content -->
+     <!-- Content -->
     <div class="page-content bg-white">
         <!-- Main Slider -->
         <div class="rev-slider">
@@ -94,7 +94,7 @@
                                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0]"
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ route('pages.home') }}" class="site-button-secondry button-md"
+                                <a href="{{ route('route',['/']) }}" class="site-button-secondry button-md"
                                     title="@lang('home.index_slide_1_about_button')" target="_self">@lang('home.about_us')</a>
                             </div>
                         </li>
@@ -307,7 +307,7 @@
                             <div class="service-content">
                                 <h6 class="text-uppercase">
                                     <a href="{{ route('pages.eyelashlifting') }}" class="text-primary"
-                                        title="@lang('home.index_section1_slide1_title')" target="_self">@lang('home.index_section1_slide1_cont')</a>
+                                        title="@lang('home.index_section1_slide1_title')" target="_self">@lang('home.index_section1_slide1_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide1_cont')</p>
                             </div>
@@ -466,7 +466,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.shugaring') }}" class="text-primary"
+                                    <a href="{{ uniqRt('wax-application') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide12_alt')" target="_self">@lang('home.index_section1_slide12_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide12_cont')</p>
@@ -476,9 +476,10 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="{{ route('pages.services') }}" class="site-button outline focus-white"
+                    <a href="{{ uniqRt('services') }}" class="site-button outline focus-white"
                         title="@lang('home.sart_official_center_job_explanation')" target="_self">@lang('home.index_section1_services_redirect_button')</a>
                 </div>
+
             </div>
         </div>
         <!-- Why Chose Us -->

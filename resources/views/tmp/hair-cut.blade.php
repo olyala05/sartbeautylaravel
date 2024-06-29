@@ -9,7 +9,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('hair-cut.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('hair-cut.sart_official_center_home')"
                                     target="_self">@lang('hair-cut.home')</a></li>
                             <li>@lang('hair-cut.hair_cut_main_header')</li>
                         </ul>
@@ -39,7 +39,7 @@
                                             title="@lang('hair-cut.silk_eyelash')">@lang('hair-cut.silk_eyelash')</a></li>
                                     <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
                                             title="@lang('hair-cut.eyelash_lifting')">@lang('hair-cut.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.hair-cut') }}" class="dez-page"
+                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page"
                                             title="@lang('hair-cut.dipliner')">@lang('hair-cut.dipliner')</a> </li>
                                     <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
                                             title="@lang('hair-cut.eyebrow_lamination')">@lang('hair-cut.eyebrow_lamination')</a></li>
@@ -62,7 +62,7 @@
                                     <li><a href="{{ route('pages.perma') }}" class="dez-page"
                                             title="@lang('hair-cut.perm')">@lang('hair-cut.perm')</a></li>
                                     <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                            title="@lang('hair-cut.')">@lang('hair-cut.')</a></li>
+                                            title="@lang('hair-cut.brazillian-blow-dry')">@lang('hair-cut.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page"
                                             title="@lang('hair-cut.highlighted')">@lang('hair-cut.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page"

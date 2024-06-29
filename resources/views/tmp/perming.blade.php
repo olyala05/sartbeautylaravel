@@ -10,7 +10,7 @@
                     <!-- Breadcrumb row -->
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
-                            <li><a href="{{ route('pages.home') }}" title="@lang('perming.sart_official_center_home')"
+                            <li><a href="{{ route('route',['/']) }}" title="@lang('perming.sart_official_center_home')"
                                     target="_self">@lang('perming.home')</a></li>
                             <li>@lang('perming.perm')</li>
                         </ul>
@@ -45,7 +45,7 @@
                                     <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('perming.lip_filler')">@lang('perming.lip_filler')</a></li>
                                     <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('perming.keratin_care')">@lang('perming.keratin_care')</a> </li>
                                     <li class="active"><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('perming.perm')">@lang('perming.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('perming.')">@lang('perming.')</a></li>
+                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('perming.brazillian-blow-dry')">@lang('perming.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('perming.highlighted')">@lang('perming.highlighted')</a></li>
                                     <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('perming.hair_dye')">@lang('perming.hair_dye')</a></li>
                                     <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('perming.hair_dip_dye')">@lang('perming.hair_dip_dye')</a></li>

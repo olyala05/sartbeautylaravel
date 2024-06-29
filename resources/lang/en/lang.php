@@ -220,7 +220,7 @@ return[
     "index_section1_slide13_cont" => "Laser Epilation, istenmeyen tüylerden kurtulmanın en hızlı ve en güvenli yoludur.",
     "index_section1_slide14_alt" => "Cellulite Massage",
     "index_section1_slide14_title" => "Cellulite Massage",
-    "index_section1_slide14_cont" => "Selülitin tüm aşamalarıyla mücadele etmek için ideal bir yöntemdir.",
+    "index_section1_slide14_cont" => "It is an ideal method to combat all stages of cellulite.",
     "index_section1_slide15_alt" => "Roll Shape",
     "index_section1_slide15_title" => "Roll Shape",
     "index_section1_slide15_cont" => "Roller Shape’in temel amacı yağ dokusunu azaltarak vücudu daha ince bir hale getirmektir.",

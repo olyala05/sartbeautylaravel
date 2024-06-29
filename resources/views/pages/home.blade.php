@@ -1,6 +1,10 @@
 {{-- Ana Sayfa --}}
 @extends('layout.master')
 @section('content')
+@php
+    $currentLang = app()->getLocale();
+
+@endphp
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- Main Slider -->
@@ -90,7 +94,7 @@
                                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0]"
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ route('pages.home') }}" class="site-button-secondry button-md"
+                                <a href="{{ route('route',['/']) }}" class="site-button-secondry button-md"
                                     title="S Art Beauty Center Hakkında" target="_self">Hakkımızda</a>
                             </div>
                         </li>
