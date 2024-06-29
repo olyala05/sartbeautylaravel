@@ -20,10 +20,9 @@ class LanguageManager
         $routes= Cache::remember('routes', now()->addMonth(), function () {
             return Routes::where('is_active', 1)->get();
         });
-        
+
         config(['routes' => $routes]);
         
-
         $settings = \App\Models\Settings::get();
 
         config(['settings' => $settings]);

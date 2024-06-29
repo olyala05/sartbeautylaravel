@@ -81,8 +81,8 @@
                                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0]"
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ route('pages.contact') }}" class="site-button button-md"
-                                    title="@lang('home.index_slide_1_contact_button_title')" target="_self"> @lang('home.index_slide_1_contact_button_title')</a>
+                                <a href="{{ uniqRt('contact-us') }}" class="site-button button-md"
+                                    title="@lang('home.index_slide_1_contact_button')" target="_self"> @lang('home.index_slide_1_contact_button')</a>
                             </div>
 
                             <div class="tp-caption tp-resizeme" id="slide-100-layer-6"
@@ -94,7 +94,7 @@
                                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0]"
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ route('route',['/']) }}" class="site-button-secondry button-md"
+                                <a href="{{ uniqRt('about-us') }}" class="site-button-secondry button-md"
                                     title="@lang('home.index_slide_1_about_button')" target="_self">@lang('home.about_us')</a>
                             </div>
                         </li>
@@ -169,7 +169,7 @@
                                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0]"
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ route('pages.services') }}" class="site-button button-md"
+                                <a href="{{ uniqRt('services') }}" class="site-button button-md"
                                     title="@lang('home.index_slide_2_services_button')" target="_self">@lang('home.services')</a>
                             </div>
                             <div class="tp-caption tp-resizeme" id="slide-200-layer-6"
@@ -260,7 +260,7 @@
                                 data-paddingright="[0]" data-paddingbottom="[0]" data-paddingleft="[0]"
                                 style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
                                 <a href="https://goo.gl/maps/MLkCjkQovNnJvqrw6" class="site-button button-md"
-                                    title="@lang('home.index_slide_3_navigation_button_title')" target="_blank" rel="nofollow">@lang('home.index_slide_3_navigation_button_title')</a>
+                                    title="@lang('home.index_slide_3_navigation_button')" target="_blank" rel="nofollow">@lang('home.index_slide_3_navigation_button')</a>
                             </div>
                             <div class="tp-caption tp-resizeme" id="slide-300-layer-6"
                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"
@@ -306,7 +306,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.eyelashlifting') }}" class="text-primary"
+                                    <a href="{{ uniqRt('eyelash-lifting') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide1_title')" target="_self">@lang('home.index_section1_slide1_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide1_cont')</p>
@@ -322,7 +322,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.eyebrowlamination') }}" class="text-primary"
+                                    <a href="{{ uniqRt('eyebrow-lamination') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide2_title')" target="_self">@lang('home.index_section1_slide2_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide2_cont')</p>
@@ -338,7 +338,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.lipcoloring') }}" class="text-primary"
+                                    <a href="{{ uniqRt('lip-coloring') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide3_alt')" target="_self">@lang('home.index_section1_slide3_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide3_cont')</p>
@@ -354,7 +354,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.prostheticnails') }}" class="text-primary"
+                                    <a href="{{ uniqRt('prosthetic-nails') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide4_alt')" target="_self">@lang('home.index_section1_slide4_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide4_cont')</p>
@@ -370,7 +370,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.eyelashextensions') }}" class="text-primary"
+                                    <a href="{{ uniqRt('silk-eyelash') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide5_title')" target="_self">@lang('home.index_section1_slide5_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide5_cont')</p>
@@ -386,7 +386,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.haircut') }}" class="text-primary"
+                                    <a href="{{ uniqRt('hair-cut') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide6_alt')" target="_self">@lang('home.index_section1_slide6_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide6_cont')</p>
@@ -402,7 +402,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.nailart') }}" class="text-primary"
+                                    <a href="{{ uniqRt('nail-art') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide7_alt')" target="_self">@lang('home.index_section1_slide7_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide7_cont')</p>
@@ -418,7 +418,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.hairextension') }}" class="text-primary"
+                                    <a href="{{ uniqRt('hair-extension') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide8_alt')" target="_self">@lang('home.index_section1_slide8_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide8_cont')</p>
@@ -434,7 +434,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.gelpolish') }}" class="text-primary"
+                                    <a href="{{ uniqRt('permanent-nail-polish') }}" class="text-primary"
                                         title="@lang('home.perminant_nail_polish')" target="_self">@lang('home.index_section1_slide10_title')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide10_cont')</p>
@@ -450,7 +450,7 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="{{ route('pages.hairdye') }}" class="text-primary"
+                                    <a href="{{ uniqRt('hair-dye') }}" class="text-primary"
                                         title="@lang('home.index_section1_slide11_alt')" target="_self">@lang('home.index_section1_slide11_alt')</a>
                                 </h6>
                                 <p>@lang('home.index_section1_slide11_cont')</p>

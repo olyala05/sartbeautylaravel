@@ -364,7 +364,8 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.hair-color-highlights'
         ],
         [
-            'lang' => 'tr', 'uniq_slug' => 'hair-dye',
+            'lang' => 'tr', 
+            'uniq_slug' => 'hair-dye',
             'title' => "Kadıköy - Saç Boyası Modelleri | S Art Beauty Center ",
             'description' => "Saçlarınız için S Art Beauty Center'da çeşitli saç boyası seçenekleri! Hemen randevunuzu oluşturun.",
             'content' => 'BLADE:tmp.hair-dye'
