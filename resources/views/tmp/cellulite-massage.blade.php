@@ -27,30 +27,30 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('header.perminant_nail_polish')">@lang('header.perminant_nail_polish')</a></li>
-                                <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('header.mani_pedi')">@lang('header.mani_pedi')</a></li>
-                                <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('header.prosthetic_nail')">@lang('header.prosthetic_nail')</a></li>
-                                <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('header.nail_art')">@lang('header.nail_art')</a></li>
-                                <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('header.silk_eyelash')">@lang('header.silk_eyelash')</a></li>
-                                <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('header.eyelash_lifting')">@lang('header.eyelash_lifting')</a></li>
-                                <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('header.dipliner')">@lang('header.dipliner')</a> </li>
-                                <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('header.eyebrow_lamination')">@lang('header.eyebrow_lamination')</a></li>
-                                <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('header.microblading')">@lang('header.microblading')</a></li>
-                                <li><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('header.wax')">@lang('header.wax')</a></li>
-                                <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('header.lazer-epilasyon')">@lang('header.lazer-epilasyon')</a></li>
-                                <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('header.skin-care')">@lang('header.skin-care')</a></li>
-                                <li class="active"><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('header.cellulite-massage')">@lang('header.cellulite-massage')</a></li>
-                                <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('header.roll-shape')">@lang('header.roll-shape')</a> </li>
-                                <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('header.lip_filler')">@lang('header.lip_filler')</a></li>
-                                <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('header.keratin_care')">@lang('header.keratin_care')</a> </li>
-                                <li><a href="{{ uniqRt('perma') }}" class="dez-page" title="@lang('header.perm')">@lang('header.perm')</a></li>
-                                <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('header.brazillian-blow-dry')">@lang('header.brazillian-blow-dry')</a></li>
-                                <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('header.highlighted')">@lang('header.highlighted')</a></li>
-                                <li><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('header.hair_dye')">@lang('header.hair_dye')</a></li>
-                                <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('header.hair_dip_dye')">@lang('header.hair_dip_dye')</a></li>
-                                <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('header.hair_cut')">@lang('header.hair_cut')</a> </li>
-                                <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('header.hair_extension')">@lang('header.hair_extension')</a></li>
-                                <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('header.bridal_hair')">@lang('header.bridal_hair')</a></li>
+                                <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('cellulite-massage.perminant_nail_polish')">@lang('cellulite-massage.perminant_nail_polish')</a></li>
+                                <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('cellulite-massage.mani_pedi')">@lang('cellulite-massage.mani_pedi')</a></li>
+                                <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('cellulite-massage.prosthetic_nail')">@lang('cellulite-massage.prosthetic_nail')</a></li>
+                                <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('cellulite-massage.nail_art')">@lang('cellulite-massage.nail_art')</a></li>
+                                <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('cellulite-massage.silk_eyelash')">@lang('cellulite-massage.silk_eyelash')</a></li>
+                                <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('cellulite-massage.eyelash_lifting')">@lang('cellulite-massage.eyelash_lifting')</a></li>
+                                <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('cellulite-massage.dipliner')">@lang('cellulite-massage.dipliner')</a> </li>
+                                <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('cellulite-massage.eyebrow_lamination')">@lang('cellulite-massage.eyebrow_lamination')</a></li>
+                                <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('cellulite-massage.microblading')">@lang('cellulite-massage.microblading')</a></li>
+                                <li><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('cellulite-massage.wax')">@lang('cellulite-massage.wax')</a></li>
+                                <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('cellulite-massage.lazer-epilasyon')">@lang('cellulite-massage.lazer-epilasyon')</a></li>
+                                <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('cellulite-massage.skin-care')">@lang('cellulite-massage.skin-care')</a></li>
+                                <li class="active"><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('cellulite-massage.cellulite-massage')">@lang('cellulite-massage.cellulite-massage')</a></li>
+                                <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('cellulite-massage.roll-shape')">@lang('cellulite-massage.roll-shape')</a> </li>
+                                <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('cellulite-massage.lip_filler')">@lang('cellulite-massage.lip_filler')</a></li>
+                                <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('cellulite-massage.keratin_care')">@lang('cellulite-massage.keratin_care')</a> </li>
+                                <li><a href="{{ uniqRt('perma') }}" class="dez-page" title="@lang('cellulite-massage.perm')">@lang('cellulite-massage.perm')</a></li>
+                                <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('cellulite-massage.brazillian-blow-dry')">@lang('cellulite-massage.brazillian-blow-dry')</a></li>
+                                <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('cellulite-massage.highlighted')">@lang('cellulite-massage.highlighted')</a></li>
+                                <li><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('cellulite-massage.hair_dye')">@lang('cellulite-massage.hair_dye')</a></li>
+                                <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('cellulite-massage.hair_dip_dye')">@lang('cellulite-massage.hair_dip_dye')</a></li>
+                                <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('cellulite-massage.hair_cut')">@lang('cellulite-massage.hair_cut')</a> </li>
+                                <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('cellulite-massage.hair_extension')">@lang('cellulite-massage.hair_extension')</a></li>
+                                <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('cellulite-massage.bridal_hair')">@lang('cellulite-massage.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
                                 <h4 class="text-primary">@lang('cellulite-massage.sart_on_social_media')</h4>

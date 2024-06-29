@@ -26,30 +26,30 @@
             <div class="container">
                 <div class="row">
                     <ul class="service-list m-b30">
-                        <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('header.perminant_nail_polish')">@lang('header.perminant_nail_polish')</a></li>
-                        <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('header.mani_pedi')">@lang('header.mani_pedi')</a></li>
-                        <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('header.prosthetic_nail')">@lang('header.prosthetic_nail')</a></li>
-                        <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('header.nail_art')">@lang('header.nail_art')</a></li>
-                        <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('header.silk_eyelash')">@lang('header.silk_eyelash')</a></li>
-                        <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('header.eyelash_lifting')">@lang('header.eyelash_lifting')</a></li>
-                        <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('header.dipliner')">@lang('header.dipliner')</a> </li>
-                        <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('header.eyebrow_lamination')">@lang('header.eyebrow_lamination')</a></li>
-                        <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('header.microblading')">@lang('header.microblading')</a></li>
-                        <li><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('header.wax')">@lang('header.wax')</a></li>
-                        <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('header.lazer-epilasyon')">@lang('header.lazer-epilasyon')</a></li>
-                        <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('header.skin-care')">@lang('header.skin-care')</a></li>
-                        <li><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('header.cellulite-massage')">@lang('header.cellulite-massage')</a></li>
-                        <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('header.roll-shape')">@lang('header.roll-shape')</a> </li>
-                        <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('header.lip_filler')">@lang('header.lip_filler')</a></li>
-                        <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('header.keratin_care')">@lang('header.keratin_care')</a> </li>
-                        <li><a href="{{ uniqRt('perming') }}" class="dez-page" title="@lang('header.perm')">@lang('header.perm')</a></li>
-                        <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('header.brazillian-blow-dry')">@lang('header.brazillian-blow-dry')</a></li>
-                        <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('header.highlighted')">@lang('header.highlighted')</a></li>
-                        <li class="active"><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('header.hair_dye')">@lang('header.hair_dye')</a></li>
-                        <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('header.hair_dip_dye')">@lang('header.hair_dip_dye')</a></li>
-                        <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('header.hair_cut')">@lang('header.hair_cut')</a> </li>
-                        <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('header.hair_extension')">@lang('header.hair_extension')</a></li>
-                        <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('header.bridal_hair')">@lang('header.bridal_hair')</a></li>
+                        <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('hair-dye.perminant_nail_polish')">@lang('hair-dye.perminant_nail_polish')</a></li>
+                        <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('hair-dye.mani_pedi')">@lang('hair-dye.mani_pedi')</a></li>
+                        <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('hair-dye.prosthetic_nail')">@lang('hair-dye.prosthetic_nail')</a></li>
+                        <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('hair-dye.nail_art')">@lang('hair-dye.nail_art')</a></li>
+                        <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('hair-dye.silk_eyelash')">@lang('hair-dye.silk_eyelash')</a></li>
+                        <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('hair-dye.eyelash_lifting')">@lang('hair-dye.eyelash_lifting')</a></li>
+                        <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('hair-dye.dipliner')">@lang('hair-dye.dipliner')</a> </li>
+                        <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('hair-dye.eyebrow_lamination')">@lang('hair-dye.eyebrow_lamination')</a></li>
+                        <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('hair-dye.microblading')">@lang('hair-dye.microblading')</a></li>
+                        <li><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('hair-dye.wax')">@lang('hair-dye.wax')</a></li>
+                        <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('hair-dye.lazer-epilasyon')">@lang('hair-dye.lazer-epilasyon')</a></li>
+                        <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('hair-dye.skin-care')">@lang('hair-dye.skin-care')</a></li>
+                        <li><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('hair-dye.cellulite-massage')">@lang('hair-dye.cellulite-massage')</a></li>
+                        <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('hair-dye.roll-shape')">@lang('hair-dye.roll-shape')</a> </li>
+                        <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('hair-dye.lip_filler')">@lang('hair-dye.lip_filler')</a></li>
+                        <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('hair-dye.keratin_care')">@lang('hair-dye.keratin_care')</a> </li>
+                        <li><a href="{{ uniqRt('perming') }}" class="dez-page" title="@lang('hair-dye.perm')">@lang('hair-dye.perm')</a></li>
+                        <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('hair-dye.brazillian-blow-dry')">@lang('hair-dye.brazillian-blow-dry')</a></li>
+                        <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('hair-dye.highlighted')">@lang('hair-dye.highlighted')</a></li>
+                        <li class="active"><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('hair-dye.hair_dye')">@lang('hair-dye.hair_dye')</a></li>
+                        <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('hair-dye.hair_dip_dye')">@lang('hair-dye.hair_dip_dye')</a></li>
+                        <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('hair-dye.hair_cut')">@lang('hair-dye.hair_cut')</a> </li>
+                        <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('hair-dye.hair_extension')">@lang('hair-dye.hair_extension')</a></li>
+                        <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('hair-dye.bridal_hair')">@lang('hair-dye.bridal_hair')</a></li>
                     </ul>
                     <div class="col-lg-9 col-md-8">
                         <b class="m-t0 m-b10 fw6 text-primary" style="font-size: 1.9em;">@lang('hair-dye.hair_dye_context_title')</b>
