@@ -28,30 +28,30 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('wax-application.perminant_nail_polish')">@lang('wax-application.perminant_nail_polish')</a></li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('wax-application.mani_pedi')">@lang('wax-application.mani_pedi')</a></li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('wax-application.prosthetic_nail')">@lang('wax-application.prosthetic_nail')</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('wax-application.nail_art')">@lang('wax-application.nail_art')</a></li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('wax-application.silk_eyelash')">@lang('wax-application.silk_eyelash')</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('wax-application.eyelash_lifting')">@lang('wax-application.eyelash_lifting')</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('wax-application.dipliner')">@lang('wax-application.dipliner')</a> </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('wax-application.eyebrow_lamination')">@lang('wax-application.eyebrow_lamination')</a></li>
-                                <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('wax-application.microblading')">@lang('wax-application.microblading')</a></li>
-                                <li class="active"><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('wax-application.wax')">@lang('wax-application.wax')</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('wax-application.lazer-epilasyon')">@lang('wax-application.lazer-epilasyon')</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('wax-application.skin-care')">@lang('wax-application.skin-care')</a></li>
-                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('wax-application.cellulite-massage')">@lang('wax-application.cellulite-massage')</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('wax-application.roll-shape')">@lang('wax-application.roll-shape')</a> </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('wax-application.lip_filler')">@lang('wax-application.lip_filler')</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('wax-application.keratin_care')">@lang('wax-application.keratin_care')</a> </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('wax-application.perm')">@lang('wax-application.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('wax-application.brazillian-blow-dry')">@lang('wax-application.brazillian-blow-dry')</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('wax-application.highlighted')">@lang('wax-application.highlighted')</a></li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('wax-application.hair_dye')">@lang('wax-application.hair_dye')</a></li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('wax-application.hair_dip_dye')">@lang('wax-application.hair_dip_dye')</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('wax-application.hair_cut')">@lang('wax-application.hair_cut')</a> </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('wax-application.hair_extension')">@lang('wax-application.hair_extension')</a></li>
-                                <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('wax-application.bridal_hair')">@lang('wax-application.bridal_hair')</a></li>
+                                <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('header.perminant_nail_polish')">@lang('header.perminant_nail_polish')</a></li>
+                                <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('header.mani_pedi')">@lang('header.mani_pedi')</a></li>
+                                <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('header.prosthetic_nail')">@lang('header.prosthetic_nail')</a></li>
+                                <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('header.nail_art')">@lang('header.nail_art')</a></li>
+                                <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('header.silk_eyelash')">@lang('header.silk_eyelash')</a></li>
+                                <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('header.eyelash_lifting')">@lang('header.eyelash_lifting')</a></li>
+                                <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('header.dipliner')">@lang('header.dipliner')</a> </li>
+                                <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('header.eyebrow_lamination')">@lang('header.eyebrow_lamination')</a></li>
+                                <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('header.microblading')">@lang('header.microblading')</a></li>
+                                <li class="active"><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('header.wax')">@lang('header.wax')</a></li>
+                                <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('header.lazer-epilasyon')">@lang('header.lazer-epilasyon')</a></li>
+                                <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('header.skin-care')">@lang('header.skin-care')</a></li>
+                                <li><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('header.cellulite-massage')">@lang('header.cellulite-massage')</a></li>
+                                <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('header.roll-shape')">@lang('header.roll-shape')</a> </li>
+                                <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('header.lip_filler')">@lang('header.lip_filler')</a></li>
+                                <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('header.keratin_care')">@lang('header.keratin_care')</a> </li>
+                                <li><a href="{{ uniqRt('perming') }}" class="dez-page" title="@lang('header.perm')">@lang('header.perm')</a></li>
+                                <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('header.brazillian-blow-dry')">@lang('header.brazillian-blow-dry')</a></li>
+                                <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('header.highlighted')">@lang('header.highlighted')</a></li>
+                                <li><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('header.hair_dye')">@lang('header.hair_dye')</a></li>
+                                <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('header.hair_dip_dye')">@lang('header.hair_dip_dye')</a></li>
+                                <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('header.hair_cut')">@lang('header.hair_cut')</a> </li>
+                                <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('header.hair_extension')">@lang('header.hair_extension')</a></li>
+                                <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('header.bridal_hair')">@lang('header.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
                                 <h4 class="text-primary">@lang('wax-application.sart_on_social_media')</h4>

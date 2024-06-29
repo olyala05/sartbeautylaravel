@@ -44,7 +44,7 @@
                                     <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('header.lip_filler')">@lang('header.lip_filler')</a></li>
                                     <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('header.keratin_care')">@lang('header.keratin_care')</a> </li>
                                     <li><a href="{{ uniqRt('perma') }}" class="dez-page" title="@lang('header.perm')">@lang('header.perm')</a></li>
-                                    <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('header.brazillian-blow-dry')">@lang('header.brazillian-blow-dry')</a></li>
+                                    <li class="active"><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('header.brazillian-blow-dry')">@lang('header.brazillian-blow-dry')</a></li>
                                     <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('header.highlighted')">@lang('header.highlighted')</a></li>
                                     <li><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('header.hair_dye')">@lang('header.hair_dye')</a></li>
                                     <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('header.hair_dip_dye')">@lang('header.hair_dip_dye')</a></li>
