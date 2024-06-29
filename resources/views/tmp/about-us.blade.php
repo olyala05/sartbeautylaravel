@@ -58,7 +58,7 @@
                                     src="/images/sart/logo-transparent.png"></div>
                         </div>
                         <h2 class="text-white m-b10">@lang('about.about_us_section3_title')</h2>
-                        <p>@lang('about.about_us_section3_con')</p>
+                        <p>@lang('about.about_us_section3_cont')</p>
                     </div>
                     <div
                         class="testimonial-two-dots owl-carousel owl-theme owl-dots-primary-full owl-btn-center-lr owl-btn-3">

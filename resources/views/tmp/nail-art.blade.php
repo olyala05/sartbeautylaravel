@@ -28,30 +28,30 @@
                         <div class="col-lg-3 col-md-4">
                             <div class="sticky-top">
                                 <ul class="service-list m-b30">
-                                    <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('nail-art.perminant_nail_polish')">@lang('nail-art.perminant_nail_polish')</a></li>
-                                    <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page" title="@lang('nail-art.mani_pedi')">@lang('nail-art.mani_pedi')</a></li>
-                                    <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page" title="@lang('nail-art.prosthetic_nail')">@lang('nail-art.prosthetic_nail')</a></li>
-                                    <li class="active"><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('nail-art.nail_art')">@lang('nail-art.nail_art')</a></li>
-                                    <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page" title="@lang('nail-art.silk_eyelash')">@lang('nail-art.silk_eyelash')</a></li>
-                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('nail-art.eyelash_lifting')">@lang('nail-art.eyelash_lifting')</a></li>
-                                    <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page" title="@lang('nail-art.dipliner')">@lang('nail-art.dipliner')</a> </li>
-                                    <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page" title="@lang('nail-art.eyebrow_lamination')">@lang('nail-art.eyebrow_lamination')</a></li>
-                                    <li><a href="{{ route('pages.microblading') }}" class="dez-page" title="@lang('nail-art.microblading')">@lang('nail-art.microblading')</a></li>
-                                    <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('nail-art.wax')">@lang('nail-art.wax')</a></li>
-                                    <li><a href="{{ route('pages.iselaser') }}" class="dez-page" title="@lang('nail-art.lazer-epilasyon')">@lang('nail-art.lazer-epilasyon')</a></li>
-                                    <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('nail-art.skin-care')">@lang('nail-art.skin-care')</a></li>
-                                    <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page" title="@lang('nail-art.cellulite-massage')">@lang('nail-art.cellulite-massage')</a></li>
-                                    <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('nail-art.roll-shape')">@lang('nail-art.roll-shape')</a> </li>
-                                    <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page" title="@lang('nail-art.lip_filler')">@lang('nail-art.lip_filler')</a></li>
-                                    <li><a href="{{ route('pages.keratincare') }}" class="dez-page" title="@lang('nail-art.keratin_care')">@lang('nail-art.keratin_care')</a> </li>
-                                    <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('nail-art.perm')">@lang('nail-art.perm')</a></li>
-                                    <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page" title="@lang('nail-art.brazillian-blow-dry')">@lang('nail-art.brazillian-blow-dry')</a></li>
-                                    <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('nail-art.highlighted')">@lang('nail-art.highlighted')</a></li>
-                                    <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('nail-art.hair_dye')">@lang('nail-art.hair_dye')</a></li>
-                                    <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('nail-art.hair_dip_dye')">@lang('nail-art.hair_dip_dye')</a></li>
-                                    <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('nail-art.hair_cut')">@lang('nail-art.hair_cut')</a> </li>
-                                    <li><a href="{{ route('pages.hairextension') }}" class="dez-page"   title="@lang('nail-art.hair_extension')">@lang('nail-art.hair_extension')</a></li>
-                                    <li><a href="{{ route('pages.bridalhair') }}" class="dez-page" title="@lang('nail-art.bridal_hair')">@lang('nail-art.bridal_hair')</a></li>
+                                    <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('nail-art.perminant_nail_polish')">@lang('nail-art.perminant_nail_polish')</a></li>
+                                    <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('nail-art.mani_pedi')">@lang('nail-art.mani_pedi')</a></li>
+                                    <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('nail-art.prosthetic_nail')">@lang('nail-art.prosthetic_nail')</a></li>
+                                    <li class="active"><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('nail-art.nail_art')">@lang('nail-art.nail_art')</a></li>
+                                    <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('nail-art.silk_eyelash')">@lang('nail-art.silk_eyelash')</a></li>
+                                    <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('nail-art.eyelash_lifting')">@lang('nail-art.eyelash_lifting')</a></li>
+                                    <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('nail-art.dipliner')">@lang('nail-art.dipliner')</a> </li>
+                                    <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('nail-art.eyebrow_lamination')">@lang('nail-art.eyebrow_lamination')</a></li>
+                                    <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('nail-art.microblading')">@lang('nail-art.microblading')</a></li>
+                                    <li><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('nail-art.wax')">@lang('nail-art.wax')</a></li>
+                                    <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('nail-art.lazer-epilasyon')">@lang('nail-art.lazer-epilasyon')</a></li>
+                                    <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('nail-art.skin-care')">@lang('nail-art.skin-care')</a></li>
+                                    <li><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('nail-art.cellulite-massage')">@lang('nail-art.cellulite-massage')</a></li>
+                                    <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('nail-art.roll-shape')">@lang('nail-art.roll-shape')</a> </li>
+                                    <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('nail-art.lip_filler')">@lang('nail-art.lip_filler')</a></li>
+                                    <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('nail-art.keratin_care')">@lang('nail-art.keratin_care')</a> </li>
+                                    <li><a href="{{ uniqRt('perming') }}" class="dez-page" title="@lang('nail-art.perm')">@lang('nail-art.perm')</a></li>
+                                    <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('nail-art.brazillian-blow-dry')">@lang('nail-art.brazillian-blow-dry')</a></li>
+                                    <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('nail-art.highlighted')">@lang('nail-art.highlighted')</a></li>
+                                    <li><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('nail-art.hair_dye')">@lang('nail-art.hair_dye')</a></li>
+                                    <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('nail-art.hair_dip_dye')">@lang('nail-art.hair_dip_dye')</a></li>
+                                    <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('nail-art.hair_cut')">@lang('nail-art.hair_cut')</a> </li>
+                                    <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('nail-art.hair_extension')">@lang('nail-art.hair_extension')</a></li>
+                                    <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('nail-art.bridal_hair')">@lang('nail-art.bridal_hair')</a></li>
                                 </ul>
                                 <div class="download-brochure m-b30 ">
                                     <h4 class="text-primary">@lang('nail-art.sart_on_social_media')</h4>

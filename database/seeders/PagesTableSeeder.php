@@ -295,7 +295,7 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.bridal-hair'
         ],
         [
-            'lang' => 'en',
+            'lang' => 'tr',
             'uniq_slug' => 'silk-eyelash',
             'title' => "Kadıköy - İpek Kirpik Uygulamaları | S Art Beauty Center",
             'description' => "S Art Beauty Center'da ipek kirpik uygulamalarıyla kalıcı ve doğal bir görünüm elde edin. Güzelliğinize değer katın!",
@@ -364,7 +364,8 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.hair-color-highlights'
         ],
         [
-            'lang' => 'tr', 'uniq_slug' => 'hair-dye',
+            'lang' => 'tr', 
+            'uniq_slug' => 'hair-dye',
             'title' => "Kadıköy - Saç Boyası Modelleri | S Art Beauty Center ",
             'description' => "Saçlarınız için S Art Beauty Center'da çeşitli saç boyası seçenekleri! Hemen randevunuzu oluşturun.",
             'content' => 'BLADE:tmp.hair-dye'
@@ -468,7 +469,8 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.bridal-hair'
         ],
         [
-            'lang' => 'ru', 'uniq_slug' => 'silk-eyelash',
+            'lang' => 'ru', 
+            'uniq_slug' => 'silk-eyelash',
             'title' => "кадыкёй - Шелковые ресницы | S Art Beauty Center",
             'description' => "Добейтесь долговечного и естественного вида с шелковыми ресницами в S Art Beauty Center. Придайте красоту своей внешности!",
             'content' => 'BLADE:tmp.silk-eyelash'

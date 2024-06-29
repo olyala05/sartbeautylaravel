@@ -9,9 +9,9 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('bridal-hair.sart_official_center_home')"
                                 target="_self">@lang('bridal-hair.home')</a></li>
-                        <li>@lang('bridal-hair.bridal_hair')Gelin Topuzu</li>
+                        <li>@lang('bridal-hair.bridal_hair')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->
@@ -27,56 +27,30 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="sticky-top">
                             <ul class="service-list m-b30">
-                                <li><a href="{{ route('pages.gelpolish') }}" class="dez-page" title="@lang('bridal-hair.perminant_nail_polish')">@lang('bridal-hair.perminant_nail_polish')</a>
-                                </li>
-                                <li><a href="{{ route('pages.manicurepedicure') }}" class="dez-page"
-                                        title="@lang('bridal-hair.mani_pedi')">@lang('bridal-hair.mani_pedi')</a>
-                                </li>
-                                <li><a href="{{ route('pages.prostheticnails') }}" class="dez-page"
-                                        title="@lang('bridal-hair.prosthetic_nail')">@lang('bridal-hair.prosthetic_nail')</a></li>
-                                <li><a href="{{ route('pages.nailart') }}" class="dez-page" title="@lang('bridal-hair.nail_art')">@lang('bridal-hair.nail_art')</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyelashextensions') }}" class="dez-page"
-                                        title="@lang('bridal-hair.silk_eyelash')">@lang('bridal-hair.silk_eyelash')</a></li>
-                                <li><a href="{{ route('pages.eyelashlifting') }}" class="dez-page"
-                                        title="@lang('bridal-hair.eyelash_lifting')">@lang('bridal-hair.eyelash_lifting')</a></li>
-                                <li><a href="{{ route('pages.deepliner') }}" class="dez-page"
-                                        title="@lang('bridal-hair.dipliner')">@lang('bridal-hair.dipliner')</a>
-                                </li>
-                                <li><a href="{{ route('pages.eyebrowlamination') }}" class="dez-page"
-                                        title="@lang('bridal-hair.eyebrow_lamination')">@lang('bridal-hair.eyebrow_lamination')</a>
-                                </li>
-                                <li><a href="{{ 'microblading' }}" class="dez-page"
-                                        title="@lang('bridal-hair.microblading')">@lang('bridal-hair.microblading')</a>
-                                </li>
-                                <li><a href="{{ route('pages.shugaring') }}" class="dez-page" title="@lang('bridal-hair.wax')">@lang('bridal-hair.wax')</a></li>
-                                <li><a href="{{ route('pages.iselaser') }}" class="dez-page"
-                                        title="@lang('bridal-hair.lazer-epilasyon')">@lang('bridal-hair.lazer-epilasyon')</a></li>
-                                <li><a href="{{ route('pages.skincare') }}" class="dez-page" title="@lang('bridal-hair.skin-care')">@lang('bridal-hair.skin-care')</a>
-                                </li>
-                                <li><a href="{{ route('pages.cellulitemassage') }}" class="dez-page"
-                                        title="@lang('bridal-hair.cellulite-massage')">@lang('bridal-hair.cellulite-massage')</a></li>
-                                <li><a href="{{ route('pages.rollshape') }}" class="dez-page" title="@lang('bridal-hair.roll-shape')">@lang('bridal-hair.roll-shape')</a>
-                                </li>
-                                <li><a href="{{ route('pages.lipcoloring') }}" class="dez-page"
-                                        title="@lang('bridal-hair.lip_filler')">@lang('bridal-hair.lip_filler')</a></li>
-                                <li><a href="{{ route('pages.keratincare') }}" class="dez-page"
-                                        title="@lang('bridal-hair.keratin_care')">@lang('bridal-hair.keratin_care')</a>
-                                </li>
-                                <li><a href="{{ route('pages.perma') }}" class="dez-page" title="@lang('bridal-hair.perm')">@lang('bridal-hair.perm')</a></li>
-                                <li><a href="{{ route('pages.brazilianblowdry') }}" class="dez-page"
-                                        title="@lang('bridal-hair.brazillian-blow-dry')">@lang('bridal-hair.brazillian-blow-dry')</a></li>
-                                <li><a href="{{ route('pages.highlight') }}" class="dez-page" title="@lang('bridal-hair.highlighted')">@lang('bridal-hair.highlighted')</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdye') }}" class="dez-page" title="@lang('bridal-hair.hair_dye')">@lang('bridal-hair.hair_dye')</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairdipdye') }}" class="dez-page" title="@lang('bridal-hair.hair_dip_dye')">@lang('bridal-hair.hair_dip_dye')</a></li>
-                                <li><a href="{{ route('pages.haircut') }}" class="dez-page" title="@lang('bridal-hair.hair_cut')">@lang('bridal-hair.hair_cut')</a>
-                                </li>
-                                <li><a href="{{ route('pages.hairextension') }}" class="dez-page"
-                                        title="@lang('bridal-hair.hair_extension')">@lang('bridal-hair.hair_extension')</a></li>
-                                <li class="active"><a href="{{ route('pages.bridalhair') }}" class="dez-page"
-                                        title="@lang('bridal-hair.bridal_hair')">@lang('bridal-hair.bridal_hair')</a></li>
+                                <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('bridal-hair.perminant_nail_polish')">@lang('bridal-hair.perminant_nail_polish')</a></li>
+                                <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('bridal-hair.mani_pedi')">@lang('bridal-hair.mani_pedi')</a></li>
+                                <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('bridal-hair.prosthetic_nail')">@lang('bridal-hair.prosthetic_nail')</a></li>
+                                <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('bridal-hair.nail_art')">@lang('bridal-hair.nail_art')</a></li>
+                                <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('bridal-hair.silk_eyelash')">@lang('bridal-hair.silk_eyelash')</a></li>
+                                <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('bridal-hair.eyelash_lifting')">@lang('bridal-hair.eyelash_lifting')</a></li>
+                                <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('bridal-hair.dipliner')">@lang('bridal-hair.dipliner')</a> </li>
+                                <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('bridal-hair.eyebrow_lamination')">@lang('bridal-hair.eyebrow_lamination')</a></li>
+                                <li><a href="{{ uniqRt('microblading') }}" class="dez-page" title="@lang('bridal-hair.microblading')">@lang('bridal-hair.microblading')</a></li>
+                                <li><a href="{{ uniqRt('wax-application') }}" class="dez-page" title="@lang('bridal-hair.wax')">@lang('bridal-hair.wax')</a></li>
+                                <li><a href="{{ uniqRt('ice-laser-hair-removal') }}" class="dez-page" title="@lang('bridal-hair.lazer-epilasyon')">@lang('bridal-hair.lazer-epilasyon')</a></li>
+                                <li><a href="{{ uniqRt('skin-care') }}" class="dez-page" title="@lang('bridal-hair.skin-care')">@lang('bridal-hair.skin-care')</a></li>
+                                <li><a href="{{ uniqRt('cellulite-massage') }}" class="dez-page" title="@lang('bridal-hair.cellulite-massage')">@lang('bridal-hair.cellulite-massage')</a></li>
+                                <li><a href="{{ uniqRt('roll-shape') }}" class="dez-page" title="@lang('bridal-hair.roll-shape')">@lang('bridal-hair.roll-shape')</a> </li>
+                                <li><a href="{{ uniqRt('lip-coloring') }}" class="dez-page" title="@lang('bridal-hair.lip_filler')">@lang('bridal-hair.lip_filler')</a></li>
+                                <li><a href="{{ uniqRt('keratin-care') }}" class="dez-page" title="@lang('bridal-hair.keratin_care')">@lang('bridal-hair.keratin_care')</a> </li>
+                                <li><a href="{{ uniqRt('perma') }}" class="dez-page" title="@lang('bridal-hair.perm')">@lang('bridal-hair.perm')</a></li>
+                                <li><a href="{{ uniqRt('brazillian-blow-dry') }}" class="dez-page" title="@lang('bridal-hair.brazillian-blow-dry')">@lang('bridal-hair.brazillian-blow-dry')</a></li>
+                                <li><a href="{{ uniqRt('hair-color-highlights') }}" class="dez-page" title="@lang('bridal-hair.highlighted')">@lang('bridal-hair.highlighted')</a></li>
+                                <li><a href="{{ uniqRt('hair-dye') }}" class="dez-page" title="@lang('bridal-hair.hair_dye')">@lang('bridal-hair.hair_dye')</a></li>
+                                <li><a href="{{ uniqRt('hair-dip-dye') }}" class="dez-page" title="@lang('bridal-hair.hair_dip_dye')">@lang('bridal-hair.hair_dip_dye')</a></li>
+                                <li><a href="{{ uniqRt('hair-cut') }}" class="dez-page" title="@lang('bridal-hair.hair_cut')">@lang('bridal-hair.hair_cut')</a> </li>
+                                <li><a href="{{ uniqRt('hair-extension') }}" class="dez-page" title="@lang('bridal-hair.hair_extension')">@lang('bridal-hair.hair_extension')</a></li>
+                                <li class="active"><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('bridal-hair.bridal_hair')">@lang('bridal-hair.bridal_hair')</a></li>
                             </ul>
                             <div class="download-brochure m-b30 ">
                                 <h4 class="text-primary">@lang('bridal-hair.sart_on_social_media')</h4>

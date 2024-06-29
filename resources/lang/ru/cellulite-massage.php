@@ -12,7 +12,7 @@ return [
 
     /*** header subtitle ***/
     "lazer-epilasyon" => "Лазерная эпиляция",
-    "selülit-masajı" => "Массаж G5 (целлюлитный массаж)",
+    "cellulite-massage" => "Массаж G5 (целлюлитный массаж)",
     "roll-shape" => "Применение Roll Shape",
     "brezilya-fönü" => "Кератиновое выпрямление волос ",
     "cilt-bakımı" => "Уход за кожей",

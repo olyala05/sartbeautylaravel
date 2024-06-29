@@ -8,7 +8,8 @@ return [
     "language" => "Dil",
 
     "contact_us_section2_subtitle5" => "S Art Beuty Center Ana Sayfa",
-    /*** header subtitle ***/
+
+   /*** header subtitle ***/
     "mani_pedi" => "Manikür ve Pedikür",
     "perminant_nail_polish" => "Kalıcı Oje",
     "prosthetic_nail" => "Protez Tırnak",
@@ -25,6 +26,7 @@ return [
     "roll-shape" => "Roll Shape",
     "brazillian-blow-dry" => "Brezilya Fönü",
     "lip_filler" => "Dudak Renklendirme",
+    "bridal_hair" => "Gelin Topuzu",
     "keratin_care" => "Keratin Bakım",
     "perm" => "Perma",
     "highlighted" => "Röfle",
@@ -32,8 +34,7 @@ return [
     "hair_dip_dye" => "Dip Boyası",
     "hair_cut" => "Saç Kesim",
     "hair_extension" => "Saç Kaynak",
-    "bridal_hair" => "Gelin Topuzu",
-
+    
     /*** services ***/
     "sart_on_social_media" => "Sosyal Medyada Biz",
     "follow_us_on_insta" => "Instagramda Bizi Takip Edin",
