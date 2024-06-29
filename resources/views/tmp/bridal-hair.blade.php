@@ -9,9 +9,9 @@
                 <!-- Breadcrumb row -->
                 <div class="breadcrumb-row">
                     <ul class="list-inline">
-                        <li><a href="{{ route('route',['/']) }}" title="S Art Beauty Center Ana Sayfa"
+                        <li><a href="{{ route('route',['/']) }}" title="@lang('bridal-hair.sart_official_center_home')"
                                 target="_self">@lang('bridal-hair.home')</a></li>
-                        <li>@lang('bridal-hair.bridal_hair')Gelin Topuzu</li>
+                        <li>@lang('bridal-hair.bridal_hair')</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb row END -->

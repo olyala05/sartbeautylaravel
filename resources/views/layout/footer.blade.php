@@ -7,9 +7,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-right ">
                     <div class="widget-link ">
                         <ul>
-                            <li><a href="{{ route('pages.policies') }}" title="@lang('footer.user_policies')">@lang('footer.user_policies')</a>
+                            <li><a href="{{ uniqRt('policies') }}" title="@lang('footer.user_policies')">@lang('footer.user_policies')</a>
                             </li>
-                            <li><a href="{{ route('pages.contact') }}" title="@lang('footer.sart_official_center_contact')"
+                            <li><a href="{{ uniqRt('contact-us') }}" title="@lang('footer.sart_official_center_contact')"
                                     target="_self">@lang('footer.user_policies_subtitle6')</a>
                             </li>
                         </ul>

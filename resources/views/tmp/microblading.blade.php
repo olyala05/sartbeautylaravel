@@ -53,7 +53,7 @@
                                     <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('microblading.bridal_hair')">@lang('microblading.bridal_hair')</a></li>
                                 </ul>
                                 <div class="download-brochure m-b30 ">
-                                    <h4 class="text-primary">@lang('microblading.Sosyal Medyada Biz')</h4>
+                                    <h4 class="text-primary">@lang('microblading.sart_on_social_media')</h4>
                                     <p>@lang('microblading.follow_us_on_insta')</p>
                                     <a href="https://www.instagram.com/s.art.beauty" class="site-button"
                                         title="@lang('microblading.sart_official_center_instagram')" target="_blank">S.ART.BEAUTY</a>
