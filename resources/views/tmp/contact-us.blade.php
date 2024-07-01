@@ -3,8 +3,8 @@
 <div class="page-content bg-white">
     <!-- inner page banner -->
     <div class="dlab-bnr-inr dlab-bnr-inr  bg-pt iletisim-position bg-primary">
-        <div class="pattern-layer" style="background-image:url(/images/sart/contact_us.png);"></div>
-        <div class="container">
+        <div class="pattern-layer" style="background-image:url(/images/sart/contact_us.png);">
+            <div class="container">
             <div class="dlab-bnr-inr-entry">
                 <h1 class="text-white">@lang('contact.contact_us')</h1>
                 <!-- Breadcrumb row -->
@@ -17,6 +17,8 @@
                 <!-- Breadcrumb row END -->
             </div>
         </div>
+        </div>
+
     </div>
     <!-- inner page banner END -->
     <!-- contact area --> <!--sart -->

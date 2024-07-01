@@ -7,7 +7,7 @@
                 <div class="section-head text-black text-center">
                     <div class="dlab-separator-outer m-b0">
                         <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo_fav.png"
-                                alt="S Art Beauty Center"></div>
+                                alt="@lang('services.sart')"></div>
                     </div>
                     <h2 class="text-primary m-b10">@lang('services.services')</h2>
                     <h6 class="m-b10">@lang('services.index_section1_subtitle')</h6>
@@ -15,21 +15,28 @@
                 </div>
                 <div
                     class="img-carousel owl-carousel owl-theme owl-none owl-dots-primary-big owl-btn-center-lr owl-loade m-b30">
+
+                    {{-- Kirpik Lifting --}}
                     <div class="item">
                         <div class="service-box text-center">
-                            <div class="service-images m-b15">
-                                <img width="300" height="300" src="/images/sart/kirpik_lifting_6.webp"
-                                    alt="@lang('services.index_section1_slide1_alt')" />
-                                <i class="flaticon-woman-1"></i>
-                            </div>
-                            <div class="service-content">
-                                <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide1_alt')" target="_self">@lang('services.index_section1_slide1_alt')</a>
-                                </h6>
-                                <p>@lang('services.index_section1_slide1_cont')</p>
-                            </div>
+                            <a href="{{ uniqRt('eyelash-lifting') }}" title="@lang('services.index_section1_slide1_alt')" class="service-link">
+                                <div class="service-images m-b15">
+                                    <img width="300" height="300" src="/images/sart/kirpik_lifting_6.webp"
+                                        alt="@lang('services.index_section1_slide1_alt')" />
+                                    <i class="flaticon-woman-1"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h6 class="text-uppercase text-primary">
+                                        @lang('services.index_section1_slide1_alt')
+                                    </h6>
+                                    <p>@lang('services.index_section1_slide1_cont')</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
+
+
+                    {{-- Kaş Laminasyon --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -39,12 +46,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide2_title')" target="_self">@lang('services.index_section1_slide2_title')</a>
+                                    <a href="{{ uniqRt('eyebrow-lamination') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide2_title')" target="_self">@lang('services.index_section1_slide2_title')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide2_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Dudak Renklendirme --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -54,12 +64,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide3_title')" target="_self">@lang('services.index_section1_slide3_title')</a>
+                                    <a href="{{ uniqRt('lip-coloring') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide3_title')" target="_self">@lang('services.index_section1_slide3_title')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide3_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Protex Tırnak --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -69,13 +82,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide4_title')"
-                                        target="_self">@lang('services.index_section1_slide4_title')</a>
+                                    <a href="{{ uniqRt('prosthetic-nails') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide4_title')" target="_self">@lang('services.index_section1_slide4_title')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide4_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- İpek Kirpik --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -85,12 +100,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide5_title')" target="_self">@lang('services.index_section1_slide5_title')</a>
+                                    <a href="{{ uniqRt('silk-eyelash') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide5_title')" target="_self">@lang('services.index_section1_slide5_title')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide5_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Saç Kesim --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -100,12 +118,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide6_alt')" target="_self">@lang('services.index_section1_slide6_alt')</a>
+                                    <a href="{{ uniqRt('hair-cut') }}" class="text-primary" title="@lang('services.index_section1_slide6_alt')"
+                                        target="_self">@lang('services.index_section1_slide6_alt')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide6_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Tırnak Tasarımı --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -115,12 +136,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide7_alt')" target="_self">@lang('services.index_section1_slide7_alt')</a>
+                                    <a href="{{ uniqRt('nail-art') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide7_alt')" target="_self">@lang('services.index_section1_slide7_alt')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide7_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Saç Kaynak --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -130,12 +154,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide8_alt')" target="_self">@lang('services.index_section1_slide8_alt')</a>
+                                    <a href="{{ uniqRt('hair-extension') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide8_alt')" target="_self">@lang('services.index_section1_slide8_alt')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide8_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Kalıcı Oje --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -145,12 +172,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide10_alt')" target="_self">@lang('services.index_section1_slide10_alt')</a>
+                                    <a href="{{ uniqRt('permanent-nail-polish') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide10_alt')" target="_self">@lang('services.index_section1_slide10_alt')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide10_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Saç Bayası --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -160,12 +190,15 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide11_alt')" target="_self">@lang('services.index_section1_slide11_alt')</a>
+                                    <a href="{{ uniqRt('hair-dye') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide11_alt')" target="_self">@lang('services.index_section1_slide11_alt')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide11_cont')</p>
                             </div>
                         </div>
                     </div>
+
+                    {{-- Şeker Ağda --}}
                     <div class="item">
                         <div class="service-box text-center">
                             <div class="service-images m-b15">
@@ -175,17 +208,18 @@
                             </div>
                             <div class="service-content">
                                 <h6 class="text-uppercase">
-                                    <a href="#" class="text-primary" title="@lang('services.index_section1_slide12_alt')" target="_self">@lang('services.index_section1_slide12_alt')</a>
+                                    <a href="{{ uniqRt('wax-application') }}" class="text-primary"
+                                        title="@lang('services.index_section1_slide12_alt')" target="_self">@lang('services.index_section1_slide12_alt')</a>
                                 </h6>
                                 <p>@lang('services.index_section1_slide12_cont')</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="text-center">
                     <a href="{{ route('pages.services') }}" class="site-button outline focus-white"
-                        title="@lang('services.sart_official_center_job_explanation')" target="_self">@lang('services.index_section1_services_redirect_button')</a>
+                        title="@lang('services.sart_official_center_job_explanation')" target="_self">@lang('services.index_section1_services_redirect_button')
+                    </a>
                 </div>
             </div>
         </div>
@@ -204,10 +238,14 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="site-filters style1 clearfix center">
                             <ul class="filters" data-toggle="buttons">
-                                <li data-filter="" class="btn active"><a href="#" title="@lang('services.index_section2_link_title1')"><span>@lang('services.index_section2_link_title1')</span></a></li>
-                                <li data-filter="image-1" class="btn"><a href="#" title="@lang('services.index_section2_link_title2')"><span>@lang('services.index_section2_link_title2')</span></a></li>
-                                <li data-filter="image-2" class="btn"><a href="#" title="@lang('services.index_section2_link_title3')"><span>@lang('services.index_section2_link_title3')</span></a></li>
-                                <li data-filter="image-3" class="btn"><a href="#" title="@lang('services.index_section2_link_title4')"><span>@lang('services.index_section2_link_title4')</span></a></li>
+                                <li data-filter="" class="btn active"><a href="#"
+                                        title="@lang('services.index_section2_link_title1')"><span>@lang('services.index_section2_link_title1')</span></a></li>
+                                <li data-filter="image-1" class="btn"><a href="#"
+                                        title="@lang('services.index_section2_link_title2')"><span>@lang('services.index_section2_link_title2')</span></a></li>
+                                <li data-filter="image-2" class="btn"><a href="#"
+                                        title="@lang('services.index_section2_link_title3')"><span>@lang('services.index_section2_link_title3')</span></a></li>
+                                <li data-filter="image-3" class="btn"><a href="#"
+                                        title="@lang('services.index_section2_link_title4')"><span>@lang('services.index_section2_link_title4')</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -215,7 +253,8 @@
 
                 <!-- //Saç -->
                 <div class="clearfix">
-                    <ul id="masonry" class="portfolio-box dlab-gallery-listing gallery-grid-4 gallery row lightgallery">
+                    <ul id="masonry"
+                        class="portfolio-box dlab-gallery-listing gallery-grid-4 gallery row lightgallery">
                         <li class="image-1  card-container col-lg-3 col-md-3 col-sm-3">
                             <div class="dlab-box">
                                 <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
@@ -256,8 +295,8 @@
                                     <div class="overlay-bx">
                                         <div class="overlay-icon">
                                             <span data-exthumbimage="/images/gallery/middle/thumb/pic3.webp"
-                                                data-src="/images/sart/kirpik_tasarim.webp" class="icon-bx-xs check-km"
-                                                title="@lang('services.silk_eyelash')">
+                                                data-src="/images/sart/kirpik_tasarim.webp"
+                                                class="icon-bx-xs check-km" title="@lang('services.silk_eyelash')">
                                                 <i class="ti-fullscreen"></i>
                                             </span>
                                         </div>
@@ -274,8 +313,8 @@
                                     <div class="overlay-bx">
                                         <div class="overlay-icon">
                                             <span data-exthumbimage="/images/gallery/middle/thumb/pic4.webp"
-                                                data-src="/images/sart/tirnak_manikur.webp" class="icon-bx-xs check-km"
-                                                title="@lang('services.mani_pedi')">
+                                                data-src="/images/sart/tirnak_manikur.webp"
+                                                class="icon-bx-xs check-km" title="@lang('services.mani_pedi')">
                                                 <i class="ti-fullscreen"></i>
                                             </span>
                                         </div>
@@ -355,66 +394,77 @@
                     class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/dudak_renklendirme.webp" alt="@lang('services.lip_filler')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/dudak_renklendirme.webp" alt="@lang('services.lip_filler')"></div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/sac_islemleri.webp" alt="@lang('services.hair_cut')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/sac_islemleri.webp" alt="@lang('services.hair_cut')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/kirpik_bakimi.webp" alt="@lang('services.eyelash_lifting')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/kirpik_bakimi.webp" alt="@lang('services.eyelash_lifting')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/göz_alti_islemleri.webp" alt="@lang('services.silk_eyelash')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/göz_alti_islemleri.webp" alt="@lang('services.silk_eyelash')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/desenli_protez_tirnak.webp" alt="@lang('services.nail_art')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/desenli_protez_tirnak.webp" alt="@lang('services.nail_art')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/kas_kirpik_bakimi.webp" alt="@lang('services.silk_eyelash')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/kas_kirpik_bakimi.webp" alt="@lang('services.silk_eyelash')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/kalici_oje.webp" alt="@lang('services.perminant_nail_polish')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/kalici_oje.webp" alt="@lang('services.perminant_nail_polish')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/kaynak_sac_modelleri.webp" alt="@lang('services.hair_extension')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/kaynak_sac_modelleri.webp" alt="@lang('services.hair_extension')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/kas_laminasyonu.webp" alt="@lang('services.eyebrow_lamination')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/kas_laminasyonu.webp" alt="@lang('services.eyebrow_lamination')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/manikur_islemleri.webp" alt="@lang('services.mani_pedi')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/manikur_islemleri.webp" alt="@lang('services.mani_pedi')"></div>
 
                         </div>
                     </div>
                     <div class="item">
                         <div class="dlab-box text-center team-box">
-                            <div class="dlab-media"> <img width="300" height="300"img src="/images/sart/pedikur_6.webp" alt="@lang('services.mani_pedi')"></div>
+                            <div class="dlab-media"> <img width="300" height="300"img
+                                    src="/images/sart/pedikur_6.webp" alt="@lang('services.mani_pedi')"></div>
                         </div>
                     </div>
                 </div>
@@ -426,13 +476,14 @@
             <div class="container">
                 <div class="section-head text-black text-center">
                     <div class="dlab-separator-outer m-b0">
-                        <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo-transparent.png"
-                                alt="@lang('services.index_section5_img_alt')"></div>
+                        <div class="dlab-separator text-primary style-icon"><img
+                                src="/images/sart/logo-transparent.png" alt="@lang('services.index_section5_img_alt')"></div>
                     </div>
                     <h2 class="text-white m-b10">@lang('services.index_section5_main_title')</h2>
                     <p>@lang('services.index_section5_cont')</p>
                 </div>
-                <div class="testimonial-two-dots owl-carousel owl-theme owl-dots-primary-full owl-btn-center-lr owl-btn-3">
+                <div
+                    class="testimonial-two-dots owl-carousel owl-theme owl-dots-primary-full owl-btn-center-lr owl-btn-3">
                     <div class="item p-a5">
                         <div class="testimonial-9">
                             <div class="testimonial-pic radius style1">
