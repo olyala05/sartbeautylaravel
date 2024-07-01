@@ -261,6 +261,15 @@ class RoutesTableSeeder extends Seeder
                 "description" => "Experience smooth, hair-free skin with professional waxing services at S Art Beauty Center. Book your appointment now!",
             ]
         ],
+        [
+            'lang' => "en",
+            'slug' => 'policies',
+            'uniq_slug' => 'policies',
+            "meta_information" => [
+                "title" => "Privacy Policy, Terms of Use, and Cookie Policy",
+                "description" => "Privacy Policy, Terms of Use, and Cookie Policys",
+            ]
+        ],
         // TODO: ---------------------------- TR ---------------------------- //
         [
             'lang' => 'tr', 'slug' => 'hizmetlerimiz',
@@ -510,6 +519,15 @@ class RoutesTableSeeder extends Seeder
             "meta_information" => [
                 "title" => "Kadıköy - Şeker Ağda Uygulaması | S Art Beauty Center ",
                 "description" => "Şeker ağda uygulaması ile hassas ve doğal bir tüy alma deneyimi yaşayın. Randevunuzu hemen alın!",
+            ]
+        ],
+        [
+            'lang' => "tr",
+            'slug' => 'politikalarimiz',
+            'uniq_slug' => 'policies',
+            "meta_information" => [
+                "title" => "Gizlilik Politikası, Kullanım Şartları ve Çerez Politikası",
+                "description" => "Gizlilik Politikası, Kullanım Şartları ve Çerez Politikası",
             ]
         ],
 
@@ -762,6 +780,15 @@ class RoutesTableSeeder extends Seeder
             "meta_information" => [
                 "title" => "кадыкёй - Ваксинг | S Art Beauty Center",
                 "description" => "Испытайте гладкость кожи без волос с профессиональными услугами ваксинга в S Art Beauty Center. Запишитесь на прием прямо сейчас!",
+            ]
+        ],
+        [
+            'lang' => "ru",
+            'slug' => 'politiki',
+            'uniq_slug' => 'policies',
+            "meta_information" => [
+                "title" => "Политика конфиденциальности, Условия использования и Политика использования файлов cookie",
+                "description" => "Политика конфиденциальности, Условия использования и Политика использования файлов cookie",
             ]
         ],
     ];

@@ -50,7 +50,8 @@ Route::get('/hair-dip-dye', [PageController::class, 'hairDipDye'])->name('pages.
 Route::get('/hair-cut', [PageController::class, 'hairCut'])->name('pages.haircut');
 Route::get('/hair-extension', [PageController::class, 'hairExtension'])->name('pages.hairextension');
 Route::get('/bridal-hair', [PageController::class, 'bridalHair'])->name('pages.bridalhair');
-Route::get('/policies', [PoliciesController::class, 'policies'])->name('pages.policies');
+Route::get('/policies', [PageController::class, 'policies'])->name('pages.policies');
+// Route::get('/policies', [PoliciesController::class, 'policies'])->name('pages.policies');
 
 
 
