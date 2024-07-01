@@ -1,9 +1,7 @@
 <?php
 
-use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LangController;
 use App\Http\Controllers\PageController;
-use App\Http\Controllers\PoliciesController;
 use App\Http\Controllers\RouteController;
 use App\Http\Middleware\LanguageManager;
 use Illuminate\Support\Facades\Route;
@@ -19,6 +17,7 @@ Route::get('set-language/{lang}', function (Request $request, $lang) {
 ->middleware(LanguageManager::class)
 ->name('set.language');
 
+// Dil değiştirme rotası
 Route::get('set-language/{lang}', [LangController::class, 'setLanguage'])->name('set.language');
 
 Route::get('lang/home', [LangController::class, 'index']);
@@ -51,7 +50,3 @@ Route::get('/hair-cut', [PageController::class, 'hairCut'])->name('pages.haircut
 Route::get('/hair-extension', [PageController::class, 'hairExtension'])->name('pages.hairextension');
 Route::get('/bridal-hair', [PageController::class, 'bridalHair'])->name('pages.bridalhair');
 Route::get('/policies', [PageController::class, 'policies'])->name('pages.policies');
-// Route::get('/policies', [PoliciesController::class, 'policies'])->name('pages.policies');
-
-
-

@@ -157,30 +157,34 @@
                                             class="fa fa-globe fa-3x globe-fs-20"></i><i
                                             class="fa fa-chevron-down"></i>
                                     </a>
+
                                     <ul class="sub-menu">
                                         <li class="@if (app()->getLocale() == 'tr') selected @endif"><a
-                                                href="#" class="dez-page" title="{{ __('header.turkish') }}">
+                                                href="{{ langRt('tr', $route->uniq_slug) }}" class="dez-page"
+                                                title="{{ __('header.turkish') }}">
                                                 <img src="/images/tr.webp" class="lang-img"
                                                     alt="{{ __('header.turkish') }}"> TR
                                             </a>
                                         </li>
                                         <li class="@if (app()->getLocale() == 'ru') selected @endif">
-                                            <a href="#" class="dez-page" title="{{ __('header.russian') }}">
+                                            <a href="{{ langRt('ru', $route->uniq_slug) }}" class="dez-page"
+                                                title="{{ __('header.russian') }}">
                                                 <img src="/images/ru.webp" class="lang-img"
                                                     alt="{{ __('header.russian') }}"> RU
                                             </a>
                                         </li>
                                         <li class="@if (app()->getLocale() == 'en') selected @endif">
-                                            <a href="#" class="dez-page" title="{{ __('header.english') }}">
+                                            <a href="{{ langRt('en', $route->uniq_slug) }}" class="dez-page"
+                                                title="{{ __('header.english') }}">
                                                 <img src="/images/us.webp" class="lang-img"
-                                                    alt="{{ __('header.english') }}"> ENG
+                                                    alt="{{ __('header.english') }}"> EN
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
-
-
-                                <!-- MENÜ END-->
+                            </ul>
+                            </li>
+                            <!-- MENÜ END-->
                         </div>
                     </div>
                 </div>
