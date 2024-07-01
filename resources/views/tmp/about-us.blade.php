@@ -9,7 +9,7 @@
                     <div class="breadcrumb-row">
                         <ul class="list-inline">
                             <li><a href="{{ route('route',['/']) }}" title="@lang('about.sart')">@lang('about.home')</a></li>
-                            <li>@lang('about.services')</li>
+                            <li>@lang('about.about_us')</li>
                         </ul>
                     </div>
                     <!-- Breadcrumb row END -->
@@ -23,7 +23,7 @@
                 <div class="container">
                     <div class="section-head text-black text-center">
                         <div class="dlab-separator-outer m-b0">
-                            <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo_fav.png"></div>
+                            <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo_fav.png" alt="@lang('about.index_section2_img_alt')"></div>
                         </div>
                         <h2 class="text-primary m-b10">@lang('about.sart')</h2>
                         <h6 class="m-b10">@lang('about.about_us_section1_subtitle')</h6>
@@ -38,7 +38,7 @@
                 <div class="container">
                     <div class="section-head text-black text-center">
                         <div class="dlab-separator-outer m-b0">
-                            <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo_fav.png"></div>
+                            <div class="dlab-separator text-primary style-icon"><img src="/images/sart/logo_fav.png" alt="@lang('about.index_section2_img_alt')"></div>
                         </div>
                         <h2 class="text-primary m-b10">@lang('about.about_us_section2_title')</h2>
                         <p>@lang('about.about_us_section2_cont1')</p>
@@ -54,8 +54,9 @@
                 <div class="container">
                     <div class="section-head text-black text-center">
                         <div class="dlab-separator-outer m-b0">
-                            <div class="dlab-separator text-primary style-icon"><img
-                                    src="/images/sart/logo-transparent.png"></div>
+                            <div class="dlab-separator text-primary style-icon">
+                                <img src="/images/sart/logo-transparent.png" alt="@lang('about.index_section2_img_alt')">
+                            </div>
                         </div>
                         <h2 class="text-white m-b10">@lang('about.about_us_section3_title')</h2>
                         <p>@lang('about.about_us_section3_cont')</p>

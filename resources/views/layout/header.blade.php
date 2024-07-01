@@ -49,17 +49,20 @@
                         </div>
                         <div class="dlab-topbar-right topbar-social">
                             <ul>
-                                <li><a target="_blank" href="{{  settings('social-media')->facebook->href ?? '#' }}"
+                                <li><a target="_blank" href="{{ settings('social-media')->facebook->href ?? '#' }}"
                                         class="site-button-link facebook hover" rel="nofollow"
-                                        title="{{  settings('social-media')->facebook->alt ?? '#' }}"><i class="fa fa-facebook"></i></a>
+                                        title="{{ settings('social-media')->facebook->alt ?? '#' }}"><i
+                                            class="fa fa-facebook"></i></a>
                                 </li>
                                 <li><a target="_blank" href="{{ settings('social-media')->whatsapp->href ?? '#' }}"
                                         class="site-button-link whatsapp hover" rel="nofollow"
-                                        title="{{ settings('social-media')->whatsapp->alt ?? '#' }}"><i class="fa fa-whatsapp"></i></a>
+                                        title="{{ settings('social-media')->whatsapp->alt ?? '#' }}"><i
+                                            class="fa fa-whatsapp"></i></a>
                                 </li>
                                 <li><a target="_blank" href="{{ settings('social-media')->instagram->href ?? '#' }}"
                                         class="site-button-link instagram hover" rel="nofollow"
-                                        title="{{ settings('social-media')->instagram->alt ?? '#' }}"><i class="fa fa-instagram"></i></a>
+                                        title="{{ settings('social-media')->instagram->alt ?? '#' }}"><i
+                                            class="fa fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -73,8 +76,9 @@
                     <div class="container clearfix">
                         <!-- website logo -->
                         <div class="logo-header mostion">
-                            <a href="{{ route('route',['/']) }}" class="dez-page" title="{{ settings('footer')->sart }}"><img
-                                    class="logo-img" src="{{ settings('logo')->href }}" alt="{{ settings('logo')->alt }}"></a>
+                            <a href="{{ route('route', ['/']) }}" class="dez-page"
+                                title="{{ settings('footer')->sart }}"><img class="logo-img"
+                                    src="{{ settings('logo')->href }}" alt="{{ settings('logo')->alt }}"></a>
                         </div>
                         <!-- nav toggle button -->
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
@@ -88,16 +92,23 @@
                         <!-- MENÜ START -->
                         <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="nav navbar-nav">
-                                <li class=""><a href="{{ route('route',['/']) }}">@lang('header.home')</a></li>
-                                <li class=""><a href="{{ uniqRt('about-us') }}" class="dez-page" title="@lang('header.about_us')">@lang('header.about_us')</li>
+
+                                <li class="@if($route['uniq_slug'] == 'index') active @endif"><a href="{{ route('route', ['/']) }}">@lang('header.home')</a></li>
+                                <li class="@if($route['uniq_slug'] == 'about-us') active @endif"><a href="{{ uniqRt('about-us') }}" class="dez-page" title="@lang('header.about_us')">@lang('header.about_us')</a></li>
+                                <!-- Repeat for other list items -->
+
                                 <!-- Hizmetlerimiz -->
-                                <li class="">@lang('header.services')<a href="{{ uniqRt('services') }}" title="@lang('header.sart_official_center_job_explanation')"><i class="fa fa-chevron-down"></i></a>
-                                    <ul class="sub-menu">
+                                <li class="@if($route['uniq_slug'] == 'services') active @endif">
+                                    <a href="{{ uniqRt('services') }}" title="@lang('header.sart_official_center_job_explanation')">
+                                        <span>@lang('header.services')</span>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </a>
+                                    <ul id="sub-menu-3" class="sub-menu">
                                         <li><a href="{{ uniqRt('permanent-nail-polish') }}" class="dez-page" title="@lang('header.perminant_nail_polish')">@lang('header.perminant_nail_polish')</a></li>
                                         <li><a href="{{ uniqRt('manicure-pedicure') }}" class="dez-page" title="@lang('header.mani_pedi')">@lang('header.mani_pedi')</a></li>
                                         <li><a href="{{ uniqRt('prosthetic-nails') }}" class="dez-page" title="@lang('header.prosthetic_nail')">@lang('header.prosthetic_nail')</a></li>
                                         <li><a href="{{ uniqRt('nail-art') }}" class="dez-page" title="@lang('header.nail_art')">@lang('header.nail_art')</a></li>
-                                        <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page" title="@lang('header.silk_eyelash')">@lang('header.silk_eyelash')</a></li>
+                                        <li><a href="{{ uniqRt('silk-eyelash') }}" class="dez-page"title="@lang('header.silk_eyelash')">@lang('header.silk_eyelash')</a></li>
                                         <li><a href="{{ uniqRt('eyelash-lifting') }}" class="dez-page" title="@lang('header.eyelash_lifting')">@lang('header.eyelash_lifting')</a></li>
                                         <li><a href="{{ uniqRt('deepliner') }}" class="dez-page" title="@lang('header.dipliner')">@lang('header.dipliner')</a> </li>
                                         <li><a href="{{ uniqRt('eyebrow-lamination') }}" class="dez-page" title="@lang('header.eyebrow_lamination')">@lang('header.eyebrow_lamination')</a></li>
@@ -119,35 +130,47 @@
                                         <li><a href="{{ uniqRt('bridal-hair') }}" class="dez-page" title="@lang('header.bridal_hair')">@lang('header.bridal_hair')</a></li>
                                     </ul>
                                 </li>
-                                <li class=" $class4"><a href="{{ uniqRt('contact-us') }}" class="dez-page" title="@lang('header.sart_official_center_contact')">@lang('header.contact_us')</a></li>
-                                <li>
-                                    <a href="javascript:void(0);" class="dez-page" title="{{ __('header.sart_official_center_lang_options') }}"><i class="fa fa-globe fa-3x globe-fs-20"></i><i class="fa fa-chevron-down"></i>
+                                <li class="@if($route['uniq_slug'] == 'contact-us') active @endif">
+                                    <a href="{{ uniqRt('contact-us') }}" class="dez-page"
+                                        title="@lang('header.sart_official_center_contact')">@lang('header.contact_us')
                                     </a>
-                                    <ul class="sub-menu"><li class="@if (app()->getLocale() == 'tr') selected @endif"><a href="#" class="dez-page"
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0);" class="dez-page"
+                                        title="{{ __('header.sart_official_center_lang_options') }}">
+                                            <i class="fa fa-globe fa-3x globe-fs-20"></i>
+                                            <span class="current-lang">({{ app()->getLocale() }})</span>
+                                            <i class="fa fa-chevron-down"></i>
+                                    </a>
+
+                                    <ul class="sub-menu">
+                                        <li class="@if (app()->getLocale() == 'tr') selected @endif"><a
+                                                href="{{ langRt('tr', $route->uniq_slug) }}" class="dez-page"
                                                 title="{{ __('header.turkish') }}">
                                                 <img src="/images/tr.webp" class="lang-img"
                                                     alt="{{ __('header.turkish') }}"> TR
                                             </a>
                                         </li>
                                         <li class="@if (app()->getLocale() == 'ru') selected @endif">
-                                            <a href="#" class="dez-page"
+                                            <a href="{{ langRt('ru', $route->uniq_slug) }}" class="dez-page"
                                                 title="{{ __('header.russian') }}">
                                                 <img src="/images/ru.webp" class="lang-img"
                                                     alt="{{ __('header.russian') }}"> RU
                                             </a>
                                         </li>
                                         <li class="@if (app()->getLocale() == 'en') selected @endif">
-                                            <a href="#" class="dez-page"
+                                            <a href="{{ langRt('en', $route->uniq_slug) }}" class="dez-page"
                                                 title="{{ __('header.english') }}">
                                                 <img src="/images/us.webp" class="lang-img"
-                                                    alt="{{ __('header.english') }}"> ENG
+                                                    alt="{{ __('header.english') }}"> EN
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
-
-
-                                <!-- MENÜ END-->
+                            </ul>
+                            </li>
+                            <!-- MENÜ END-->
                         </div>
                     </div>
                 </div>
@@ -155,3 +178,9 @@
             <!-- main header END -->
         </header>
         <!-- header END -->
+    </div>
+
+    {{-- <script>
+        $(document)
+    </script> --}}
+</body>

@@ -207,6 +207,13 @@ class PagesTableSeeder extends Seeder
             'description' => 'Experience smooth, hair-free skin with professional waxing services at S Art Beauty Center. Book your appointment now!',
             'content' => 'BLADE:tmp.wax-application'
         ],
+        [
+            'lang' => "en",
+            'uniq_slug' => 'policies',
+            'title' => 'Privacy Policy, Terms of Use, and Cookie Policy',
+            'description' => 'Privacy Policy, Terms of Use, and Cookie Policys',
+            'content' => 'BLADE:tmp.policies'
+        ],
 
         //TODO: TR ---------------------------------------------------------------------------------------- //
         [
@@ -364,7 +371,7 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.hair-color-highlights'
         ],
         [
-            'lang' => 'tr', 
+            'lang' => 'tr',
             'uniq_slug' => 'hair-dye',
             'title' => "Kadıköy - Saç Boyası Modelleri | S Art Beauty Center ",
             'description' => "Saçlarınız için S Art Beauty Center'da çeşitli saç boyası seçenekleri! Hemen randevunuzu oluşturun.",
@@ -389,10 +396,18 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.hair-extension'
         ],
         [
-            'lang' => 'tr', 'uniq_slug' => 'wax-application',
+            'lang' => 'tr',
+            'uniq_slug' => 'wax-application',
             'title' => "Kadıköy - Şeker Ağda Uygulaması | S Art Beauty Center ",
             'description' => "Şeker ağda uygulaması ile hassas ve doğal bir tüy alma deneyimi yaşayın. Randevunuzu hemen alın!",
             'content' => 'BLADE:tmp.wax-application'
+        ],
+        [
+            'lang' => "tr",
+            'uniq_slug' => 'policies',
+            'title' => "Gizlilik Politikası, Kullanım Şartları ve Çerez Politikası",
+            'description' => "Gizlilik Politikası, Kullanım Şartları ve Çerez Politikası",
+            'content' => 'BLADE:tmp.policies',
         ],
 
         // TODO: RU ------------------------------------------------------------------------- //
@@ -469,7 +484,7 @@ class PagesTableSeeder extends Seeder
             'content' => 'BLADE:tmp.bridal-hair'
         ],
         [
-            'lang' => 'ru', 
+            'lang' => 'ru',
             'uniq_slug' => 'silk-eyelash',
             'title' => "кадыкёй - Шелковые ресницы | S Art Beauty Center",
             'description' => "Добейтесь долговечного и естественного вида с шелковыми ресницами в S Art Beauty Center. Придайте красоту своей внешности!",
@@ -565,6 +580,13 @@ class PagesTableSeeder extends Seeder
             'title' => "кадыкёй - Ваксинг | S Art Beauty Center",
             'description' => "Испытайте гладкость кожи без волос с профессиональными услугами ваксинга в S Art Beauty Center. Запишитесь на прием прямо сейчас!",
             'content' => 'BLADE:tmp.wax-application'
+        ],
+        [
+            'lang' => "ru",
+            'uniq_slug' => 'policies',
+            'title' => "Политика конфиденциальности, Условия использования и Политика использования файлов cookie",
+            'description' => "Политика конфиденциальности, Условия использования и Политика использования файлов cookie",
+            'content' => 'BLADE:tmp.policies',
         ],
     ];
 

@@ -139,4 +139,8 @@ class PageController extends Controller
     {
         return view('pages.bridalhair');
     }
+    public function policies()
+    {
+        return view('pages.policies');
+    }
 }
