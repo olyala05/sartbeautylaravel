@@ -18,10 +18,6 @@ class SettingsTableSeeder extends Seeder
             ],
             "name" => "seo",
         ],
-        // [
-        //    'lang' => "en",
-        //    "name" => "header_title",
-        // ],
         [
             'lang' => "en",
             'content' => [

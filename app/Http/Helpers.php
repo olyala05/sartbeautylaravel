@@ -20,10 +20,14 @@ function uniqRt($slug)
         ->where('lang', app()->getLocale())
         ->where('uniq_slug', $slug)
         ->first();
+ 
+
 
     // Eğer rota mevcutsa, bu rotayı döndürür. Aksi halde `$slug` değerini döndürür.
     if ($route ?? false)
         return route('route', ['lang' => app()->getLocale(), 'route' => $route->slug]);
-    else
+    else {
+        // if(str_contains($slug, ['en/','tr/','ru/']))
         return $slug;
+    }
 }
